@@ -1,122 +1,140 @@
-import requests
 import base64
-import yaml
+import json
 import os
+import re
+import requests
+import yaml
+from urllib.parse import unquote
 
-# ✅ 真实的免费订阅源（目前稳定可用）
 SUB_LINKS = [
-    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
-    "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
-    "https://raw.githubusercontent.com/freefq/free/master/v2",
-    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
-    "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray"
+   "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+   "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
+   "https://raw.githubusercontent.com/freefq/free/master/v2",
+   "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+   "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray"
 ]
-# ✅ 限定地区关键词（用于优选）
-KEYWORDS = ['台湾', 'Hong', 'HK', 'Japan', 'JP', '美国', 'US', 'UK', 'France', 'Germany', 'Europe', 'Norway', 'Sweden']
 
-# ✅ 最多保留节点数
-MAX_NODES = 10
+TARGET_LOCATIONS = ["日本", "韩国", "香港", "台湾", "新加坡", "美国", "英国", "德国", "法国", "芬兰", "瑞典", "荷兰"]
 
-def fetch_sub_content():
-    all_nodes = []
-    for url in SUB_LINKS:
-        try:
-            print(f"获取订阅：{url}")
-            res = requests.get(url, timeout=10)
-            content = base64.b64decode(res.text + '===').decode('utf-8')
-            all_nodes += [line.strip() for line in content.splitlines() if line.strip()]
-        except Exception as e:
-            print(f"❌ 订阅源错误: {url} -> {e}")
-    return all_nodes
+OUTPUT_DIR = "docs"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+def fetch_subscription(link):
+   try:
+       print(f"获取订阅：{link}")
+       res = requests.get(link, timeout=10)
+       if res.status_code == 200:
+           content = res.text.strip()
+           if not content.startswith("vmess://") and not content.startswith("ss://") and not content.startswith("trojan://"):
+               content = base64.b64decode(content + "=" * (-len(content) % 4)).decode("utf-8", errors="ignore")
+           return content.splitlines()
+   except Exception as e:
+       print(f" 订阅源错误: {link} -> {e}")
+   return []
 
 def filter_nodes(nodes):
-    filtered = []
-    for node in nodes:
-        decoded = base64.b64decode(node.split('//')[1] + '===').decode('utf-8', errors='ignore')
-        if any(k in decoded for k in KEYWORDS):
-            filtered.append(node)
-        if len(filtered) >= MAX_NODES:
-            break
-    return filtered
+   filtered = []
+   for node in nodes:
+       node = node.strip()
+       if not node or not any(node.startswith(prefix) for prefix in ["vmess://", "ss://", "trojan://"]):
+           continue
+       node_lc = node.lower()
+       if any(keyword in node_lc for keyword in ["剩余流量", "过期", "时间", "expire"]):
+           continue
+       if any(loc in node for loc in TARGET_LOCATIONS):
+           try:
+               if node.startswith("vmess://"):
+                   decoded = base64.b64decode(node[8:] + '=' * (-len(node[8:]) % 4)).decode('utf-8', errors='ignore')
+                   json.loads(decoded)
+               filtered.append(node)
+           except:
+               continue
+   return filtered
 
-def write_base64_txt(nodes, path):
-    txt = '\n'.join(nodes)
-    encoded = base64.b64encode(txt.encode('utf-8')).decode('utf-8')
-    with open(path, 'w', encoding='utf-8') as f:
-        f.write(encoded)
+def to_clash_yaml(nodes):
+   proxies = []
+   for node in nodes:
+       if node.startswith("vmess://"):
+           try:
+               vmess_conf = base64.b64decode(node[8:] + '=' * (-len(node[8:]) % 4)).decode("utf-8", errors="ignore")
+               vmess_json = json.loads(vmess_conf)
+               proxies.append({
+                   "name": vmess_json.get("ps", "Unnamed"),
+                   "type": "vmess",
+                   "server": vmess_json["add"],
+                   "port": int(vmess_json["port"]),
+                   "uuid": vmess_json["id"],
+                   "alterId": int(vmess_json.get("aid", 0)),
+                   "cipher": "auto",
+                   "tls": vmess_json.get("tls", "") == "tls",
+                   "network": vmess_json.get("net", "tcp"),
+                   "ws-opts": {
+                       "path": vmess_json.get("path", ""),
+                       "headers": {
+                           "Host": vmess_json.get("host", "")
+                       }
+                   } if vmess_json.get("net") == "ws" else None
+               })
+           except Exception as e:
+               print("️ 跳过无效 vmess：", e)
+       elif node.startswith("ss://"):
+           try:
+               ss = node[5:]
+               if "#" in ss:
+                   ss, name = ss.split("#", 1)
+                   name = unquote(name)
+               else:
+                   name = "ss"
 
-def write_clash_yaml(nodes, path):
-    proxies = []
-    proxy_names = []
-    for i, node in enumerate(nodes):
-        name = f"proxy{i+1}"
-        proxy_names.append(name)
-        if node.startswith('vmess://'):
-            try:
-                config = base64.b64decode(node[8:] + '===').decode('utf-8')
-                vmess = yaml.safe_load(config)
-                proxies.append({
-                    "name": name,
-                    "type": "vmess",
-                    "server": vmess['add'],
-                    "port": int(vmess['port']),
-                    "uuid": vmess['id'],
-                    "alterId": int(vmess.get('aid', 0)),
-                    "cipher": vmess.get('cipher', 'auto'),
-                    "tls": vmess.get('tls', 'false') == 'tls',
-                    "network": vmess.get('net', 'tcp'),
-                    "ws-opts": {
-                        "path": vmess.get('path', ''),
-                        "headers": {
-                            "Host": vmess.get('host', '')
-                        }
-                    } if vmess.get('net') == 'ws' else {}
-                })
-            except Exception:
-                continue
+               decoded = base64.b64decode(ss.split('@')[0] + "=" * (-len(ss.split('@')[0]) % 4)).decode()
+               method, password = decoded.split(":", 1)
+               server_port = ss.split('@')[1]
+               server, port = server_port.split(":")
+               proxies.append({
+                   "name": name,
+                   "type": "ss",
+                   "server": server,
+                   "port": int(port),
+                   "cipher": method,
+                   "password": password
+               })
+           except Exception as e:
+               print("️ 跳过无效 ss：", e)
 
-    clash_config = {
-        "port": 7890,
-        "socks-port": 7891,
-        "allow-lan": True,
-        "mode": "Rule",
-        "proxies": proxies,
-        "proxy-groups": [
-            {
-                "name": "Auto",
-                "type": "url-test",
-                "proxies": proxy_names,
-                "url": "http://www.gstatic.com/generate_204",
-                "interval": 300
-            }
-        ],
-        "rules": [
-            "MATCH,Auto"
-        ]
-    }
+   clash_config = {
+       "proxies": proxies,
+       "proxy-groups": [
+           {
+               "name": " 节点选择",
+               "type": "select",
+               "proxies": [p["name"] for p in proxies]
+           }
+       ],
+       "rules": [
+           "MATCH, 节点选择"
+       ]
+   }
 
-    with open(path, 'w', encoding='utf-8') as f:
-        yaml.dump(clash_config, f, allow_unicode=True)
+   return yaml.dump(clash_config, allow_unicode=True)
+
+def save_file(filename, content):
+   with open(filename, "w", encoding="utf-8") as f:
+       f.write(content)
 
 def main():
-    os.makedirs('docs', exist_ok=True)
+   all_nodes = []
+   for url in SUB_LINKS:
+       all_nodes.extend(fetch_subscription(url))
 
-    all_nodes = fetch_sub_content()
-    if not all_nodes:
-        print("❌ 没有获取到节点")
-        return
+   filtered = filter_nodes(all_nodes)
+   final_nodes = filtered[:10]  # 保留前10个
 
-    filtered = filter_nodes(all_nodes)
-    if not filtered:
-        print("❌ 没有符合地区要求的节点")
-        return
+   # v2ray.txt
+   save_file(os.path.join(OUTPUT_DIR, "v2ray.txt"), " ".join(final_nodes))
+   # v2ray64.txt（base64）
+   save_file(os.path.join(OUTPUT_DIR, "v2ray64.txt"), base64.b64encode(" ".join(final_nodes).encode()).decode())
+   # clash.yaml
+   save_file(os.path.join(OUTPUT_DIR, "clash.yaml"), to_clash_yaml(final_nodes))
 
-    # 写入文件
-    write_base64_txt(filtered, 'docs/v2ray.txt')
-    write_base64_txt(filtered, 'docs/v2ray64.txt')
-    write_clash_yaml(filtered, 'docs/clash.yaml')
-
-    print("✅ 节点文件已生成：docs/v2ray.txt, v2ray64.txt, clash.yaml")
-
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+   main()
