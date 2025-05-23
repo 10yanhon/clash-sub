@@ -6,10 +6,11 @@ import os
 
 # 节点订阅源（可以添加多个）
 SUB_LINKS = [
+    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
     "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
-    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
-    "https://raw.githubusercontent.com/freefq/free/master/v2",
-    "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray"
+    "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/v2ray",
+    "https://raw.githubusercontent.com/iwxf/free-v2ray/master/v2",
+    "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/v2ray.txt"
 ]
 
 # 优选地区关键词
