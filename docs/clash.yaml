@@ -1,50 +1,20 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 12|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 35921
-  server: 120.198.71.216
-  tls: ''
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 12|🇭🇰 香港4|@ripaojiedian
-  network: tcp
-  port: 19504
-  server: 43.247.135.192
-  tls: ''
-  type: vmess
-  uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 3000
-  server: 43.199.24.247
-  tls: ''
-  type: vmess
-  uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc
-  ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 12,13|香港7|@ripaojiedian
+  name: 🇭🇰HK-1.65.197.239-5701
   network: ws
-  port: 30809
-  server: v9.heduian.link
+  port: 8080
+  server: 76f974af-swo740-sxwwyk-6gn6.hgc1.tcpbbr.net
   tls: ''
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /oooo
+      Host: 76f974af-swo740-sxwwyk-6gn6.hgc1.tcpbbr.net
+    path: /
 - alterId: 0
   cipher: auto
-  name: 12,13|香港9|@ripaojiedian
+  name: 🇭🇰HK-1.65.197.239-2385
   network: ws
   port: 8080
   server: 0986fcca-swq1s0-swsmkh-1s0a7.hgc1.tcpbbr.net
@@ -55,25 +25,53 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 12|🇯🇵 日本3|@ripaojiedian
-  network: tcp
-  port: 55002
-  server: 183.237.84.53
+  name: 🇭🇰HK-1.65.197.239-5700
+  network: ws
+  port: 8080
+  server: 456c0ed1-swq1s0-t3imuc-2nr6.hgc1.tcpbbr.net
   tls: ''
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts: {}
+  uuid: dab27b58-5210-11ea-a15d-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 456c0ed1-swq1s0-t3imuc-2nr6.hgc1.tcpbbr.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.202.79-0564
+  network: ws
+  port: 80
+  server: 84a663fa-sunz40-swhx5y-1q3dm.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 84a663fa-sunz40-swhx5y-1q3dm.hk.p5pv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-45.249.246.202-5835
+  network: ws
+  port: 42615
+  server: 45.249.246.202
+  tls: ''
+  type: vmess
+  uuid: 1123b6c2-fd2d-47a1-9e22-ad299362ef4d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1123b6c2
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 12|🇭🇰 香港3|@ripaojiedian
-  - 12|🇭🇰 香港4|@ripaojiedian
-  - 12|🇭🇰 香港5|@ripaojiedian
-  - 12,13|香港7|@ripaojiedian
-  - 12,13|香港9|@ripaojiedian
-  - 12|🇯🇵 日本3|@ripaojiedian
+  - 🇭🇰HK-1.65.197.239-5701
+  - 🇭🇰HK-1.65.197.239-2385
+  - 🇭🇰HK-1.65.197.239-5700
+  - 🇭🇰HK-1.65.202.79-0564
+  - 🇭🇰HK-45.249.246.202-5835
   type: select
 rules:
 - MATCH,🔰 节点选择
