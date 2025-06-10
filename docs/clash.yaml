@@ -1,7 +1,72 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.42.21-0311
+  network: ws
+  port: 443
+  server: n1737850919.ryjml.cn
+  tls: tls
+  type: vmess
+  uuid: 224840e7-bde6-473a-b824-20ea10b91448
+  ws-opts:
+    headers:
+      Host: n1737850919.ryjml.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-1.36.218.227-0192
+  network: ws
+  port: 8080
+  server: 8f67244c-sxlj40-t7r6w5-1ppvf.hgc1.tcpbbr.net
+  tls: ''
+  type: vmess
+  uuid: 8da5616c-8566-11ee-9a21-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-42.2.113.136-0313
+  name: 🇭🇰HK-1.65.202.165-0347
+  network: ws
+  port: 80
+  server: c2abc5f2-sv0xs0-sy0vua-1rpnm.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 4d0e01ce-2ae6-11ef-8433-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: c2abc5f2-sv0xs0-sy0vua-1rpnm.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.202.165-0373
+  network: ws
+  port: 80
+  server: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.202.165-0355
+  network: ws
+  port: 80
+  server: f8579e49-sv4n40-t9hghw-1sdoq.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 7c077572-6da9-11ef-b786-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: f8579e49-sv4n40-t9hghw-1sdoq.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-42.2.113.136-0354
   network: ws
   port: 80
   server: e4fac854-sum4g0-sx1cxx-1tfjk.hk.p5pv.com
@@ -14,59 +79,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-42.2.113.136-0314
-  network: ws
-  port: 80
-  server: 055413e9-sucv40-texsud-1l6ym.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: b72009aa-ed88-11ed-92a4-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 055413e9-sucv40-texsud-1l6ym.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-42.2.113.136-0321
-  network: ws
-  port: 80
-  server: c53bf275-sv2sg0-svv72o-1e0ty.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: ccd9704a-f980-11eb-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: c53bf275-sv2sg0-svv72o-1e0ty.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.202.165-0355
-  network: ws
-  port: 80
-  server: 033a3be9-sva740-t0r7l4-1ruih.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 3549abda-3854-11ef-b71e-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 033a3be9-sva740-t0r7l4-1ruih.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.202.165-0341
-  network: ws
-  port: 80
-  server: 07d2e2cb-sv0xs0-svv72o-1e0ty.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: ccd9704a-f980-11eb-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 07d2e2cb-sv0xs0-svv72o-1e0ty.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.202.165-0378
+  name: 🇭🇰HK-1.65.202.165-0349
   network: ws
   port: 80
   server: 9e6fe842-sv4n40-t6ctgc-1s3hd.hk3.p5pv.com
@@ -77,43 +90,30 @@ proxies:
     headers:
       Host: 9e6fe842-sv4n40-t6ctgc-1s3hd.hk3.p5pv.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.42.21-0305
-  network: ws
-  port: 443
-  server: n1737850919.ryjml.cn
-  tls: tls
-  type: vmess
-  uuid: 224840e7-bde6-473a-b824-20ea10b91448
-  ws-opts:
-    headers:
-      Host: n1737850919.ryjml.cn
-    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.202.165-0351
+  name: 🇭🇰HK-42.2.113.136-0348
   network: ws
   port: 80
-  server: c2abc5f2-sv0xs0-sy0vua-1rpnm.hk3.p5pv.com
+  server: 055413e9-sucv40-texsud-1l6ym.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: 4d0e01ce-2ae6-11ef-8433-f23c9164ca5d
+  uuid: b72009aa-ed88-11ed-92a4-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: c2abc5f2-sv0xs0-sy0vua-1rpnm.hk3.p5pv.com
+      Host: 055413e9-sucv40-texsud-1l6ym.hk.p5pv.com
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-42.2.113.136-0313
-  - 🇭🇰HK-42.2.113.136-0314
-  - 🇭🇰HK-42.2.113.136-0321
+  - 🇭🇰HK-8.218.42.21-0311
+  - 🇭🇰HK-1.36.218.227-0192
+  - 🇭🇰HK-1.65.202.165-0347
+  - 🇭🇰HK-1.65.202.165-0373
   - 🇭🇰HK-1.65.202.165-0355
-  - 🇭🇰HK-1.65.202.165-0341
-  - 🇭🇰HK-1.65.202.165-0378
-  - 🇭🇰HK-8.218.42.21-0305
-  - 🇭🇰HK-1.65.202.165-0351
+  - 🇭🇰HK-42.2.113.136-0354
+  - 🇭🇰HK-1.65.202.165-0349
+  - 🇭🇰HK-42.2.113.136-0348
   type: select
 rules:
 - MATCH,🔰 节点选择
