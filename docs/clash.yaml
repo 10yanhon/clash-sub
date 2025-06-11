@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-42.2.113.136-5113
+  name: 🇭🇰HK-42.2.113.136-0304
   network: ws
   port: 80
   server: 687032bd-sucv40-sxlqds-1qs82.hk.p5pv.com
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-42.2.113.136-5114
+  name: 🇭🇰HK-42.2.113.136-0303
   network: ws
   port: 80
   server: b1d0b8c3-swkhs0-syfwbx-1k0yf.hk.p5pv.com
@@ -27,46 +27,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-42.2.113.136-5117
-  network: ws
-  port: 80
-  server: fac1fa1a-sv6hs0-t5hlsw-1b3xq.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: b297d1ea-976f-11eb-8673-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: fac1fa1a-sv6hs0-t5hlsw-1b3xq.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.202.165-0325
-  network: ws
-  port: 80
-  server: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.202.165-5109
-  network: ws
-  port: 80
-  server: cfb6c4a4-sv0xs0-t5hlsw-1b3xq.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: b297d1ea-976f-11eb-8673-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: cfb6c4a4-sv0xs0-t5hlsw-1b3xq.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.202.165-5115
+  name: 🇭🇰HK-1.65.202.165-0313
   network: ws
   port: 80
   server: 8afb0240-sv0xs0-sxi4nd-1o6fm.hk3.p5pv.com
@@ -79,7 +40,20 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.202.165-5112
+  name: 🇭🇰HK-1.65.202.165-0323
+  network: ws
+  port: 80
+  server: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.202.165-0318
   network: ws
   port: 80
   server: bae1d3e4-sv4n40-t5hlsw-1b3xq.hk3.p5pv.com
@@ -90,44 +64,70 @@ proxies:
     headers:
       Host: bae1d3e4-sv4n40-t5hlsw-1b3xq.hk3.p5pv.com
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0555
+  name: 🇭🇰HK-1.65.202.165-0316
   network: ws
-  port: 443
-  server: 20.239.145.115
+  port: 80
+  server: cfb6c4a4-sv0xs0-t5hlsw-1b3xq.hk3.p5pv.com
   tls: ''
   type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  uuid: b297d1ea-976f-11eb-8673-f23c9164ca5d
   ws-opts:
     headers:
-      Host: ''
+      Host: cfb6c4a4-sv0xs0-t5hlsw-1b3xq.hk3.p5pv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.42.21-0301
+  network: ws
+  port: 443
+  server: n1737850919.ryjml.cn
+  tls: tls
+  type: vmess
+  uuid: 224840e7-bde6-473a-b824-20ea10b91448
+  ws-opts:
+    headers:
+      Host: n1737850919.ryjml.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-1.36.218.225-0299
+  network: ws
+  port: 8080
+  server: 3033be45-swq1s0-sxkhay-1jdha.hgc1.tcpbbr.net
+  tls: ''
+  type: vmess
+  uuid: de629d50-1711-11ed-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 3033be45-swq1s0-sxkhay-1jdha.hgc1.tcpbbr.net
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0587
+  name: 🇭🇰HK-42.2.113.136-0298
   network: ws
-  port: 443
-  server: 165.154.244.100
-  tls: tls
+  port: 80
+  server: fac1fa1a-sv6hs0-t5hlsw-1b3xq.hk.p5pv.com
+  tls: ''
   type: vmess
-  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+  uuid: b297d1ea-976f-11eb-8673-f23c9164ca5d
   ws-opts:
     headers:
-      Host: ''
+      Host: fac1fa1a-sv6hs0-t5hlsw-1b3xq.hk.p5pv.com
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-42.2.113.136-5113
-  - 🇭🇰HK-42.2.113.136-5114
-  - 🇭🇰HK-42.2.113.136-5117
-  - 🇭🇰HK-1.65.202.165-0325
-  - 🇭🇰HK-1.65.202.165-5109
-  - 🇭🇰HK-1.65.202.165-5115
-  - 🇭🇰HK-1.65.202.165-5112
-  - 🇭🇰HK-20.239.145.115-0555
-  - 🇭🇰HK-165.154.244.100-0587
+  - 🇭🇰HK-42.2.113.136-0304
+  - 🇭🇰HK-42.2.113.136-0303
+  - 🇭🇰HK-1.65.202.165-0313
+  - 🇭🇰HK-1.65.202.165-0323
+  - 🇭🇰HK-1.65.202.165-0318
+  - 🇭🇰HK-1.65.202.165-0316
+  - 🇭🇰HK-8.218.42.21-0301
+  - 🇭🇰HK-1.36.218.225-0299
+  - 🇭🇰HK-42.2.113.136-0298
   type: select
 rules:
 - MATCH,🔰 节点选择
