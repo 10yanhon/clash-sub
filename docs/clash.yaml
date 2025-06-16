@@ -66,42 +66,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.36.223.178-0391
+  name: 🇭🇰HK-141.11.91.8-0231
   network: ws
-  port: 8080
-  server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
+  port: 8122
+  server: v18.emovpn.buzz
   tls: ''
   type: vmess
-  uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
+  uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
   ws-opts:
     headers:
-      Host: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-1.36.223.178-0392
-  network: ws
-  port: 8080
-  server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-42.2.113.136-0394
-  network: ws
-  port: 80
-  server: ac759499-sv2sg0-sw26q2-php4.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: c648ecc0-838a-11ed-bd81-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: ac759499-sv2sg0-sw26q2-php4.hk.p5pv.com
+      Host: pull.free.video.10010.com
     path: /
 proxy-groups:
 - name: 🔰 节点选择
@@ -111,9 +85,7 @@ proxy-groups:
   - 🇭🇰HK-154.83.86.130-0287
   - 🇭🇰HK-154.83.86.130-0286
   - 🇭🇰HK-156.226.170.85-0284
-  - 🇭🇰HK-1.36.223.178-0391
-  - 🇭🇰HK-1.36.223.178-0392
-  - 🇭🇰HK-42.2.113.136-0394
+  - 🇭🇰HK-141.11.91.8-0231
   type: select
 rules:
 - MATCH,🔰 节点选择
