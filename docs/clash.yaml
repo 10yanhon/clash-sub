@@ -1,91 +1,77 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-156.226.170.85-0289
+  name: 🇭🇰HK-42.2.113.136-5223
   network: ws
-  port: 4671
-  server: v54.emovpn.buzz
+  port: 80
+  server: aa1d3b0f-sv0xs0-svr00o-1oxz4.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
   ws-opts:
     headers:
-      Host: pull.free.video.10010.com
+      Host: aa1d3b0f-sv0xs0-svr00o-1oxz4.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-42.2.113.136-5225
+  network: ws
+  port: 80
+  server: 75a5d1ab-sv2sg0-svr00o-1oxz4.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 75a5d1ab-sv2sg0-svr00o-1oxz4.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.202.165-5224
+  network: ws
+  port: 80
+  server: 7764de92-sv0xs0-svr00o-1oxz4.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 7764de92-sv0xs0-svr00o-1oxz4.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.202.165-5222
+  network: ws
+  port: 80
+  server: d1ef6a4e-sv2sg0-svr00o-1oxz4.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: d1ef6a4e-sv2sg0-svr00o-1oxz4.hk3.p5pv.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-154.83.86.130-0288
+  name: 🇭🇰HK-1.65.139.203-0211
   network: ws
-  port: 3195
-  server: v77.emovpn.buzz
+  port: 8080
+  server: 12936b43-sy0cg0-t7fz1r-8rja.hgc1.tcpbbr.net
   tls: ''
   type: vmess
-  uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
   ws-opts:
     headers:
-      Host: v77.emovpn.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-154.83.86.130-0287
-  network: ws
-  port: 5225
-  server: v78.emovpn.buzz
-  tls: ''
-  type: vmess
-  uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
-  ws-opts:
-    headers:
-      Host: v78.emovpn.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-154.83.86.130-0286
-  network: ws
-  port: 6243
-  server: v79.emovpn.buzz
-  tls: ''
-  type: vmess
-  uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
-  ws-opts:
-    headers:
-      Host: v79.emovpn.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-156.226.170.85-0284
-  network: ws
-  port: 8350
-  server: v55.emovpn.buzz
-  tls: ''
-  type: vmess
-  uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
-  ws-opts:
-    headers:
-      Host: v55.emovpn.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-141.11.91.8-0231
-  network: ws
-  port: 8122
-  server: v18.emovpn.buzz
-  tls: ''
-  type: vmess
-  uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
-  ws-opts:
-    headers:
-      Host: pull.free.video.10010.com
+      Host: broadcastlv.chat.bilibili.com
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-156.226.170.85-0289
-  - 🇭🇰HK-154.83.86.130-0288
-  - 🇭🇰HK-154.83.86.130-0287
-  - 🇭🇰HK-154.83.86.130-0286
-  - 🇭🇰HK-156.226.170.85-0284
-  - 🇭🇰HK-141.11.91.8-0231
+  - 🇭🇰HK-42.2.113.136-5223
+  - 🇭🇰HK-42.2.113.136-5225
+  - 🇭🇰HK-1.65.202.165-5224
+  - 🇭🇰HK-1.65.202.165-5222
+  - 🇭🇰HK-1.65.139.203-0211
   type: select
 rules:
 - MATCH,🔰 节点选择
