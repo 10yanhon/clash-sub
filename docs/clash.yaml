@@ -1,42 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.65.196.214-0377
+  name: 🇭🇰HK-1.65.196.214-0211
   network: ws
   port: 8080
-  server: e0784ed0-swq1s0-sxzls8-1gxvd.hgc1.tcpbbr.net
+  server: 12936b43-sy0cg0-t7fz1r-8rja.hgc1.tcpbbr.net
   tls: ''
   type: vmess
-  uuid: 398e0d38-8649-11ef-959c-f23c9164ca5d
+  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-1.65.196.214-0373
-  network: ws
-  port: 8080
-  server: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-1.65.196.214-0356
-  network: ws
-  port: 8080
-  server: e0784ed0-swq1s0-sxzls8-1gxvd.hgc1.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: 398e0d38-8649-11ef-959c-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: e0784ed0-swq1s0-sxzls8-1gxvd.hgc1.tcpbbr.net
     path: /
 - alterId: 0
   cipher: auto
@@ -80,9 +54,7 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.196.214-0377
-  - 🇭🇰HK-1.65.196.214-0373
-  - 🇭🇰HK-1.65.196.214-0356
+  - 🇭🇰HK-1.65.196.214-0211
   - 🇭🇰HK-20.239.145.115-0609
   - 🇭🇰HK-165.154.244.100-0641
   - 🇭🇰HK-1.65.196.214-0708
