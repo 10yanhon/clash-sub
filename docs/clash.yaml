@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.218.55-0378
+  name: 🇭🇰HK-1.65.218.55-0386
   network: ws
   port: 80
   server: 359d1785-sv2sg0-svim0o-1slop.hk.p5pv.com
@@ -11,6 +11,32 @@ proxies:
   ws-opts:
     headers:
       Host: 359d1785-sv2sg0-svim0o-1slop.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.202.165-0392
+  network: ws
+  port: 80
+  server: ae709d15-sv0xs0-svim0o-1slop.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: ae709d15-sv0xs0-svim0o-1slop.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.202.165-0394
+  network: ws
+  port: 80
+  server: 0613ae96-sv2sg0-svim0o-1slop.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 0613ae96-sv2sg0-svim0o-1slop.hk3.p5pv.com
     path: /
 - alterId: 0
   cipher: auto
@@ -27,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0623
+  name: 🇭🇰HK-20.239.145.115-0609
   network: ws
   port: 443
   server: 20.239.145.115
@@ -40,7 +66,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0655
+  name: 🇭🇰HK-165.154.244.100-0641
   network: ws
   port: 443
   server: 165.154.244.100
@@ -51,27 +77,15 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-1.36.218.132-0724
-  network: ws
-  port: 8080
-  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.218.55-0378
+  - 🇭🇰HK-1.65.218.55-0386
+  - 🇭🇰HK-1.65.202.165-0392
+  - 🇭🇰HK-1.65.202.165-0394
   - 🇭🇰HK-1.36.218.132-0229
-  - 🇭🇰HK-20.239.145.115-0623
-  - 🇭🇰HK-165.154.244.100-0655
-  - 🇭🇰HK-1.36.218.132-0724
+  - 🇭🇰HK-20.239.145.115-0609
+  - 🇭🇰HK-165.154.244.100-0641
   type: select
 rules:
 - MATCH,🔰 节点选择
