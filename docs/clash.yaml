@@ -1,7 +1,33 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-42.2.112.154-0250
+  name: 🇭🇰HK-1.65.202.165-5078
+  network: ws
+  port: 80
+  server: a58b4c29-sv4n40-syfj90-1r9dt.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: a58b4c29-sv4n40-syfj90-1r9dt.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.202.165-5079
+  network: ws
+  port: 80
+  server: de6cdf0e-sv2sg0-syfj90-1r9dt.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: de6cdf0e-sv2sg0-syfj90-1r9dt.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-42.2.112.154-0217
   network: ws
   port: 80
   server: c6008c16-sydb40-tgzvop-hns7.hk.p5pv.com
@@ -14,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0629
+  name: 🇭🇰HK-20.239.145.115-0590
   network: ws
   port: 443
   server: 20.239.145.115
@@ -27,7 +53,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0661
+  name: 🇭🇰HK-165.154.244.100-0622
   network: ws
   port: 443
   server: 165.154.244.100
@@ -40,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.65.208.210-0732
+  name: 🇭🇰HK-1.65.209.138-0694
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -53,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-104.208.96.44-0780
+  name: 🇭🇰HK-104.208.96.44-0738
   network: ws
   port: 80
   server: 104.208.96.44
@@ -67,11 +93,13 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-42.2.112.154-0250
-  - 🇭🇰HK-20.239.145.115-0629
-  - 🇭🇰HK-165.154.244.100-0661
-  - 🇭🇰HK-1.65.208.210-0732
-  - 🇭🇰HK-104.208.96.44-0780
+  - 🇭🇰HK-1.65.202.165-5078
+  - 🇭🇰HK-1.65.202.165-5079
+  - 🇭🇰HK-42.2.112.154-0217
+  - 🇭🇰HK-20.239.145.115-0590
+  - 🇭🇰HK-165.154.244.100-0622
+  - 🇭🇰HK-1.65.209.138-0694
+  - 🇭🇰HK-104.208.96.44-0738
   type: select
 rules:
 - MATCH,🔰 节点选择
