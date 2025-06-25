@@ -1,32 +1,6 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.202.165-5074
-  network: ws
-  port: 80
-  server: a58b4c29-sv4n40-syfj90-1r9dt.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: a58b4c29-sv4n40-syfj90-1r9dt.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.202.165-5073
-  network: ws
-  port: 80
-  server: de6cdf0e-sv2sg0-syfj90-1r9dt.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: de6cdf0e-sv2sg0-syfj90-1r9dt.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
   name: 🇭🇰HK-42.2.112.154-0220
   network: ws
   port: 80
@@ -93,8 +67,6 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.202.165-5074
-  - 🇭🇰HK-1.65.202.165-5073
   - 🇭🇰HK-42.2.112.154-0220
   - 🇭🇰HK-20.239.145.115-0599
   - 🇭🇰HK-165.154.244.100-0631
