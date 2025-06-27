@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-42.2.112.154-0236
+  name: 🇭🇰HK-42.2.112.154-0186
   network: ws
   port: 80
   server: c6008c16-sydb40-tgzvop-hns7.hk.p5pv.com
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0612
+  name: 🇭🇰HK-20.239.145.115-0561
   network: ws
   port: 443
   server: 20.239.145.115
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0644
+  name: 🇭🇰HK-165.154.244.100-0593
   network: ws
   port: 443
   server: 165.154.244.100
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.65.139.73-0718
+  name: 🇭🇰HK-1.65.196.52-0668
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-104.208.96.44-0759
+  name: 🇭🇰HK-104.208.96.44-0709
   network: ws
   port: 80
   server: 104.208.96.44
@@ -67,11 +67,11 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-42.2.112.154-0236
-  - 🇭🇰HK-20.239.145.115-0612
-  - 🇭🇰HK-165.154.244.100-0644
-  - 🇭🇰HK-1.65.139.73-0718
-  - 🇭🇰HK-104.208.96.44-0759
+  - 🇭🇰HK-42.2.112.154-0186
+  - 🇭🇰HK-20.239.145.115-0561
+  - 🇭🇰HK-165.154.244.100-0593
+  - 🇭🇰HK-1.65.196.52-0668
+  - 🇭🇰HK-104.208.96.44-0709
   type: select
 rules:
 - MATCH,🔰 节点选择
