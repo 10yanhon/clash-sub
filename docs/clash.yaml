@@ -1,20 +1,20 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-42.2.112.154-0186
+  name: 🇭🇰HK-1.65.208.140-0136
   network: ws
   port: 80
-  server: c6008c16-sydb40-tgzvop-hns7.hk.p5pv.com
+  server: 12ee28bb-symkg0-t02swp-fa3p.hk3.p5pv.com
   tls: ''
   type: vmess
-  uuid: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  uuid: 905fcd78-866c-81e1-3cb8-1beb59d661ab
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0561
+  name: 🇭🇰HK-20.239.145.115-0544
   network: ws
   port: 443
   server: 20.239.145.115
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0593
+  name: 🇭🇰HK-165.154.244.100-0576
   network: ws
   port: 443
   server: 165.154.244.100
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.65.196.52-0668
+  name: 🇭🇰HK-1.65.204.117-0651
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-104.208.96.44-0709
+  name: 🇭🇰HK-104.208.96.44-0692
   network: ws
   port: 80
   server: 104.208.96.44
@@ -67,11 +67,11 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-42.2.112.154-0186
-  - 🇭🇰HK-20.239.145.115-0561
-  - 🇭🇰HK-165.154.244.100-0593
-  - 🇭🇰HK-1.65.196.52-0668
-  - 🇭🇰HK-104.208.96.44-0709
+  - 🇭🇰HK-1.65.208.140-0136
+  - 🇭🇰HK-20.239.145.115-0544
+  - 🇭🇰HK-165.154.244.100-0576
+  - 🇭🇰HK-1.65.204.117-0651
+  - 🇭🇰HK-104.208.96.44-0692
   type: select
 rules:
 - MATCH,🔰 节点选择
