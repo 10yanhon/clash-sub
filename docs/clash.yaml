@@ -14,32 +14,6 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.209.14-4970
-  network: ws
-  port: 80
-  server: bd483412-sv8cg0-sveyey-44k4.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: bd483412-sv8cg0-sveyey-44k4.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.209.14-4967
-  network: ws
-  port: 80
-  server: eadf838f-sva740-sveyey-44k4.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: eadf838f-sva740-sveyey-44k4.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
   name: 🇭🇰HK-1.65.208.140-4968
   network: ws
   port: 80
@@ -51,41 +25,67 @@ proxies:
     headers:
       Host: 5e392f9d-sv0xs0-svewl8-xu74.hk3.p5pv.com
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.65.208.140-4972
+  name: 🇭🇰HK-20.239.145.115-0632
   network: ws
-  port: 80
-  server: 4a9b5eb9-sva740-sveyey-44k4.hk3.p5pv.com
+  port: 443
+  server: 20.239.145.115
   tls: ''
   type: vmess
-  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
   ws-opts:
     headers:
-      Host: 4a9b5eb9-sva740-sveyey-44k4.hk3.p5pv.com
+      Host: ''
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.208.140-4969
+  name: 🇭🇰HK-165.154.244.100-0664
   network: ws
-  port: 80
-  server: 83821e8d-sv8cg0-sveyey-44k4.hk3.p5pv.com
-  tls: ''
+  port: 443
+  server: 165.154.244.100
+  tls: tls
   type: vmess
-  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
   ws-opts:
     headers:
-      Host: 83821e8d-sv8cg0-sveyey-44k4.hk3.p5pv.com
+      Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-1.65.139.59-0742
+  network: ws
+  port: 8080
+  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
+  tls: ''
+  type: vmess
+  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-104.208.96.44-0780
+  network: ws
+  port: 80
+  server: 104.208.96.44
+  tls: ''
+  type: vmess
+  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn/download
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - 🇭🇰HK-1.65.209.14-4971
-  - 🇭🇰HK-1.65.209.14-4970
-  - 🇭🇰HK-1.65.209.14-4967
   - 🇭🇰HK-1.65.208.140-4968
-  - 🇭🇰HK-1.65.208.140-4972
-  - 🇭🇰HK-1.65.208.140-4969
+  - 🇭🇰HK-20.239.145.115-0632
+  - 🇭🇰HK-165.154.244.100-0664
+  - 🇭🇰HK-1.65.139.59-0742
+  - 🇭🇰HK-104.208.96.44-0780
   type: select
 rules:
 - MATCH,🔰 节点选择
