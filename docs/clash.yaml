@@ -1,72 +1,20 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.209.14-5099
-  network: ws
-  port: 80
-  server: 7fb26943-sv6hs0-tcr97d-2b2n.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: fcd39788-ca23-11ed-86e2-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 7fb26943-sv6hs0-tcr97d-2b2n.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.209.14-5284
-  network: ws
-  port: 80
-  server: df08b250-sv2sg0-t5wcb1-13x18.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: df08b250-sv2sg0-t5wcb1-13x18.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
   name: 🇭🇰HK-1.65.209.14-5106
   network: ws
   port: 80
-  server: de6912f3-sv2sg0-t5qfe2-1khwf.hk.p5pv.com
+  server: eff0bb96-sv0xs0-t7x08i-1i87l.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+  uuid: 40d572ec-7f67-11ed-bf1f-f23c913c8d2b
   ws-opts:
     headers:
-      Host: de6912f3-sv2sg0-t5qfe2-1khwf.hk.p5pv.com
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰HK-1.65.209.14-0493
-  network: ws
-  port: 80
-  server: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com
+      Host: eff0bb96-sv0xs0-t7x08i-1i87l.hk.p5pv.com
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.209.14-5277
-  network: ws
-  port: 80
-  server: 9c12ce3d-sv2sg0-t65a3e-tqgz.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 9c12ce3d-sv2sg0-t65a3e-tqgz.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.209.14-0537
+  name: 🇭🇰HK-1.65.209.14-5131
   network: ws
   port: 80
   server: 49c660d6-sucv40-svb30a-150lf.hk.p5pv.com
@@ -77,48 +25,48 @@ proxies:
     headers:
       Host: 49c660d6-sucv40-svb30a-150lf.hk.p5pv.com
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.36.218.129-5094
+  name: 🇭🇰HK-1.65.209.14-5142
   network: ws
-  port: 8080
-  server: a9316cd5-sx4v40-t1ppk8-1i3g8.hgc1.tcpbbr.net
+  port: 80
+  server: c53bf275-sv2sg0-svv72o-1e0ty.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: 437cef58-f10b-11ef-8eaf-f23c9164ca5d
+  uuid: ccd9704a-f980-11eb-a0fc-f23c913c8d2b
   ws-opts:
     headers:
-      Host: a9316cd5-sx4v40-t1ppk8-1i3g8.hgc1.tcpbbr.net
+      Host: c53bf275-sv2sg0-svv72o-1e0ty.hk.p5pv.com
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.209.14-5105
+  name: 🇭🇰HK-1.65.209.14-5116
   network: ws
   port: 80
-  server: 142a53ea-sv6hs0-t4v3jz-1k8ga.hk.p5pv.com
+  server: c62b5b59-sv2sg0-sx0ey8-1b8u2.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d
+  uuid: 908111a6-f96b-11ed-9264-f23c913c8d2b
   ws-opts:
     headers:
-      Host: 142a53ea-sv6hs0-t4v3jz-1k8ga.hk.p5pv.com
+      Host: c62b5b59-sv2sg0-sx0ey8-1b8u2.hk.p5pv.com
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.36.218.129-5073
+  name: 🇭🇰HK-1.65.209.14-5124
   network: ws
-  port: 8080
-  server: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
+  port: 80
+  server: aa1d3b0f-sv0xs0-svr00o-1oxz4.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: a5a81a34-f257-11ef-ba82-f23c913c8d2b
+  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
   ws-opts:
     headers:
-      Host: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
+      Host: aa1d3b0f-sv0xs0-svr00o-1oxz4.hk.p5pv.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.36.218.129-5082
+  name: 🇭🇰HK-1.36.218.129-0514
   network: ws
   port: 8080
   server: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net
@@ -129,19 +77,71 @@ proxies:
     headers:
       Host: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net
     path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.209.14-5171
+  network: ws
+  port: 80
+  server: 0bdf3f30-sv8cg0-t9uin7-19ord.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 0bdf3f30-sv8cg0-t9uin7-19ord.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.209.14-5129
+  network: ws
+  port: 80
+  server: 3ab9dc0e-sub0g0-tax87j-fxtw.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: c5437726-aa85-3ab0-f5ed-a62156a904f9
+  ws-opts:
+    headers:
+      Host: 3ab9dc0e-sub0g0-tax87j-fxtw.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.209.14-0470
+  network: ws
+  port: 80
+  server: ec4ce56e-sv2sg0-tcxn4m-12qba.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 0cf1d872-aa2a-11ef-97e0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: ec4ce56e-sv2sg0-tcxn4m-12qba.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.209.14-5144
+  network: ws
+  port: 80
+  server: ab01eb81-sv2sg0-tcsjnd-1tff5.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: dfb6b402-f422-11ef-80e5-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: ab01eb81-sv2sg0-tcsjnd-1tff5.hk.p5pv.com
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.209.14-5099
-  - 🇭🇰HK-1.65.209.14-5284
   - 🇭🇰HK-1.65.209.14-5106
-  - 🇭🇰HK-1.65.209.14-0493
-  - 🇭🇰HK-1.65.209.14-5277
-  - 🇭🇰HK-1.65.209.14-0537
-  - 🇭🇰HK-1.36.218.129-5094
-  - 🇭🇰HK-1.65.209.14-5105
-  - 🇭🇰HK-1.36.218.129-5073
-  - 🇭🇰HK-1.36.218.129-5082
+  - 🇭🇰HK-1.65.209.14-5131
+  - 🇭🇰HK-1.65.209.14-5142
+  - 🇭🇰HK-1.65.209.14-5116
+  - 🇭🇰HK-1.65.209.14-5124
+  - 🇭🇰HK-1.36.218.129-0514
+  - 🇭🇰HK-1.65.209.14-5171
+  - 🇭🇰HK-1.65.209.14-5129
+  - 🇭🇰HK-1.65.209.14-0470
+  - 🇭🇰HK-1.65.209.14-5144
   type: select
 rules:
 - MATCH,🔰 节点选择
