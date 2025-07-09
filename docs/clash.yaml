@@ -1,72 +1,72 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.209.237-0275
+  name: 🇭🇰HK-168.70.105.79-0929
   network: ws
   port: 80
-  server: e4fac854-sum4g0-sx1cxx-1tfjk.hk.p5pv.com
+  server: hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b
+  uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: e4fac854-sum4g0-sx1cxx-1tfjk.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.208.140-0286
-  network: ws
-  port: 80
-  server: b2d5cb20-sv2sg0-t7qy26-14g76.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: b2d5cb20-sv2sg0-t7qy26-14g76.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.208.140-0287
-  network: ws
-  port: 80
-  server: 940e6f36-sva740-tbmeud-1th9y.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 12a81f5a-fa9e-11ef-8400-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 940e6f36-sva740-tbmeud-1th9y.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.208.140-0288
-  network: ws
-  port: 80
-  server: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.208.140-0291
-  network: ws
-  port: 80
-  server: 6dbaea45-sv0xs0-t9i7o2-1lt20.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: bf4ec108-f2b7-11ef-b654-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 6dbaea45-sv0xs0-t9i7o2-1lt20.hk3.p5pv.com
+      Host: hkt.gotochinatown.net
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0508
+  name: 🇭🇰HK-20.239.179.251-0073
+  network: ws
+  port: 50045
+  server: 20.239.179.251
+  tls: ''
+  type: vmess
+  uuid: 1617e875-e377-4e4f-85ef-dcf9e5e10df7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.179.251-0072
+  network: ws
+  port: 50045
+  server: 20.239.179.251
+  tls: ''
+  type: vmess
+  uuid: 1617e875-e377-4e4f-85ef-dcf9e5e10df7
+  ws-opts:
+    headers:
+      Host: 20.239.179.251
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.179.251-0067
+  network: ws
+  port: 50044
+  server: 20.239.179.251
+  tls: ''
+  type: vmess
+  uuid: a12e496e-f89a-434a-8011-108846f0e412
+  ws-opts:
+    headers:
+      Host: 20.239.179.251
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.179.251-0066
+  network: ws
+  port: 50044
+  server: 20.239.179.251
+  tls: ''
+  type: vmess
+  uuid: a12e496e-f89a-434a-8011-108846f0e412
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.145.115-0570
   network: ws
   port: 443
   server: 20.239.145.115
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0540
+  name: 🇭🇰HK-165.154.244.100-0602
   network: ws
   port: 443
   server: 165.154.244.100
@@ -93,13 +93,13 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.209.237-0275
-  - 🇭🇰HK-1.65.208.140-0286
-  - 🇭🇰HK-1.65.208.140-0287
-  - 🇭🇰HK-1.65.208.140-0288
-  - 🇭🇰HK-1.65.208.140-0291
-  - 🇭🇰HK-20.239.145.115-0508
-  - 🇭🇰HK-165.154.244.100-0540
+  - 🇭🇰HK-168.70.105.79-0929
+  - 🇭🇰HK-20.239.179.251-0073
+  - 🇭🇰HK-20.239.179.251-0072
+  - 🇭🇰HK-20.239.179.251-0067
+  - 🇭🇰HK-20.239.179.251-0066
+  - 🇭🇰HK-20.239.145.115-0570
+  - 🇭🇰HK-165.154.244.100-0602
   type: select
 rules:
 - MATCH,🔰 节点选择
