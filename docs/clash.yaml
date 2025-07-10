@@ -1,17 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-168.70.105.79-0929
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK-20.239.179.251-0073
@@ -90,16 +77,29 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-104.208.96.44-0700
+  network: ws
+  port: 80
+  server: 104.208.96.44
+  tls: ''
+  type: vmess
+  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn/download
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-168.70.105.79-0929
   - 🇭🇰HK-20.239.179.251-0073
   - 🇭🇰HK-20.239.179.251-0072
   - 🇭🇰HK-20.239.179.251-0067
   - 🇭🇰HK-20.239.179.251-0066
   - 🇭🇰HK-20.239.145.115-0570
   - 🇭🇰HK-165.154.244.100-0602
+  - 🇭🇰HK-104.208.96.44-0700
   type: select
 rules:
 - MATCH,🔰 节点选择
