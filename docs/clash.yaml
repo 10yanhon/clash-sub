@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-20.239.88.144-0076
+  network: ws
+  port: 80
+  server: 20.239.88.144
+  tls: ''
+  type: vmess
+  uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588
+  ws-opts:
+    headers:
+      Host: nkpvpn.akamaized.net
+    path: /nkpvpn.site
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-20.239.145.115-0560
   network: ws
   port: 443
@@ -27,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-104.208.96.44-0694
+  name: 🇭🇰HK-104.208.96.44-0695
   network: ws
   port: 80
   server: 104.208.96.44
@@ -38,26 +51,13 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn/download
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.88.144-0076
-  network: ws
-  port: 80
-  server: 20.239.88.144
-  tls: ''
-  type: vmess
-  uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588
-  ws-opts:
-    headers:
-      Host: nkpvpn.akamaized.net
-    path: /nkpvpn.site
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
+  - 🇭🇰HK-20.239.88.144-0076
   - 🇭🇰HK-20.239.145.115-0560
   - 🇭🇰HK-165.154.244.100-0592
-  - 🇭🇰HK-104.208.96.44-0694
-  - 🇭🇰HK-20.239.88.144-0076
+  - 🇭🇰HK-104.208.96.44-0695
   type: select
 rules:
 - MATCH,🔰 节点选择
