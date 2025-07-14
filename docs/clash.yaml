@@ -1,20 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.179.251-0067
-  network: ws
-  port: 50045
-  server: 20.239.179.251
-  tls: ''
-  type: vmess
-  uuid: 9b61ff46-4c61-4b31-801a-f870d7a1de53
-  ws-opts:
-    headers:
-      Host: 20.239.179.251
-    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-112.120.243.233-0546
+  name: 🇭🇰HK-112.120.243.211-0546
   network: ws
   port: 30807
   server: v7.heduian.link
@@ -51,13 +38,40 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-104.208.96.44-0692
+  network: ws
+  port: 80
+  server: 104.208.96.44
+  tls: ''
+  type: vmess
+  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn/download
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.179.251-0067
+  network: ws
+  port: 50045
+  server: 20.239.179.251
+  tls: ''
+  type: vmess
+  uuid: 9b61ff46-4c61-4b31-801a-f870d7a1de53
+  ws-opts:
+    headers:
+      Host: 20.239.179.251
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-20.239.179.251-0067
-  - 🇭🇰HK-112.120.243.233-0546
+  - 🇭🇰HK-112.120.243.211-0546
   - 🇭🇰HK-20.239.145.115-0550
   - 🇭🇰HK-165.154.244.100-0582
+  - 🇭🇰HK-104.208.96.44-0692
+  - 🇭🇰HK-20.239.179.251-0067
   type: select
 rules:
 - MATCH,🔰 节点选择
