@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.187.188-5056
+  name: 🇭🇰HK-218.250.80.28-5033
   network: ws
   port: 30807
   server: v10.heduian.link
@@ -41,7 +41,7 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.79.187.188-5056
+  - 🇭🇰HK-218.250.80.28-5033
   - 🇭🇰HK-20.239.145.115-0557
   - 🇭🇰HK-165.154.244.100-0589
   type: select
