@@ -12,19 +12,6 @@ proxies:
     headers:
       Host: v7.heduian.link
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-218.250.218.84-1165
-  network: ws
-  port: 30807
-  server: v10.heduian.link
-  tls: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v10.heduian.link
-    path: /oooo
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK-20.205.115.140-0057
@@ -94,7 +81,6 @@ proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - 🇭🇰HK-1.65.250.171-5022
-  - 🇭🇰HK-218.250.218.84-1165
   - 🇭🇰HK-20.205.115.140-0057
   - 🇭🇰HK-218.250.218.84-0341
   - 🇭🇰HK-20.239.145.115-0528
