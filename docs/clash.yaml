@@ -14,19 +14,6 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-112.119.138.101-5027
-  network: ws
-  port: 30807
-  server: v10.heduian.link
-  tls: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v10.heduian.link
-    path: /oooo
-- alterId: 2
-  cipher: auto
   name: 🇭🇰HK-1.65.139.167-0253
   network: ws
   port: 80
@@ -90,16 +77,29 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-58.152.113.219-0047
+  network: ws
+  port: 8300
+  server: hk3.grpc.stream
+  tls: ''
+  type: vmess
+  uuid: 6031b5c3-d8ba-5756-b708-f61084a2b678
+  ws-opts:
+    headers:
+      Host: hk3.grpc.stream
+    path: /event
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - 🇭🇰HK-1.65.250.198-5026
-  - 🇭🇰HK-112.119.138.101-5027
   - 🇭🇰HK-1.65.139.167-0253
   - 🇭🇰HK-1.65.139.167-0256
   - 🇭🇰HK-1.65.196.206-0287
   - 🇭🇰HK-20.239.145.115-0524
   - 🇭🇰HK-165.154.244.100-0556
+  - 🇭🇰HK-58.152.113.219-0047
   type: select
 rules:
 - MATCH,🔰 节点选择
