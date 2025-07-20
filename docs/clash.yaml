@@ -1,7 +1,20 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.250.198-5026
+  name: 🇭🇰HK-219.79.189.190-7092
+  network: ws
+  port: 30807
+  server: v10.heduian.link
+  tls: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v10.heduian.link
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.250.198-0294
   network: ws
   port: 30807
   server: v7.heduian.link
@@ -11,49 +24,10 @@ proxies:
   ws-opts:
     headers:
       Host: v7.heduian.link
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.139.167-0253
-  network: ws
-  port: 80
-  server: bb9bfc22-svc1s0-szegoe-12hj8.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: bb9bfc22-svc1s0-szegoe-12hj8.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.139.167-0256
-  network: ws
-  port: 80
-  server: 76d9dbf9-sva740-szegoe-12hj8.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 76d9dbf9-sva740-szegoe-12hj8.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.196.206-0287
-  network: ws
-  port: 80
-  server: 54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0524
+  name: 🇭🇰HK-20.239.145.115-0568
   network: ws
   port: 443
   server: 20.239.145.115
@@ -66,7 +40,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0556
+  name: 🇭🇰HK-165.154.244.100-0600
   network: ws
   port: 443
   server: 165.154.244.100
@@ -79,27 +53,39 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-58.152.113.219-0047
+  name: 🇭🇰HK-104.208.96.44-0715
   network: ws
-  port: 8300
-  server: hk3.grpc.stream
+  port: 80
+  server: 104.208.96.44
   tls: ''
   type: vmess
-  uuid: 6031b5c3-d8ba-5756-b708-f61084a2b678
+  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
   ws-opts:
     headers:
-      Host: hk3.grpc.stream
-    path: /event
+      Host: ''
+    path: /zh-cn/download
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.250.198-1094
+  network: ws
+  port: 30807
+  server: v7.heduian.link
+  tls: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v7.heduian.link
+    path: /oooo
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.250.198-5026
-  - 🇭🇰HK-1.65.139.167-0253
-  - 🇭🇰HK-1.65.139.167-0256
-  - 🇭🇰HK-1.65.196.206-0287
-  - 🇭🇰HK-20.239.145.115-0524
-  - 🇭🇰HK-165.154.244.100-0556
-  - 🇭🇰HK-58.152.113.219-0047
+  - 🇭🇰HK-219.79.189.190-7092
+  - 🇭🇰HK-1.65.250.198-0294
+  - 🇭🇰HK-20.239.145.115-0568
+  - 🇭🇰HK-165.154.244.100-0600
+  - 🇭🇰HK-104.208.96.44-0715
+  - 🇭🇰HK-1.65.250.198-1094
   type: select
 rules:
 - MATCH,🔰 节点选择
