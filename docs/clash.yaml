@@ -1,20 +1,20 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.250.114-0397
+  name: 🇭🇰HK-1.65.250.233-4979
   network: ws
   port: 30807
-  server: v10.heduian.link
+  server: v7.heduian.link
   tls: ''
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /
+      Host: v7.heduian.link
+    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0552
+  name: 🇭🇰HK-20.239.145.115-0571
   network: ws
   port: 443
   server: 20.239.145.115
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0584
+  name: 🇭🇰HK-165.154.244.100-0603
   network: ws
   port: 443
   server: 165.154.244.100
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.218.141-0662
+  name: 🇭🇰HK-1.65.139.197-0682
   network: ws
   port: 80
   server: 8f8ecfe2-szt5s0-t19fr1-1tbzx.hk.p5pv.com
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-104.208.96.44-0693
+  name: 🇭🇰HK-104.208.96.44-0721
   network: ws
   port: 80
   server: 104.208.96.44
@@ -64,28 +64,14 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn/download
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-1.65.216.196-0934
-  network: ws
-  port: 80
-  server: a600f817-szt5s0-t167d0-ggww.hkt.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.79.250.114-0397
-  - 🇭🇰HK-20.239.145.115-0552
-  - 🇭🇰HK-165.154.244.100-0584
-  - 🇭🇰HK-1.65.218.141-0662
-  - 🇭🇰HK-104.208.96.44-0693
-  - 🇭🇰HK-1.65.216.196-0934
+  - 🇭🇰HK-1.65.250.233-4979
+  - 🇭🇰HK-20.239.145.115-0571
+  - 🇭🇰HK-165.154.244.100-0603
+  - 🇭🇰HK-1.65.139.197-0682
+  - 🇭🇰HK-104.208.96.44-0721
   type: select
 rules:
 - MATCH,🔰 节点选择
