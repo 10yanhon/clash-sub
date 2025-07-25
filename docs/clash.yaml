@@ -1,56 +1,30 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.65.250.227-6874
+  name: 🇭🇰HK-43.198.23.139-0068
   network: ws
-  port: 30807
-  server: v7.heduian.link
+  port: 44300
+  server: 43.198.23.139
   tls: ''
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: b8acc851-7b0e-3a76-864a-50de57b38bd7
   ws-opts:
     headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 2
+      Host: ''
+    path: /ny
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.65.250.179-4818
+  name: 🇭🇰HK-20.239.66.120-0057
   network: ws
-  port: 30807
-  server: v7.heduian.link
+  port: 48011
+  server: 20.239.66.120
   tls: ''
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: b8acc851-7b0e-3a76-864a-50de57b38bd7
   ws-opts:
     headers:
-      Host: v7.heduian.link
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-112.118.107.42-0271
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 31ede2d8-3f22-11ef-b023-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.250.179-0310
-  network: ws
-  port: 30807
-  server: v7.heduian.link
-  tls: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v7.heduian.link
-    path: /
+      Host: ''
+    path: /ny
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK-20.239.145.115-0549
@@ -77,22 +51,22 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-43.198.23.139-0068
+  name: 🇭🇰HK-1.65.250.172-0693
   network: ws
-  port: 44300
-  server: 43.198.23.139
+  port: 30807
+  server: v7.heduian.link
   tls: ''
   type: vmess
-  uuid: b8acc851-7b0e-3a76-864a-50de57b38bd7
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ''
-    path: /ny
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-104.208.96.44-0695
+  name: 🇭🇰HK-104.208.96.44-0698
   network: ws
   port: 80
   server: 104.208.96.44
@@ -103,17 +77,43 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn/download
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.24.230.63-0040
+  network: ws
+  port: 80
+  server: 20.24.230.63
+  tls: ''
+  type: vmess
+  uuid: b8acc851-7b0e-3a76-864a-50de57b38bd7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.24.229.79-0039
+  network: ws
+  port: 44300
+  server: 20.24.229.79
+  tls: ''
+  type: vmess
+  uuid: b8acc851-7b0e-3a76-864a-50de57b38bd7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.250.227-6874
-  - 🇭🇰HK-1.65.250.179-4818
-  - 🇭🇰HK-112.118.107.42-0271
-  - 🇭🇰HK-1.65.250.179-0310
+  - 🇭🇰HK-43.198.23.139-0068
+  - 🇭🇰HK-20.239.66.120-0057
   - 🇭🇰HK-20.239.145.115-0549
   - 🇭🇰HK-165.154.244.100-0581
-  - 🇭🇰HK-43.198.23.139-0068
-  - 🇭🇰HK-104.208.96.44-0695
+  - 🇭🇰HK-1.65.250.172-0693
+  - 🇭🇰HK-104.208.96.44-0698
+  - 🇭🇰HK-20.24.230.63-0040
+  - 🇭🇰HK-20.24.229.79-0039
   type: select
 rules:
 - MATCH,🔰 节点选择
