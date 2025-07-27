@@ -1,7 +1,59 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.206.110-5069
+  name: 🇭🇰HK-112.119.222.74-6972
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-203.198.28.145-0771
+  network: ws
+  port: 51515
+  server: aflzzul.meiquankongjian.com
+  tls: ''
+  type: vmess
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.139.61-1031
+  network: ws
+  port: 80
+  server: b5ca534f-t02f40-t1iztx-1ryup.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.250.214-0315
+  network: ws
+  port: 30807
+  server: v7.heduian.link
+  tls: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v7.heduian.link
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.206.110-0344
   network: ws
   port: 30807
   server: v10.heduian.link
@@ -11,23 +63,10 @@ proxies:
   ws-opts:
     headers:
       Host: v10.heduian.link
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.250.206-0296
-  network: ws
-  port: 30807
-  server: v7.heduian.link
-  tls: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0611
+  name: 🇭🇰HK-20.239.145.115-0629
   network: ws
   port: 443
   server: 20.239.145.115
@@ -40,7 +79,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0643
+  name: 🇭🇰HK-165.154.244.100-0661
   network: ws
   port: 443
   server: 165.154.244.100
@@ -51,55 +90,16 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.207.207-0727
-  network: ws
-  port: 80
-  server: b5ca534f-t02f40-t1iztx-1ryup.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-104.208.96.44-0762
-  network: ws
-  port: 80
-  server: 104.208.96.44
-  tls: ''
-  type: vmess
-  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn/download
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.79.206.110-1008
-  network: ws
-  port: 30807
-  server: v10.heduian.link
-  tls: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.79.206.110-5069
-  - 🇭🇰HK-1.65.250.206-0296
-  - 🇭🇰HK-20.239.145.115-0611
-  - 🇭🇰HK-165.154.244.100-0643
-  - 🇭🇰HK-1.65.207.207-0727
-  - 🇭🇰HK-104.208.96.44-0762
-  - 🇭🇰HK-219.79.206.110-1008
+  - 🇭🇰HK-112.119.222.74-6972
+  - 🇭🇰HK-203.198.28.145-0771
+  - 🇭🇰HK-1.65.139.61-1031
+  - 🇭🇰HK-1.65.250.214-0315
+  - 🇭🇰HK-219.79.206.110-0344
+  - 🇭🇰HK-20.239.145.115-0629
+  - 🇭🇰HK-165.154.244.100-0661
   type: select
 rules:
 - MATCH,🔰 节点选择
