@@ -1,147 +1,147 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.250.165-4836
-  network: ws
-  port: 30807
-  server: v7.heduian.link
-  tls: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v7.heduian.link
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.250.165-7106
-  network: ws
-  port: 30807
-  server: v7.heduian.link
-  tls: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.36.223.176-0385
+  name: 🇭🇰HK-1.65.197.153-0697
   network: ws
   port: 80
-  server: 0a46ce00-sunz40-taz53d-1j0y6.hk.p5pv.com
+  server: 5730d1c0-sva740-te0v28-1mh67.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 0a46ce00-sunz40-taz53d-1j0y6.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.36.223.176-0388
-  network: ws
-  port: 80
-  server: e2cc3a1d-sv6hs0-t17ajj-1n7d9.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: e2cc3a1d-sv6hs0-t17ajj-1n7d9.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.36.223.176-5004
-  network: ws
-  port: 80
-  server: 0ee7018b-sv2sg0-tbicd9-1go3q.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 0ee7018b-sv2sg0-tbicd9-1go3q.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.36.223.176-0364
-  network: ws
-  port: 80
-  server: 532538de-sv0xs0-sylfil-1gcq2.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 532538de-sv0xs0-sylfil-1gcq2.hk.p5pv.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-1.65.204.11-0376
-  network: ws
-  port: 80
-  server: ab80e11b-t0fds0-tc0fos-8skf.hkt.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
+  uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.36.223.176-4881
+  name: 🇭🇰HK-1.65.197.153-0700
   network: ws
   port: 80
-  server: 4ef4bb29-szan40-t0r7zu-17z95.hk.p5pv.com
+  server: 6bcba1b3-sv2sg0-sywkhi-1o4kv.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9
+  uuid: 87b31a02-172e-11ee-a11f-f23c913c8d2b
   ws-opts:
     headers:
-      Host: 4ef4bb29-szan40-t0r7zu-17z95.hk.p5pv.com
+      Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.36.223.176-5046
+  name: 🇭🇰HK-1.65.197.153-0702
   network: ws
   port: 80
-  server: e9dc3722-sv2sg0-sylfil-1gcq2.hk.p5pv.com
+  server: 8b5da18e-szpgg0-t13s3a-zn8y.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
   ws-opts:
     headers:
-      Host: e9dc3722-sv2sg0-sylfil-1gcq2.hk.p5pv.com
+      Host: 8b5da18e-szpgg0-t13s3a-zn8y.hk.p5pv.com
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.36.223.176-4954
+  name: 🇭🇰HK-1.65.197.153-0659
   network: ws
   port: 80
-  server: a4e9c5f4-sv0xs0-sv37gm-81nv.hk.p5pv.com
+  server: fe42ccee-t0bog0-t9uin7-19ord.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  uuid: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
   ws-opts:
     headers:
-      Host: a4e9c5f4-sv0xs0-sv37gm-81nv.hk.p5pv.com
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.197.153-0361
+  network: ws
+  port: 80
+  server: 54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.197.153-5073
+  network: ws
+  port: 80
+  server: c53bf275-sv2sg0-svv72o-1e0ty.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: ccd9704a-f980-11eb-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: c53bf275-sv2sg0-svv72o-1e0ty.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.197.153-5090
+  network: ws
+  port: 80
+  server: dcf99c60-sv0xs0-tasors-1tdqt.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: dcf99c60-sv0xs0-tasors-1tdqt.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.197.153-5000
+  network: ws
+  port: 80
+  server: fe42ccee-t0bog0-t9uin7-19ord.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: fe42ccee-t0bog0-t9uin7-19ord.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.197.153-5009
+  network: ws
+  port: 80
+  server: dd57be59-t0fds0-t3f7qr-141tv.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: dd57be59-t0fds0-t3f7qr-141tv.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.197.153-0357
+  network: ws
+  port: 80
+  server: 58be51e1-sv2sg0-tasors-1tdqt.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 58be51e1-sv2sg0-tasors-1tdqt.hk.p5pv.com
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.250.165-4836
-  - 🇭🇰HK-1.65.250.165-7106
-  - 🇭🇰HK-1.36.223.176-0385
-  - 🇭🇰HK-1.36.223.176-0388
-  - 🇭🇰HK-1.36.223.176-5004
-  - 🇭🇰HK-1.36.223.176-0364
-  - 🇭🇰HK-1.65.204.11-0376
-  - 🇭🇰HK-1.36.223.176-4881
-  - 🇭🇰HK-1.36.223.176-5046
-  - 🇭🇰HK-1.36.223.176-4954
+  - 🇭🇰HK-1.65.197.153-0697
+  - 🇭🇰HK-1.65.197.153-0700
+  - 🇭🇰HK-1.65.197.153-0702
+  - 🇭🇰HK-1.65.197.153-0659
+  - 🇭🇰HK-1.65.197.153-0361
+  - 🇭🇰HK-1.65.197.153-5073
+  - 🇭🇰HK-1.65.197.153-5090
+  - 🇭🇰HK-1.65.197.153-5000
+  - 🇭🇰HK-1.65.197.153-5009
+  - 🇭🇰HK-1.65.197.153-0357
   type: select
 rules:
 - MATCH,🔰 节点选择
