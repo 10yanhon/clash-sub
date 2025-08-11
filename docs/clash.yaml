@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.65.205.84-0968
-  network: ws
-  port: 80
-  server: 99a914f2-t00kg0-t1gmun-1rfon.hkt.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 99a914f2-t00kg0-t1gmun-1rfon.hkt.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇭🇰HK-1.65.205.84-0704
   network: ws
   port: 80
@@ -24,84 +11,6 @@ proxies:
   ws-opts:
     headers:
       Host: 12052f04-t0fds0-t0ht6z-1oijm.hkt.tcpbbr.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.250.235-0971
-  network: ws
-  port: 30807
-  server: v7.heduian.link
-  tls: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-1.65.205.84-5045
-  network: ws
-  port: 80
-  server: e5c8864f-t0u740-t49lki-1ejce.hkt.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: e5c8864f-t0u740-t49lki-1ejce.hkt.tcpbbr.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.139.5-0415
-  network: ws
-  port: 80
-  server: b2d5cb20-sv2sg0-t7qy26-14g76.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: b2d5cb20-sv2sg0-t7qy26-14g76.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.250.235-4860
-  network: ws
-  port: 30807
-  server: v7.heduian.link
-  tls: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v7.heduian.link
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-1.65.205.84-4904
-  network: ws
-  port: 80
-  server: e92f165b-t0fds0-t7fl9b-1q16i.hkt.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: e92f165b-t0fds0-t7fl9b-1q16i.hkt.tcpbbr.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.139.5-0338
-  network: ws
-  port: 80
-  server: 4bbf82ea-t0bog0-ta64ri-1qzi1.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 4bbf82ea-t0bog0-ta64ri-1qzi1.hk3.p5pv.com
     path: /
 - alterId: 2
   cipher: auto
@@ -118,30 +27,65 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.139.5-4899
+  name: 🇭🇰HK-218.250.218.112-0706
   network: ws
-  port: 80
-  server: 3a0b963a-t02f40-tiuovf-v3c2.hk3.p5pv.com
+  port: 30807
+  server: v10.heduian.link
   tls: ''
   type: vmess
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: 3a0b963a-t02f40-tiuovf-v3c2.hk3.p5pv.com
+      Host: baidu.com
+    path: /oooo
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰HK-1.65.139.57-0328
+  network: ws
+  port: 80
+  server: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.139.57-0330
+  network: ws
+  port: 80
+  server: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.139.57-0332
+  network: ws
+  port: 80
+  server: 84b1f651-svwf40-t94bdb-mrtr.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 84b1f651-svwf40-t94bdb-mrtr.hk.p5pv.com
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.205.84-0968
   - 🇭🇰HK-1.65.205.84-0704
-  - 🇭🇰HK-1.65.250.235-0971
-  - 🇭🇰HK-1.65.205.84-5045
-  - 🇭🇰HK-1.65.139.5-0415
-  - 🇭🇰HK-1.65.250.235-4860
-  - 🇭🇰HK-1.65.205.84-4904
-  - 🇭🇰HK-1.65.139.5-0338
   - 🇭🇰HK-1.65.139.5-4902
-  - 🇭🇰HK-1.65.139.5-4899
+  - 🇭🇰HK-218.250.218.112-0706
+  - 🇭🇰HK-1.65.139.57-0328
+  - 🇭🇰HK-1.65.139.57-0330
+  - 🇭🇰HK-1.65.139.57-0332
   type: select
 rules:
 - MATCH,🔰 节点选择
