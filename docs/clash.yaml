@@ -1,33 +1,46 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-1.65.205.84-0704
-  network: ws
-  port: 80
-  server: 12052f04-t0fds0-t0ht6z-1oijm.hkt.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: bf140bc0-3f68-11ee-953a-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 12052f04-t0fds0-t0ht6z-1oijm.hkt.tcpbbr.net
-    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.139.5-4902
+  name: 🇭🇰HK-1.65.250.153-4870
   network: ws
-  port: 80
-  server: 12ee28bb-symkg0-t02swp-fa3p.hk3.p5pv.com
+  port: 30807
+  server: v7.heduian.link
   tls: ''
   type: vmess
-  uuid: 905fcd78-866c-81e1-3cb8-1beb59d661ab
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: 12ee28bb-symkg0-t02swp-fa3p.hk3.p5pv.com
-    path: /
+      Host: v7.heduian.link
+    path: /oooo
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-218.250.218.112-0706
+  name: 🇭🇰HK-1.65.250.153-6903
+  network: ws
+  port: 30807
+  server: v7.heduian.link
+  tls: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.236.179.130-4916
+  network: ws
+  port: 30807
+  server: v10.heduian.link
+  tls: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v10.heduian.link
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.236.179.130-0710
   network: ws
   port: 30807
   server: v10.heduian.link
@@ -38,54 +51,41 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.65.139.57-0328
+  name: 🇭🇰HK-1.36.218.93-0345
   network: ws
   port: 80
-  server: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com
+  server: 99a914f2-t00kg0-t1gmun-1rfon.hkt.tcpbbr.net
   tls: ''
   type: vmess
-  uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
   ws-opts:
     headers:
-      Host: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com
+      Host: 99a914f2-t00kg0-t1gmun-1rfon.hkt.tcpbbr.net
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.65.139.57-0330
+  name: 🇭🇰HK-1.36.218.93-0347
   network: ws
   port: 80
-  server: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com
+  server: 12052f04-t0fds0-t0ht6z-1oijm.hkt.tcpbbr.net
   tls: ''
   type: vmess
-  uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  uuid: bf140bc0-3f68-11ee-953a-f23c9164ca5d
   ws-opts:
     headers:
-      Host: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-1.65.139.57-0332
-  network: ws
-  port: 80
-  server: 84b1f651-svwf40-t94bdb-mrtr.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 84b1f651-svwf40-t94bdb-mrtr.hk.p5pv.com
+      Host: 12052f04-t0fds0-t0ht6z-1oijm.hkt.tcpbbr.net
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.205.84-0704
-  - 🇭🇰HK-1.65.139.5-4902
-  - 🇭🇰HK-218.250.218.112-0706
-  - 🇭🇰HK-1.65.139.57-0328
-  - 🇭🇰HK-1.65.139.57-0330
-  - 🇭🇰HK-1.65.139.57-0332
+  - 🇭🇰HK-1.65.250.153-4870
+  - 🇭🇰HK-1.65.250.153-6903
+  - 🇭🇰HK-119.236.179.130-4916
+  - 🇭🇰HK-119.236.179.130-0710
+  - 🇭🇰HK-1.36.218.93-0345
+  - 🇭🇰HK-1.36.218.93-0347
   type: select
 rules:
 - MATCH,🔰 节点选择
