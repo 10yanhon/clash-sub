@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.65.207.219-5137
+  name: 🇭🇰HK-1.65.207.219-0281
   network: ws
   port: 80
   server: 4b9d07b6-sz8sg0-t0o6k2-6gn6.hkt.tcpbbr.net
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-58.153.123.135-0715
+  name: 🇭🇰HK-58.153.123.135-0310
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -41,8 +41,8 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.207.219-5137
-  - 🇭🇰HK-58.153.123.135-0715
+  - 🇭🇰HK-1.65.207.219-0281
+  - 🇭🇰HK-58.153.123.135-0310
   - 🇭🇰HK-20.239.145.115-0513
   type: select
 rules:
