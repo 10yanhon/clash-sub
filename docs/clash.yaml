@@ -1,4 +1,17 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-112.119.138.220-4955
+  network: ws
+  port: 30807
+  server: v10.heduian.link
+  tls: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v10.heduian.link
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK-1.65.207.219-0281
@@ -25,25 +38,12 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0513
-  network: ws
-  port: 443
-  server: 20.239.145.115
-  tls: ''
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
+  - 🇭🇰HK-112.119.138.220-4955
   - 🇭🇰HK-1.65.207.219-0281
   - 🇭🇰HK-58.153.123.135-0310
-  - 🇭🇰HK-20.239.145.115-0513
   type: select
 rules:
 - MATCH,🔰 节点选择
