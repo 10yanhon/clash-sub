@@ -1,16 +1,16 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.36.218.75-0251
+  name: 🇭🇰HK-1.65.196.131-0731
   network: ws
   port: 80
-  server: 707647ce-t15b40-t7mt0p-1sllg.hk.p5pv.com
+  server: 8685e774-sv2sg0-svq7uu-1gevg.hk3.p5pv.com
   tls: ''
   type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+  uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
   ws-opts:
     headers:
-      Host: 707647ce-t15b40-t7mt0p-1sllg.hk.p5pv.com
+      Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 0
   cipher: auto
@@ -41,7 +41,7 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.36.218.75-0251
+  - 🇭🇰HK-1.65.196.131-0731
   - 🇭🇰HK-20.239.145.115-0501
   - 🇭🇰HK-165.154.244.100-0533
   type: select
