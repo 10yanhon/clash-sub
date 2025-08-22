@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-203.198.28.145-1002
+  name: 🇭🇰HK-203.198.28.145-0352
   network: ws
-  port: 52513
+  port: 51515
   server: aflzzul.meiquankongjian.com
   tls: ''
   type: vmess
@@ -11,39 +11,39 @@ proxies:
   ws-opts:
     headers:
       Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.140.111-5509
+  name: 🇭🇰HK-20.239.145.115-0527
   network: ws
-  port: 34193
-  server: 8.218.140.111
+  port: 443
+  server: 20.239.145.115
   tls: ''
   type: vmess
-  uuid: 544bf832-7df2-4ce1-aafc-9258a28b7cfb
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
   ws-opts:
     headers:
       Host: ''
-    path: /hk
+    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.36.230.184-0360
+  name: 🇭🇰HK-165.154.244.100-0559
   network: ws
-  port: 30807
-  server: v10.heduian.link
-  tls: ''
+  port: 443
+  server: 165.154.244.100
+  tls: tls
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
   ws-opts:
     headers:
-      Host: v10.heduian.link
+      Host: ''
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-203.198.28.145-1002
-  - 🇭🇰HK-8.218.140.111-5509
-  - 🇭🇰HK-1.36.230.184-0360
+  - 🇭🇰HK-203.198.28.145-0352
+  - 🇭🇰HK-20.239.145.115-0527
+  - 🇭🇰HK-165.154.244.100-0559
   type: select
 rules:
 - MATCH,🔰 节点选择
