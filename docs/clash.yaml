@@ -1,7 +1,33 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-1.36.223.95-0284
+  network: ws
+  port: 80
+  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.202.202-4873
+  name: 🇭🇰HK-116.49.109.153-0280
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-1.65.139.81-0271
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -14,7 +40,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.65.202.202-0279
+  name: 🇭🇰HK-1.65.139.81-0273
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -27,37 +53,25 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-112.119.217.196-0733
+  name: 🇭🇰HK-1.36.226.121-4897
   network: ws
-  port: 80
-  server: hkt.gotochinatown.net
+  port: 30807
+  server: v10.heduian.link
   tls: ''
   type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-1.65.204.22-0267
-  network: ws
-  port: 80
-  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-    path: /
+      Host: v10.heduian.link
+    path: /oooo
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-1.65.202.202-4873
-  - 🇭🇰HK-1.65.202.202-0279
-  - 🇭🇰HK-112.119.217.196-0733
-  - 🇭🇰HK-1.65.204.22-0267
+  - 🇭🇰HK-1.36.223.95-0284
+  - 🇭🇰HK-116.49.109.153-0280
+  - 🇭🇰HK-1.65.139.81-0271
+  - 🇭🇰HK-1.65.139.81-0273
+  - 🇭🇰HK-1.36.226.121-4897
   type: select
 rules:
 - MATCH,🔰 节点选择
