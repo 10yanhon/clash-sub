@@ -1,20 +1,59 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-218.250.51.235-4944
-  network: ws
-  port: 30807
-  server: v10.heduian.link
-  tls: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v10.heduian.link
-    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-147.139.7.71-0041
+  name: 🇭🇰HK-219.78.148.97-4951
+  network: ws
+  port: 80
+  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-219.78.148.97-0720
+  network: ws
+  port: 80
+  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.237.29.204-0996
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-112.120.140.40-4953
+  network: ws
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-147.139.7.71-0073
   network: ws
   port: 888
   server: 147.139.7.71
@@ -23,41 +62,16 @@ proxies:
   uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
   ws-opts:
     headers:
-      Host: 147.139.7.71
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0507
-  network: ws
-  port: 443
-  server: 20.239.145.115
-  tls: ''
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0539
-  network: ws
-  port: 443
-  server: 165.154.244.100
-  tls: tls
-  type: vmess
-  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
-  ws-opts:
-    headers:
       Host: ''
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-218.250.51.235-4944
-  - 🇭🇰HK-147.139.7.71-0041
-  - 🇭🇰HK-20.239.145.115-0507
-  - 🇭🇰HK-165.154.244.100-0539
+  - 🇭🇰HK-219.78.148.97-4951
+  - 🇭🇰HK-219.78.148.97-0720
+  - 🇭🇰HK-119.237.29.204-0996
+  - 🇭🇰HK-112.120.140.40-4953
+  - 🇭🇰HK-147.139.7.71-0073
   type: select
 rules:
 - MATCH,🔰 节点选择
