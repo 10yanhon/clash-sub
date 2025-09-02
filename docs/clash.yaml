@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.78.148.97-4951
-  network: ws
-  port: 80
-  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-219.78.148.97-0720
+  name: 🇭🇰HK-219.78.148.97-0723
   network: ws
   port: 80
   server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
@@ -25,9 +12,22 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-219.78.148.97-4922
+  network: ws
+  port: 80
+  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-119.237.29.204-0996
+  name: 🇭🇰HK-119.237.29.204-0719
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -40,7 +40,20 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-112.120.140.40-4953
+  name: 🇭🇰HK-112.120.140.40-0718
+  network: ws
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-112.120.140.40-4924
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -51,27 +64,14 @@ proxies:
     headers:
       Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-147.139.7.71-0073
-  network: ws
-  port: 888
-  server: 147.139.7.71
-  tls: ''
-  type: vmess
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.78.148.97-4951
-  - 🇭🇰HK-219.78.148.97-0720
-  - 🇭🇰HK-119.237.29.204-0996
-  - 🇭🇰HK-112.120.140.40-4953
-  - 🇭🇰HK-147.139.7.71-0073
+  - 🇭🇰HK-219.78.148.97-0723
+  - 🇭🇰HK-219.78.148.97-4922
+  - 🇭🇰HK-119.237.29.204-0719
+  - 🇭🇰HK-112.120.140.40-0718
+  - 🇭🇰HK-112.120.140.40-4924
   type: select
 rules:
 - MATCH,🔰 节点选择
