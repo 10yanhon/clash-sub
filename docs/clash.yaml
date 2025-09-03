@@ -1,20 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-42.98.100.120-0262
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-203.218.216.26-0313
+  name: 🇭🇰HK-203.218.216.26-0354
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -27,7 +14,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-203.218.216.26-0324
+  name: 🇭🇰HK-203.218.216.26-0348
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -40,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.77.105.237-0254
+  name: 🇭🇰HK-1.36.77.183-0318
   network: ws
   port: 80
   server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
@@ -53,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.77.105.237-0256
+  name: 🇭🇰HK-1.36.77.183-0317
   network: ws
   port: 80
   server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
@@ -64,14 +51,27 @@ proxies:
     headers:
       Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
     path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-116.49.109.9-0328
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-42.98.100.120-0262
-  - 🇭🇰HK-203.218.216.26-0313
-  - 🇭🇰HK-203.218.216.26-0324
-  - 🇭🇰HK-219.77.105.237-0254
-  - 🇭🇰HK-219.77.105.237-0256
+  - 🇭🇰HK-203.218.216.26-0354
+  - 🇭🇰HK-203.218.216.26-0348
+  - 🇭🇰HK-1.36.77.183-0318
+  - 🇭🇰HK-1.36.77.183-0317
+  - 🇭🇰HK-116.49.109.9-0328
   type: select
 rules:
 - MATCH,🔰 节点选择
