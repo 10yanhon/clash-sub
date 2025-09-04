@@ -1,20 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-203.218.216.26-0354
-  network: ws
-  port: 80
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-203.218.216.26-0348
+  name: 🇭🇰HK-203.218.216.26-0375
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -25,12 +12,12 @@ proxies:
     headers:
       Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.36.77.183-0318
+  name: 🇭🇰HK-203.218.216.26-0372
   network: ws
   port: 80
-  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
   tls: ''
   type: vmess
   uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
@@ -40,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.36.77.183-0317
+  name: 🇭🇰HK-1.36.77.183-4891
   network: ws
   port: 80
   server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
@@ -53,7 +40,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-116.49.109.9-0328
+  name: 🇭🇰HK-218.102.150.84-0321
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -64,14 +51,52 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.210.206.163-1990
+  network: http
+  port: 45719
+  server: 8.210.206.163
+  tls: ''
+  type: vmess
+  uuid: a220dad2-a34e-4460-b0f7-eaba9c46e639
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.145.115-0542
+  network: ws
+  port: 443
+  server: 20.239.145.115
+  tls: ''
+  type: vmess
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-165.154.244.100-0574
+  network: ws
+  port: 443
+  server: 165.154.244.100
+  tls: tls
+  type: vmess
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-203.218.216.26-0354
-  - 🇭🇰HK-203.218.216.26-0348
-  - 🇭🇰HK-1.36.77.183-0318
-  - 🇭🇰HK-1.36.77.183-0317
-  - 🇭🇰HK-116.49.109.9-0328
+  - 🇭🇰HK-203.218.216.26-0375
+  - 🇭🇰HK-203.218.216.26-0372
+  - 🇭🇰HK-1.36.77.183-4891
+  - 🇭🇰HK-218.102.150.84-0321
+  - 🇭🇰HK-8.210.206.163-1990
+  - 🇭🇰HK-20.239.145.115-0542
+  - 🇭🇰HK-165.154.244.100-0574
   type: select
 rules:
 - MATCH,🔰 节点选择
