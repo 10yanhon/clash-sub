@@ -1,20 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-116.48.94.45-0242
-  network: ws
-  port: 80
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-116.48.94.45-0243
+  name: 🇭🇰HK-58.153.76.75-0266
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -25,12 +12,12 @@ proxies:
     headers:
       Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-1.36.77.183-0246
+  name: 🇭🇰HK-58.153.76.75-0267
   network: ws
   port: 80
-  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
   tls: ''
   type: vmess
   uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
@@ -40,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-1.36.77.183-0247
+  name: 🇭🇰HK-1.36.77.183-0268
   network: ws
   port: 80
   server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
@@ -53,25 +40,38 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.192.86-0961
+  name: 🇭🇰HK-219.79.254.218-0281
   network: ws
-  port: 30807
-  server: v10.heduian.link
+  port: 80
+  server: hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /oooo
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-18.167.20.169-0040
+  network: ws
+  port: 8080
+  server: 18.167.20.169
+  tls: ''
+  type: vmess
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  ws-opts:
+    headers:
+      Host: 18.167.20.169
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-116.48.94.45-0242
-  - 🇭🇰HK-116.48.94.45-0243
-  - 🇭🇰HK-1.36.77.183-0246
-  - 🇭🇰HK-1.36.77.183-0247
-  - 🇭🇰HK-219.79.192.86-0961
+  - 🇭🇰HK-58.153.76.75-0266
+  - 🇭🇰HK-58.153.76.75-0267
+  - 🇭🇰HK-1.36.77.183-0268
+  - 🇭🇰HK-219.79.254.218-0281
+  - 🇭🇰HK-18.167.20.169-0040
   type: select
 rules:
 - MATCH,🔰 节点选择
