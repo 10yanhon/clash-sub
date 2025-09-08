@@ -1,59 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.77.105.124-0298
+  name: 🇭🇰HK-8.210.140.23-5184
   network: ws
-  port: 80
-  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+  port: 54809
+  server: 8.210.140.23
   tls: ''
   type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-219.77.105.124-0299
-  network: ws
-  port: 80
-  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-  tls: ''
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-112.118.57.110-0304
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.83.162.4-5162
-  network: ws
-  port: 40873
-  server: 47.83.162.4
-  tls: ''
-  type: vmess
-  uuid: 3fd266bc-7691-43cf-a82f-0c9761a69bf0
+  uuid: fde73daf-cc67-42f3-9935-35b132b01abd
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.83.18.10-5175
+  name: 🇭🇰HK-47.83.18.10-5221
   network: ws
   port: 36968
   server: 47.83.18.10
@@ -64,9 +25,22 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-219.77.105.124-0263
+  network: ws
+  port: 80
+  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-119.237.27.67-0292
+  name: 🇭🇰HK-119.237.27.67-0318
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -77,9 +51,35 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-219.77.105.124-0259
+  network: ws
+  port: 80
+  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-119.237.27.67-0293
+  name: 🇭🇰HK-42.98.100.213-0267
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.237.27.67-0322
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -92,13 +92,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.83.192.216-5160
+  name: 🇭🇰HK-47.239.204.193-5225
   network: ws
-  port: 36199
-  server: 47.83.192.216
+  port: 33611
+  server: 47.239.204.193
   tls: ''
   type: vmess
-  uuid: 49bb1bac-226e-434e-985b-e5fd1ac6c48b
+  uuid: 56608d2c-b7b4-4cde-a63b-33d6e0b6fd62
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.238.252.154-5224
+  network: ws
+  port: 58867
+  server: 47.238.252.154
+  tls: ''
+  type: vmess
+  uuid: 7b80e36f-b082-46fc-ae59-6bb0dd17eee8
   ws-opts:
     headers:
       Host: ''
@@ -106,14 +119,15 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.77.105.124-0298
-  - 🇭🇰HK-219.77.105.124-0299
-  - 🇭🇰HK-112.118.57.110-0304
-  - 🇭🇰HK-47.83.162.4-5162
-  - 🇭🇰HK-47.83.18.10-5175
-  - 🇭🇰HK-119.237.27.67-0292
-  - 🇭🇰HK-119.237.27.67-0293
-  - 🇭🇰HK-47.83.192.216-5160
+  - 🇭🇰HK-8.210.140.23-5184
+  - 🇭🇰HK-47.83.18.10-5221
+  - 🇭🇰HK-219.77.105.124-0263
+  - 🇭🇰HK-119.237.27.67-0318
+  - 🇭🇰HK-219.77.105.124-0259
+  - 🇭🇰HK-42.98.100.213-0267
+  - 🇭🇰HK-119.237.27.67-0322
+  - 🇭🇰HK-47.239.204.193-5225
+  - 🇭🇰HK-47.238.252.154-5224
   type: select
 rules:
 - MATCH,🔰 节点选择
