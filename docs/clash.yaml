@@ -1,33 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.117.202-5112
+  name: 🇭🇰HK-219.78.149.32-4967
   network: ws
-  port: 45979
-  server: 47.239.117.202
+  port: 80
+  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
   tls: ''
   type: vmess
-  uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   ws-opts:
     headers:
-      Host: ''
-    path: /test
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.140.23-5085
-  network: ws
-  port: 54809
-  server: 8.210.140.23
-  tls: ''
-  type: vmess
-  uuid: fde73daf-cc67-42f3-9935-35b132b01abd
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
+      Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-220.246.173.51-0285
+  name: 🇭🇰HK-119.236.146.124-0256
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -40,33 +27,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-58.153.76.235-0259
-  network: ws
-  port: 80
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-58.153.76.235-0261
-  network: ws
-  port: 80
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-203.218.202.84-0276
+  name: 🇭🇰HK-203.218.202.84-4968
   network: ws
   port: 80
   server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
@@ -79,55 +40,80 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.233.101-5108
+  name: 🇭🇰HK-47.239.233.101-5156
   network: ws
-  port: 20521
+  port: 23104
   server: 47.239.233.101
   tls: ''
   type: vmess
-  uuid: 3b2d200d-a715-40de-a7f5-c9e5756d5720
+  uuid: 0aae2419-f82c-4b15-9dbc-4292995d416e
   ws-opts:
     headers:
       Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.83.18.10-5147
+  network: ws
+  port: 36968
+  server: 47.83.18.10
+  tls: ''
+  type: vmess
+  uuid: 176bf1dd-647f-4c09-892e-5f9223dc8617
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.236.249.8-0339
+  network: ws
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-47.239.233.101-5111
+  name: 🇭🇰HK-119.236.249.8-0685
   network: ws
-  port: 11614
-  server: 47.239.233.101
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: 8e63bf5b-1ecb-49c9-a53a-5e9f6d0f7d39
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   ws-opts:
     headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-47.83.162.4-5114
+  name: 🇭🇰HK-42.2.8.24-0684
   network: ws
-  port: 40873
-  server: 47.83.162.4
+  port: 30807
+  server: v10.heduian.link
   tls: ''
   type: vmess
-  uuid: 3fd266bc-7691-43cf-a82f-0c9761a69bf0
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ''
-    path: /arki?ed=2048
+      Host: baidu.com
+    path: /oooo
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.239.117.202-5112
-  - 🇭🇰HK-8.210.140.23-5085
-  - 🇭🇰HK-220.246.173.51-0285
-  - 🇭🇰HK-58.153.76.235-0259
-  - 🇭🇰HK-58.153.76.235-0261
-  - 🇭🇰HK-203.218.202.84-0276
-  - 🇭🇰HK-47.239.233.101-5108
-  - 🇭🇰HK-47.239.233.101-5111
-  - 🇭🇰HK-47.83.162.4-5114
+  - 🇭🇰HK-219.78.149.32-4967
+  - 🇭🇰HK-119.236.146.124-0256
+  - 🇭🇰HK-203.218.202.84-4968
+  - 🇭🇰HK-47.239.233.101-5156
+  - 🇭🇰HK-47.83.18.10-5147
+  - 🇭🇰HK-119.236.249.8-0339
+  - 🇭🇰HK-119.236.249.8-0685
+  - 🇭🇰HK-42.2.8.24-0684
   type: select
 rules:
 - MATCH,🔰 节点选择
