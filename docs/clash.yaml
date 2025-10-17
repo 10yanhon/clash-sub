@@ -1,19 +1,6 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-203.218.217.198-0338
-  network: ws
-  port: 80
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
   name: 🇭🇰HK-203.218.217.198-0333
   network: ws
   port: 80
@@ -38,15 +25,67 @@ proxies:
     headers:
       Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-8.210.230.179-5586
+  name: 🇭🇰HK-203.218.217.198-0338
   network: ws
-  port: 12125
-  server: 8.210.230.179
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
   tls: ''
   type: vmess
-  uuid: 8b0c11be-1ffe-4074-afc5-e734fe985b22
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.237.164.23-0239
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.76.246.12-5689
+  network: ws
+  port: 42669
+  server: 47.76.246.12
+  tls: ''
+  type: vmess
+  uuid: 13709d57-530e-4f9c-97d7-ebc774bdfc6c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-46.3.26.12-1024
+  network: ws
+  port: 443
+  server: 46.3.26.12
+  tls: tls
+  type: vmess
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+  ws-opts:
+    headers:
+      Host: hk.nbee.pp.ua
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.81.113-5686
+  network: ws
+  port: 29760
+  server: 47.239.81.113
+  tls: ''
+  type: vmess
+  uuid: fd2987cc-b25f-4966-846a-b0d65d3c1e4b
   ws-opts:
     headers:
       Host: ''
@@ -66,65 +105,26 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.81.113-5710
+  name: 🇭🇰HK-47.238.109.55-5704
   network: ws
-  port: 17002
-  server: 47.239.81.113
+  port: 36048
+  server: 47.238.109.55
   tls: ''
   type: vmess
-  uuid: 97798ac2-80d4-4e7f-84cc-8221244ed741
+  uuid: 4452049a-2f3a-47e3-97f6-207992ad892b
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.52.211-5471
+  name: 🇭🇰HK-47.86.85.95-5684
   network: ws
-  port: 20522
-  server: 8.210.52.211
-  tls: ''
-  type: vmess
-  uuid: 37827036-1fc5-41ea-9fc5-111af1db49dc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /telegram_@sswia
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.144.141-5649
-  network: ws
-  port: 8852
-  server: 8.217.144.141
-  tls: ''
-  type: vmess
-  uuid: f9792e97-929e-485e-ae13-fd6ee011ed2d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.76.89.175-5709
-  network: ws
-  port: 35964
-  server: 47.76.89.175
-  tls: ''
-  type: vmess
-  uuid: 49764ed6-084e-463e-ae08-e9e932b71020
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.86.85.95-5681
-  network: ws
-  port: 26006
+  port: 8934
   server: 47.86.85.95
   tls: ''
   type: vmess
-  uuid: 7d719104-729e-4698-a597-59798aa64f0f
+  uuid: a50e42f2-d578-4cb9-8d38-a9a382ef5534
   ws-opts:
     headers:
       Host: ''
@@ -132,16 +132,16 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-203.218.217.198-0338
   - 🇭🇰HK-203.218.217.198-0333
   - 🇭🇰HK-203.218.217.198-0341
-  - 🇭🇰HK-8.210.230.179-5586
+  - 🇭🇰HK-203.218.217.198-0338
+  - 🇭🇰HK-119.237.164.23-0239
+  - 🇭🇰HK-47.76.246.12-5689
+  - 🇭🇰HK-46.3.26.12-1024
+  - 🇭🇰HK-47.239.81.113-5686
   - 🇭🇰HK-47.243.172.177-5584
-  - 🇭🇰HK-47.239.81.113-5710
-  - 🇭🇰HK-8.210.52.211-5471
-  - 🇭🇰HK-8.217.144.141-5649
-  - 🇭🇰HK-47.76.89.175-5709
-  - 🇭🇰HK-47.86.85.95-5681
+  - 🇭🇰HK-47.238.109.55-5704
+  - 🇭🇰HK-47.86.85.95-5684
   type: select
 rules:
 - MATCH,🔰 节点选择
