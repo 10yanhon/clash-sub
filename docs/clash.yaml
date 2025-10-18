@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-203.218.217.198-0267
+  name: 🇭🇰HK-203.218.217.198-0262
   network: ws
   port: 80
   server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-203.218.217.198-0266
+  name: 🇭🇰HK-203.218.217.198-0260
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-203.218.217.198-0265
+  name: 🇭🇰HK-203.218.217.198-0263
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -40,46 +40,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.172.177-5602
+  name: 🇭🇰HK-8.217.92.110-5477
   network: ws
-  port: 48540
-  server: 47.243.172.177
+  port: 20522
+  server: 8.217.92.110
   tls: ''
   type: vmess
-  uuid: 61999571-f1f4-47b1-b303-692ab359892d
+  uuid: 31e1f90f-0218-4097-91f9-a42df9b3334a
   ws-opts:
     headers:
       Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.141.74-0315
-  network: ws
-  port: 11886
-  server: 47.239.141.74
-  tls: ''
-  type: vmess
-  uuid: 0d36b017-6d7c-493d-bb12-55c34faf6efc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.231.14-5617
-  network: ws
-  port: 34404
-  server: 47.243.231.14
-  tls: ''
-  type: vmess
-  uuid: 80d50481-a070-41fa-b7c1-82b49f053c7a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
+    path: /telegram_@sswia
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-42.2.163.134-0289
+  name: 🇭🇰HK-119.236.146.235-0276
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -90,41 +64,67 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-112.118.249.162-5404
+  network: ws
+  port: 80
+  server: 09f05870-t35j40-tdnzz0-1qtp7.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 09f05870-t35j40-tdnzz0-1qtp7.hk3.p5pv.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.26.234-5666
+  name: 🇭🇰HK-8.218.26.234-5670
   network: ws
-  port: 21502
+  port: 55566
   server: 8.218.26.234
   tls: ''
   type: vmess
-  uuid: e711fa61-ab3e-471d-b660-6d9cbcd4f15e
+  uuid: 520a5072-76ec-4c37-8e25-02cf61b04889
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-112.118.249.162-5405
+  network: ws
+  port: 80
+  server: 9def5c5d-t398g0-tdnzz0-1qtp7.hk3.p5pv.com
+  tls: ''
+  type: vmess
+  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 9def5c5d-t398g0-tdnzz0-1qtp7.hk3.p5pv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.71.140-5656
+  network: ws
+  port: 63704
+  server: 8.218.71.140
+  tls: ''
+  type: vmess
+  uuid: 097c2696-113a-4b7c-9ca2-f37f4d86dbc4
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.52.211-5492
+  name: 🇭🇰HK-8.217.158.92-5661
   network: ws
-  port: 20522
-  server: 8.210.52.211
+  port: 50060
+  server: 8.217.158.92
   tls: ''
   type: vmess
-  uuid: 37827036-1fc5-41ea-9fc5-111af1db49dc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /telegram_@sswia
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.81.113-5731
-  network: ws
-  port: 17002
-  server: 47.239.81.113
-  tls: ''
-  type: vmess
-  uuid: 97798ac2-80d4-4e7f-84cc-8221244ed741
+  uuid: 7ecac376-1809-4f72-bd59-aa93d748a822
   ws-opts:
     headers:
       Host: ''
@@ -132,16 +132,16 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-203.218.217.198-0267
-  - 🇭🇰HK-203.218.217.198-0266
-  - 🇭🇰HK-203.218.217.198-0265
-  - 🇭🇰HK-47.243.172.177-5602
-  - 🇭🇰HK-47.239.141.74-0315
-  - 🇭🇰HK-47.243.231.14-5617
-  - 🇭🇰HK-42.2.163.134-0289
-  - 🇭🇰HK-8.218.26.234-5666
-  - 🇭🇰HK-8.210.52.211-5492
-  - 🇭🇰HK-47.239.81.113-5731
+  - 🇭🇰HK-203.218.217.198-0262
+  - 🇭🇰HK-203.218.217.198-0260
+  - 🇭🇰HK-203.218.217.198-0263
+  - 🇭🇰HK-8.217.92.110-5477
+  - 🇭🇰HK-119.236.146.235-0276
+  - 🇭🇰HK-112.118.249.162-5404
+  - 🇭🇰HK-8.218.26.234-5670
+  - 🇭🇰HK-112.118.249.162-5405
+  - 🇭🇰HK-8.218.71.140-5656
+  - 🇭🇰HK-8.217.158.92-5661
   type: select
 rules:
 - MATCH,🔰 节点选择
