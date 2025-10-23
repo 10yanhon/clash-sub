@@ -1,33 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-38.55.105.55-5523
+  name: 🇭🇰HK-47.239.81.113-5623
   network: ws
-  port: 30791
-  server: 38.55.105.55
+  port: 17002
+  server: 47.239.81.113
   tls: ''
   type: vmess
-  uuid: cbc58881-d3c5-4052-8e9e-451b2d0d7d5f
+  uuid: 97798ac2-80d4-4e7f-84cc-8221244ed741
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-38.55.105.55-5522
-  network: ws
-  port: 19801
-  server: 38.55.105.55
-  tls: ''
-  type: vmess
-  uuid: f9db6da7-1c96-4cb1-a08c-e48acde7a32f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-38.55.105.55-5521
+  name: 🇭🇰HK-38.55.105.55-5480
   network: ws
   port: 5551
   server: 38.55.105.55
@@ -40,72 +27,20 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.159.96-5629
+  name: 🇭🇰HK-38.55.105.55-5479
   network: ws
-  port: 47872
-  server: 8.217.159.96
+  port: 30791
+  server: 38.55.105.55
   tls: ''
   type: vmess
-  uuid: 23ea0b75-206b-4e3b-b624-e093d5808bf8
+  uuid: cbc58881-d3c5-4052-8e9e-451b2d0d7d5f
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.124.8-5517
-  network: ws
-  port: 49971
-  server: 8.217.124.8
-  tls: ''
-  type: vmess
-  uuid: 3ad0ffb9-eb42-4f6c-9a17-1b261e40d417
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.158.92-5622
-  network: ws
-  port: 49761
-  server: 8.217.158.92
-  tls: ''
-  type: vmess
-  uuid: b224875e-98a6-4477-a1ee-533887b6701d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.212.196-5509
-  network: ws
-  port: 34348
-  server: 8.210.212.196
-  tls: ''
-  type: vmess
-  uuid: fb9fc043-2c70-42eb-88c0-66804ca33062
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.124.8-5516
-  network: ws
-  port: 14165
-  server: 8.217.124.8
-  tls: ''
-  type: vmess
-  uuid: 1f8daab3-34f9-4d01-914c-71c56c41c039
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.141.74-0381
+  name: 🇭🇰HK-47.239.141.74-0257
   network: ws
   port: 11886
   server: 47.239.141.74
@@ -116,18 +51,55 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.71.140-5557
+  network: ws
+  port: 63704
+  server: 8.218.71.140
+  tls: ''
+  type: vmess
+  uuid: 097c2696-113a-4b7c-9ca2-f37f4d86dbc4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.76.118.235-5625
+  network: ws
+  port: 35407
+  server: 47.76.118.235
+  tls: ''
+  type: vmess
+  uuid: b19fe95d-32ac-416a-9d46-d76d03f91873
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.124.8-5475
+  network: ws
+  port: 14165
+  server: 8.217.124.8
+  tls: ''
+  type: vmess
+  uuid: 1f8daab3-34f9-4d01-914c-71c56c41c039
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-38.55.105.55-5523
-  - 🇭🇰HK-38.55.105.55-5522
-  - 🇭🇰HK-38.55.105.55-5521
-  - 🇭🇰HK-8.217.159.96-5629
-  - 🇭🇰HK-8.217.124.8-5517
-  - 🇭🇰HK-8.217.158.92-5622
-  - 🇭🇰HK-8.210.212.196-5509
-  - 🇭🇰HK-8.217.124.8-5516
-  - 🇭🇰HK-47.239.141.74-0381
+  - 🇭🇰HK-47.239.81.113-5623
+  - 🇭🇰HK-38.55.105.55-5480
+  - 🇭🇰HK-38.55.105.55-5479
+  - 🇭🇰HK-47.239.141.74-0257
+  - 🇭🇰HK-8.218.71.140-5557
+  - 🇭🇰HK-47.76.118.235-5625
+  - 🇭🇰HK-8.217.124.8-5475
   type: select
 rules:
 - MATCH,🔰 节点选择
