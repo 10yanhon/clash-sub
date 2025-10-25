@@ -1,85 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.76.118.235-5664
-  network: ws
-  port: 35407
-  server: 47.76.118.235
-  tls: ''
-  type: vmess
-  uuid: b19fe95d-32ac-416a-9d46-d76d03f91873
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.230.179-5580
-  network: ws
-  port: 45324
-  server: 8.210.230.179
-  tls: ''
-  type: vmess
-  uuid: 88ae3410-5af6-4a76-bb0f-940d6fff4f1a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.158.92-5627
-  network: ws
-  port: 50060
-  server: 8.217.158.92
-  tls: ''
-  type: vmess
-  uuid: 7ecac376-1809-4f72-bd59-aa93d748a822
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.76.89.175-5674
-  network: ws
-  port: 22336
-  server: 47.76.89.175
-  tls: ''
-  type: vmess
-  uuid: 41275f5b-a181-4a5c-bada-ee869d5ae8a4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.81.113-5656
-  network: ws
-  port: 28421
-  server: 47.239.81.113
-  tls: ''
-  type: vmess
-  uuid: 10f1cf8b-065b-49bd-9c2c-46e64ed08b3d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.127.167-5642
-  network: ws
-  port: 32209
-  server: 8.217.127.167
-  tls: ''
-  type: vmess
-  uuid: 65799f4c-f5ea-40bd-88ac-4b49837f569f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.26.234-5620
+  name: 🇭🇰HK-8.218.26.234-5591
   network: ws
   port: 15233
   server: 8.218.26.234
@@ -92,26 +14,117 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.168.211-5528
+  name: 🇭🇰HK-8.217.124.8-5509
   network: ws
-  port: 24680
-  server: 47.243.168.211
+  port: 14165
+  server: 8.217.124.8
   tls: ''
   type: vmess
-  uuid: 33cb9737-88a5-4372-9db0-84255e243c1d
+  uuid: 1f8daab3-34f9-4d01-914c-71c56c41c039
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.212.196-5530
+  name: 🇭🇰HK-47.76.157.234-5643
   network: ws
-  port: 43149
-  server: 8.210.212.196
+  port: 14479
+  server: 47.76.157.234
   tls: ''
   type: vmess
-  uuid: bdb46289-9b42-447a-b5db-1453324dc40b
+  uuid: 90606c14-cba4-43ff-9586-9edd8bef21a4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.209.82-5589
+  network: ws
+  port: 6874
+  server: 8.217.209.82
+  tls: ''
+  type: vmess
+  uuid: 1f8a9781-3088-4499-8909-283826d05457
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.159.96-5606
+  network: ws
+  port: 47872
+  server: 8.217.159.96
+  tls: ''
+  type: vmess
+  uuid: 23ea0b75-206b-4e3b-b624-e093d5808bf8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.238.78.223-5644
+  network: ws
+  port: 48299
+  server: 47.238.78.223
+  tls: ''
+  type: vmess
+  uuid: 3938d563-100e-4c67-8f3e-777dee04324f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.209.82-5604
+  network: ws
+  port: 3600
+  server: 8.217.209.82
+  tls: ''
+  type: vmess
+  uuid: d31a1f2f-b552-44fc-893a-6cf55fa2d4e3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.81.113-5628
+  network: ws
+  port: 29760
+  server: 47.239.81.113
+  tls: ''
+  type: vmess
+  uuid: fd2987cc-b25f-4966-846a-b0d65d3c1e4b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.8.84-5595
+  network: ws
+  port: 23326
+  server: 8.218.8.84
+  tls: ''
+  type: vmess
+  uuid: 871d04df-fc58-470a-baca-daae28869164
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.140.27-5592
+  network: ws
+  port: 13589
+  server: 8.218.140.27
+  tls: ''
+  type: vmess
+  uuid: 9297b311-b73a-4332-9016-bb25cbe475ee
   ws-opts:
     headers:
       Host: ''
@@ -119,15 +132,16 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.76.118.235-5664
-  - 🇭🇰HK-8.210.230.179-5580
-  - 🇭🇰HK-8.217.158.92-5627
-  - 🇭🇰HK-47.76.89.175-5674
-  - 🇭🇰HK-47.239.81.113-5656
-  - 🇭🇰HK-8.217.127.167-5642
-  - 🇭🇰HK-8.218.26.234-5620
-  - 🇭🇰HK-47.243.168.211-5528
-  - 🇭🇰HK-8.210.212.196-5530
+  - 🇭🇰HK-8.218.26.234-5591
+  - 🇭🇰HK-8.217.124.8-5509
+  - 🇭🇰HK-47.76.157.234-5643
+  - 🇭🇰HK-8.217.209.82-5589
+  - 🇭🇰HK-8.217.159.96-5606
+  - 🇭🇰HK-47.238.78.223-5644
+  - 🇭🇰HK-8.217.209.82-5604
+  - 🇭🇰HK-47.239.81.113-5628
+  - 🇭🇰HK-8.218.8.84-5595
+  - 🇭🇰HK-8.218.140.27-5592
   type: select
 rules:
 - MATCH,🔰 节点选择
