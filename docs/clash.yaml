@@ -1,104 +1,130 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.77.235.2-5367
-  network: ws
-  port: 80
-  server: 580abbb4-suvds0-sv5llu-1ldl3.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 580abbb4-suvds0-sv5llu-1ldl3.hk3.p5pv.com
-    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.238.78.223-5681
+  name: 🇭🇰HK-58.152.119.130-5465
   network: ws
-  port: 48299
-  server: 47.238.78.223
+  port: 52512
+  server: aflzzul.meiquankongjian.com
   tls: ''
   type: vmess
-  uuid: 3938d563-100e-4c67-8f3e-777dee04324f
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.76.246.12-5634
+  network: ws
+  port: 42669
+  server: 47.76.246.12
+  tls: ''
+  type: vmess
+  uuid: 13709d57-530e-4f9c-97d7-ebc774bdfc6c
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.86.85.95-5683
+  name: 🇭🇰HK-47.243.39.173-5559
   network: ws
-  port: 26006
+  port: 20522
+  server: 47.243.39.173
+  tls: ''
+  type: vmess
+  uuid: 8993ea91-d437-4899-a6d9-1dcc0aa17820
+  ws-opts:
+    headers:
+      Host: ''
+    path: /telegram_@sswia
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.92.110-5443
+  network: ws
+  port: 20522
+  server: 8.217.92.110
+  tls: ''
+  type: vmess
+  uuid: 31e1f90f-0218-4097-91f9-a42df9b3334a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /telegram_@sswia
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.172.177-5555
+  network: ws
+  port: 17527
+  server: 47.243.172.177
+  tls: ''
+  type: vmess
+  uuid: 499ee2c5-30a7-4939-8b3c-781b07486d4c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.39.20-5548
+  network: ws
+  port: 16664
+  server: 47.243.39.20
+  tls: ''
+  type: vmess
+  uuid: 396c29a5-a9be-4cc9-ae22-2c935d9551a6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.158.92-5620
+  network: ws
+  port: 49761
+  server: 8.217.158.92
+  tls: ''
+  type: vmess
+  uuid: b224875e-98a6-4477-a1ee-533887b6701d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.251.240-5547
+  network: ws
+  port: 8842
+  server: 47.243.251.240
+  tls: ''
+  type: vmess
+  uuid: aed654a3-97bb-4ba6-a6c3-faea46befc72
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.86.85.95-5644
+  network: ws
+  port: 8934
   server: 47.86.85.95
   tls: ''
   type: vmess
-  uuid: 7d719104-729e-4698-a597-59798aa64f0f
+  uuid: a50e42f2-d578-4cb9-8d38-a9a382ef5534
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.238.78.223-5676
+  name: 🇭🇰HK-8.217.124.8-5623
   network: ws
-  port: 17723
-  server: 47.238.78.223
+  port: 49971
+  server: 8.217.124.8
   tls: ''
   type: vmess
-  uuid: 48acb3b4-574a-45b2-b527-c0f9a3e6dfa0
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.230.179-5589
-  network: ws
-  port: 45324
-  server: 8.210.230.179
-  tls: ''
-  type: vmess
-  uuid: 88ae3410-5af6-4a76-bb0f-940d6fff4f1a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.231.14-5603
-  network: ws
-  port: 20522
-  server: 47.243.231.14
-  tls: ''
-  type: vmess
-  uuid: 8353b026-ad63-4395-907e-5cc31b9e0d3b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /telegram_@sswia
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.52.211-5473
-  network: ws
-  port: 20522
-  server: 8.210.52.211
-  tls: ''
-  type: vmess
-  uuid: 37827036-1fc5-41ea-9fc5-111af1db49dc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /telegram_@sswia
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.122.139-5598
-  network: ws
-  port: 39194
-  server: 8.210.122.139
-  tls: ''
-  type: vmess
-  uuid: b34a4bd6-0d5d-421b-b6ff-5ab6a6c3bb82
+  uuid: 3ad0ffb9-eb42-4f6c-9a17-1b261e40d417
   ws-opts:
     headers:
       Host: ''
@@ -106,14 +132,16 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.77.235.2-5367
-  - 🇭🇰HK-47.238.78.223-5681
-  - 🇭🇰HK-47.86.85.95-5683
-  - 🇭🇰HK-47.238.78.223-5676
-  - 🇭🇰HK-8.210.230.179-5589
-  - 🇭🇰HK-47.243.231.14-5603
-  - 🇭🇰HK-8.210.52.211-5473
-  - 🇭🇰HK-8.210.122.139-5598
+  - 🇭🇰HK-58.152.119.130-5465
+  - 🇭🇰HK-47.76.246.12-5634
+  - 🇭🇰HK-47.243.39.173-5559
+  - 🇭🇰HK-8.217.92.110-5443
+  - 🇭🇰HK-47.243.172.177-5555
+  - 🇭🇰HK-47.243.39.20-5548
+  - 🇭🇰HK-8.217.158.92-5620
+  - 🇭🇰HK-47.243.251.240-5547
+  - 🇭🇰HK-47.86.85.95-5644
+  - 🇭🇰HK-8.217.124.8-5623
   type: select
 rules:
 - MATCH,🔰 节点选择
