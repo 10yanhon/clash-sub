@@ -1,20 +1,46 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.251.240-5631
+  name: 🇭🇰HK-45.136.12.37-0377
   network: ws
-  port: 24225
-  server: 47.243.251.240
+  port: 20521
+  server: 45.136.12.37
   tls: ''
   type: vmess
-  uuid: 55da342f-45ff-437b-bec6-5520299cb0dd
+  uuid: 090d0bd9-f9c4-4c3b-8aae-ffa678765935
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.83.174.131-6010
+  network: ws
+  port: 19850
+  server: 47.83.174.131
+  tls: ''
+  type: vmess
+  uuid: cdc5c72c-9a50-4a28-ae46-89b7d398e753
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.86.85.95-6001
+  network: ws
+  port: 8934
+  server: 47.86.85.95
+  tls: ''
+  type: vmess
+  uuid: a50e42f2-d578-4cb9-8d38-a9a382ef5534
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.255.202-8118
+  name: 🇭🇰HK-203.218.202.223-0332
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -27,85 +53,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.39.20-5633
+  name: 🇭🇰HK-47.238.78.223-6006
   network: ws
-  port: 36512
-  server: 47.243.39.20
+  port: 17723
+  server: 47.238.78.223
   tls: ''
   type: vmess
-  uuid: cc13ac4b-d38f-4ebb-8a2a-73cf3aff5650
+  uuid: 48acb3b4-574a-45b2-b527-c0f9a3e6dfa0
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.39.20-5644
+  name: 🇭🇰HK-47.243.231.14-5915
   network: ws
-  port: 16664
-  server: 47.243.39.20
+  port: 56304
+  server: 47.243.231.14
   tls: ''
   type: vmess
-  uuid: 396c29a5-a9be-4cc9-ae22-2c935d9551a6
+  uuid: a960961d-3938-4dc4-abfd-3f98a4b5ce0b
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.212.196-5636
-  network: ws
-  port: 34348
-  server: 8.210.212.196
-  tls: ''
-  type: vmess
-  uuid: fb9fc043-2c70-42eb-88c0-66804ca33062
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.251.240-5635
-  network: ws
-  port: 14382
-  server: 47.243.251.240
-  tls: ''
-  type: vmess
-  uuid: d9d94dcc-f461-41d2-8f30-45716b902475
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.127.167-5702
-  network: ws
-  port: 32209
-  server: 8.217.127.167
-  tls: ''
-  type: vmess
-  uuid: 65799f4c-f5ea-40bd-88ac-4b49837f569f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.159.96-5699
-  network: ws
-  port: 47872
-  server: 8.217.159.96
-  tls: ''
-  type: vmess
-  uuid: 23ea0b75-206b-4e3b-b624-e093d5808bf8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.172.177-5653
+  name: 🇭🇰HK-47.243.172.177-5911
   network: ws
   port: 35642
   server: 47.243.172.177
@@ -118,13 +92,39 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.231.14-5643
+  name: 🇭🇰HK-8.210.212.196-5923
   network: ws
-  port: 34404
-  server: 47.243.231.14
+  port: 57172
+  server: 8.210.212.196
   tls: ''
   type: vmess
-  uuid: 80d50481-a070-41fa-b7c1-82b49f053c7a
+  uuid: e7b8c1e9-40f6-4e31-91c7-e36d0cb68406
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-203.218.202.223-1254
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.86.85.95-6013
+  network: ws
+  port: 14044
+  server: 47.86.85.95
+  tls: ''
+  type: vmess
+  uuid: 74475bf0-0267-4a04-b431-54752e31994b
   ws-opts:
     headers:
       Host: ''
@@ -132,16 +132,16 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.243.251.240-5631
-  - 🇭🇰HK-219.79.255.202-8118
-  - 🇭🇰HK-47.243.39.20-5633
-  - 🇭🇰HK-47.243.39.20-5644
-  - 🇭🇰HK-8.210.212.196-5636
-  - 🇭🇰HK-47.243.251.240-5635
-  - 🇭🇰HK-8.217.127.167-5702
-  - 🇭🇰HK-8.217.159.96-5699
-  - 🇭🇰HK-47.243.172.177-5653
-  - 🇭🇰HK-47.243.231.14-5643
+  - 🇭🇰HK-45.136.12.37-0377
+  - 🇭🇰HK-47.83.174.131-6010
+  - 🇭🇰HK-47.86.85.95-6001
+  - 🇭🇰HK-203.218.202.223-0332
+  - 🇭🇰HK-47.238.78.223-6006
+  - 🇭🇰HK-47.243.231.14-5915
+  - 🇭🇰HK-47.243.172.177-5911
+  - 🇭🇰HK-8.210.212.196-5923
+  - 🇭🇰HK-203.218.202.223-1254
+  - 🇭🇰HK-47.86.85.95-6013
   type: select
 rules:
 - MATCH,🔰 节点选择
