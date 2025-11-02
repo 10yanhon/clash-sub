@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-45.136.12.37-0377
+  name: 🇭🇰HK-45.136.12.37-0261
   network: ws
   port: 20521
   server: 45.136.12.37
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.83.174.131-6010
+  name: 🇭🇰HK-47.83.174.131-5805
   network: ws
   port: 19850
   server: 47.83.174.131
@@ -27,104 +27,91 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.86.85.95-6001
+  name: 🇭🇰HK-47.243.172.177-5702
   network: ws
-  port: 8934
-  server: 47.86.85.95
-  tls: ''
-  type: vmess
-  uuid: a50e42f2-d578-4cb9-8d38-a9a382ef5534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-203.218.202.223-0332
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.238.78.223-6006
-  network: ws
-  port: 17723
-  server: 47.238.78.223
-  tls: ''
-  type: vmess
-  uuid: 48acb3b4-574a-45b2-b527-c0f9a3e6dfa0
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.231.14-5915
-  network: ws
-  port: 56304
-  server: 47.243.231.14
-  tls: ''
-  type: vmess
-  uuid: a960961d-3938-4dc4-abfd-3f98a4b5ce0b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.172.177-5911
-  network: ws
-  port: 35642
+  port: 48540
   server: 47.243.172.177
   tls: ''
   type: vmess
-  uuid: 534f6704-e467-40da-9c77-19b5007ba594
+  uuid: 61999571-f1f4-47b1-b303-692ab359892d
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.212.196-5923
+  name: 🇭🇰HK-47.243.231.14-5712
   network: ws
-  port: 57172
+  port: 34404
+  server: 47.243.231.14
+  tls: ''
+  type: vmess
+  uuid: 80d50481-a070-41fa-b7c1-82b49f053c7a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.210.212.196-5713
+  network: ws
+  port: 43149
   server: 8.210.212.196
   tls: ''
   type: vmess
-  uuid: e7b8c1e9-40f6-4e31-91c7-e36d0cb68406
+  uuid: bdb46289-9b42-447a-b5db-1453324dc40b
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-203.218.202.223-1254
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.86.85.95-6013
+  name: 🇭🇰HK-8.217.124.8-5779
   network: ws
-  port: 14044
-  server: 47.86.85.95
+  port: 49971
+  server: 8.217.124.8
   tls: ''
   type: vmess
-  uuid: 74475bf0-0267-4a04-b431-54752e31994b
+  uuid: 3ad0ffb9-eb42-4f6c-9a17-1b261e40d417
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.71.140-5765
+  network: ws
+  port: 57714
+  server: 8.218.71.140
+  tls: ''
+  type: vmess
+  uuid: a2e3f41e-97a6-4dbb-b926-7093ff574f74
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.71.140-5772
+  network: ws
+  port: 37121
+  server: 8.218.71.140
+  tls: ''
+  type: vmess
+  uuid: dec97969-e770-44ec-9429-6b57be19fc63
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.168.211-5698
+  network: ws
+  port: 24680
+  server: 47.243.168.211
+  tls: ''
+  type: vmess
+  uuid: 33cb9737-88a5-4372-9db0-84255e243c1d
   ws-opts:
     headers:
       Host: ''
@@ -132,16 +119,15 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-45.136.12.37-0377
-  - 🇭🇰HK-47.83.174.131-6010
-  - 🇭🇰HK-47.86.85.95-6001
-  - 🇭🇰HK-203.218.202.223-0332
-  - 🇭🇰HK-47.238.78.223-6006
-  - 🇭🇰HK-47.243.231.14-5915
-  - 🇭🇰HK-47.243.172.177-5911
-  - 🇭🇰HK-8.210.212.196-5923
-  - 🇭🇰HK-203.218.202.223-1254
-  - 🇭🇰HK-47.86.85.95-6013
+  - 🇭🇰HK-45.136.12.37-0261
+  - 🇭🇰HK-47.83.174.131-5805
+  - 🇭🇰HK-47.243.172.177-5702
+  - 🇭🇰HK-47.243.231.14-5712
+  - 🇭🇰HK-8.210.212.196-5713
+  - 🇭🇰HK-8.217.124.8-5779
+  - 🇭🇰HK-8.218.71.140-5765
+  - 🇭🇰HK-8.218.71.140-5772
+  - 🇭🇰HK-47.243.168.211-5698
   type: select
 rules:
 - MATCH,🔰 节点选择
