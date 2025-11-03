@@ -1,7 +1,20 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.255.180-1499
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 775baa4a-d75b-11ef-a11a-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-45.136.12.37-0261
+  name: 🇭🇰HK-45.136.12.37-0308
   network: ws
   port: 20521
   server: 45.136.12.37
@@ -14,20 +27,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.255.180-0306
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.79.255.180-0290
+  name: 🇭🇰HK-219.79.255.180-7920
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -40,33 +40,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.77.87.183-0394
-  network: ws
-  port: 80
-  server: 1b6c49f6-sv2sg0-tcmken-19les.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 1b6c49f6-sv2sg0-tcmken-19les.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.77.87.183-5671
-  network: ws
-  port: 80
-  server: 4cdbea97-t53wg0-to8xn3-l4nv.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 4cdbea97-t53wg0-to8xn3-l4nv.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.77.87.183-0361
+  name: 🇭🇰HK-219.77.87.183-0400
   network: ws
   port: 80
   server: 7dfe4b59-svc1s0-tc67m2-1tjc4.hk3.p5pv.com
@@ -79,69 +53,81 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.77.87.183-0367
+  name: 🇭🇰HK-219.77.87.183-5456
   network: ws
   port: 80
-  server: 80aec38c-sv0xs0-sx16xo-1j3zm.hk3.p5pv.com
+  server: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com
   tls: ''
   type: vmess
-  uuid: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d
+  uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: 80aec38c-sv0xs0-sx16xo-1j3zm.hk3.p5pv.com
+      Host: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.77.87.183-1233
+  name: 🇭🇰HK-219.77.87.183-5421
   network: ws
   port: 80
-  server: d5dc60aa-t0kxs0-t1nwsn-1la2q.hk3.p5pv.com
+  server: 5e392f9d-sv0xs0-svewl8-xu74.hk3.p5pv.com
   tls: ''
   type: vmess
-  uuid: 431026c8-7397-11ed-a8bf-f23c91cfbbc9
+  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: 5e392f9d-sv0xs0-svewl8-xu74.hk3.p5pv.com
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.77.87.183-1494
+  name: 🇭🇰HK-219.77.87.183-5416
   network: ws
   port: 80
-  server: 0e7f1016-sva740-te0v28-1mh67.hk3.p5pv.com
+  server: 8b31a356-sv2sg0-tb224g-1h0r9.hk3.p5pv.com
   tls: ''
   type: vmess
-  uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+  uuid: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: 8b31a356-sv2sg0-tb224g-1h0r9.hk3.p5pv.com
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.77.87.183-0390
+  name: 🇭🇰HK-8.210.52.211-5625
   network: ws
-  port: 80
-  server: 10cd2f16-sv2sg0-t7hu58-1q1la.hk3.p5pv.com
+  port: 20522
+  server: 8.210.52.211
   tls: ''
   type: vmess
-  uuid: 25b46954-9a33-11ee-8b86-f23c91cfbbc9
+  uuid: 37827036-1fc5-41ea-9fc5-111af1db49dc
   ws-opts:
     headers:
-      Host: 10cd2f16-sv2sg0-t7hu58-1q1la.hk3.p5pv.com
-    path: /
+      Host: ''
+    path: /telegram_@sswia
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.172.177-5623
+  network: ws
+  port: 35642
+  server: 47.243.172.177
+  tls: ''
+  type: vmess
+  uuid: 534f6704-e467-40da-9c77-19b5007ba594
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-45.136.12.37-0261
-  - 🇭🇰HK-219.79.255.180-0306
-  - 🇭🇰HK-219.79.255.180-0290
-  - 🇭🇰HK-219.77.87.183-0394
-  - 🇭🇰HK-219.77.87.183-5671
-  - 🇭🇰HK-219.77.87.183-0361
-  - 🇭🇰HK-219.77.87.183-0367
-  - 🇭🇰HK-219.77.87.183-1233
-  - 🇭🇰HK-219.77.87.183-1494
-  - 🇭🇰HK-219.77.87.183-0390
+  - 🇭🇰HK-219.79.255.180-1499
+  - 🇭🇰HK-45.136.12.37-0308
+  - 🇭🇰HK-219.79.255.180-7920
+  - 🇭🇰HK-219.77.87.183-0400
+  - 🇭🇰HK-219.77.87.183-5456
+  - 🇭🇰HK-219.77.87.183-5421
+  - 🇭🇰HK-219.77.87.183-5416
+  - 🇭🇰HK-8.210.52.211-5625
+  - 🇭🇰HK-47.243.172.177-5623
   type: select
 rules:
 - MATCH,🔰 节点选择
