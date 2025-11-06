@@ -1,133 +1,133 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.252.30-5555
+  name: 🇭🇰HK-47.83.174.131-5655
   network: ws
-  port: 23540
-  server: 47.239.252.30
+  port: 19850
+  server: 47.83.174.131
   tls: ''
   type: vmess
-  uuid: 2d5ad251-8bc3-41c4-8880-d57ef7f36759
+  uuid: cdc5c72c-9a50-4a28-ae46-89b7d398e753
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-45.136.12.37-0291
+  name: 🇭🇰HK-8.210.122.139-5581
   network: ws
-  port: 20521
-  server: 45.136.12.37
+  port: 39194
+  server: 8.210.122.139
   tls: ''
   type: vmess
-  uuid: 090d0bd9-f9c4-4c3b-8aae-ffa678765935
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.39.20-5573
-  network: ws
-  port: 36512
-  server: 47.243.39.20
-  tls: ''
-  type: vmess
-  uuid: cc13ac4b-d38f-4ebb-8a2a-73cf3aff5650
+  uuid: b34a4bd6-0d5d-421b-b6ff-5ab6a6c3bb82
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.71.140-5640
+  name: 🇭🇰HK-8.218.113.19-7776
   network: ws
-  port: 37121
-  server: 8.218.71.140
+  port: 54100
+  server: 8.218.113.19
   tls: ''
   type: vmess
-  uuid: dec97969-e770-44ec-9429-6b57be19fc63
+  uuid: 9b401fe8-7a80-4c9d-8126-e29407a6032c
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.158.92-5637
+  name: 🇭🇰HK-47.243.251.240-5579
   network: ws
-  port: 25506
-  server: 8.217.158.92
-  tls: ''
-  type: vmess
-  uuid: a3846e50-9935-4b49-bb7c-ce258f3253b2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.209.82-5636
-  network: ws
-  port: 55764
-  server: 8.217.209.82
-  tls: ''
-  type: vmess
-  uuid: 6c8454bc-100e-443b-a267-c5f2b8e097c7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.251.240-5595
-  network: ws
-  port: 14382
+  port: 8842
   server: 47.243.251.240
   tls: ''
   type: vmess
-  uuid: d9d94dcc-f461-41d2-8f30-45716b902475
+  uuid: aed654a3-97bb-4ba6-a6c3-faea46befc72
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.158.92-5620
+  name: 🇭🇰HK-8.217.209.82-5623
   network: ws
-  port: 49761
-  server: 8.217.158.92
+  port: 3600
+  server: 8.217.209.82
   tls: ''
   type: vmess
-  uuid: b224875e-98a6-4477-a1ee-533887b6701d
+  uuid: d31a1f2f-b552-44fc-893a-6cf55fa2d4e3
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.92.110-5466
+  name: 🇭🇰HK-47.243.39.20-5578
   network: ws
-  port: 20522
-  server: 8.217.92.110
+  port: 16664
+  server: 47.243.39.20
   tls: ''
   type: vmess
-  uuid: 31e1f90f-0218-4097-91f9-a42df9b3334a
+  uuid: 396c29a5-a9be-4cc9-ae22-2c935d9551a6
   ws-opts:
     headers:
       Host: ''
-    path: /telegram_@sswia
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.251.240-5577
+  network: ws
+  port: 24225
+  server: 47.243.251.240
+  tls: ''
+  type: vmess
+  uuid: 55da342f-45ff-437b-bec6-5520299cb0dd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.83.174.131-5647
+  network: ws
+  port: 29493
+  server: 47.83.174.131
+  tls: ''
+  type: vmess
+  uuid: 12c24fed-1079-41d6-ab51-4e8ab3cc1267
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.26.234-5607
+  network: ws
+  port: 55566
+  server: 8.218.26.234
+  tls: ''
+  type: vmess
+  uuid: 520a5072-76ec-4c37-8e25-02cf61b04889
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.239.252.30-5555
-  - 🇭🇰HK-45.136.12.37-0291
-  - 🇭🇰HK-47.243.39.20-5573
-  - 🇭🇰HK-8.218.71.140-5640
-  - 🇭🇰HK-8.217.158.92-5637
-  - 🇭🇰HK-8.217.209.82-5636
-  - 🇭🇰HK-47.243.251.240-5595
-  - 🇭🇰HK-8.217.158.92-5620
-  - 🇭🇰HK-8.217.92.110-5466
+  - 🇭🇰HK-47.83.174.131-5655
+  - 🇭🇰HK-8.210.122.139-5581
+  - 🇭🇰HK-8.218.113.19-7776
+  - 🇭🇰HK-47.243.251.240-5579
+  - 🇭🇰HK-8.217.209.82-5623
+  - 🇭🇰HK-47.243.39.20-5578
+  - 🇭🇰HK-47.243.251.240-5577
+  - 🇭🇰HK-47.83.174.131-5647
+  - 🇭🇰HK-8.218.26.234-5607
   type: select
 rules:
 - MATCH,🔰 节点选择
