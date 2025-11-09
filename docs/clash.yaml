@@ -1,98 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.140.27-5662
-  network: ws
-  port: 32876
-  server: 8.218.140.27
-  tls: ''
-  type: vmess
-  uuid: d54c887a-7d47-4dc8-995d-df7687ef0494
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.83.174.131-5692
-  network: ws
-  port: 29493
-  server: 47.83.174.131
-  tls: ''
-  type: vmess
-  uuid: 12c24fed-1079-41d6-ab51-4e8ab3cc1267
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.26.234-5663
-  network: ws
-  port: 15233
-  server: 8.218.26.234
-  tls: ''
-  type: vmess
-  uuid: 8a638047-8de4-4034-9b24-d8bf9fb18fa4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.209.82-5676
-  network: ws
-  port: 55764
-  server: 8.217.209.82
-  tls: ''
-  type: vmess
-  uuid: 6c8454bc-100e-443b-a267-c5f2b8e097c7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.238.78.223-5705
-  network: ws
-  port: 48299
-  server: 47.238.78.223
-  tls: ''
-  type: vmess
-  uuid: 3938d563-100e-4c67-8f3e-777dee04324f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.140.27-5664
-  network: ws
-  port: 39174
-  server: 8.218.140.27
-  tls: ''
-  type: vmess
-  uuid: 5854b877-2b30-457a-b730-837aa5976279
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.39.173-5639
-  network: ws
-  port: 20522
-  server: 47.243.39.173
-  tls: ''
-  type: vmess
-  uuid: 8993ea91-d437-4899-a6d9-1dcc0aa17820
-  ws-opts:
-    headers:
-      Host: ''
-    path: /telegram_@sswia
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-45.136.12.37-0355
+  name: 🇭🇰HK-45.136.12.37-5370
   network: ws
   port: 20521
   server: 45.136.12.37
@@ -103,17 +12,122 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.113.19-5614
+  network: ws
+  port: 6192
+  server: 8.218.113.19
+  tls: ''
+  type: vmess
+  uuid: 406d5be6-101c-46f7-9e10-be222a9f5a1b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.140.27-5622
+  network: ws
+  port: 13589
+  server: 8.218.140.27
+  tls: ''
+  type: vmess
+  uuid: 9297b311-b73a-4332-9016-bb25cbe475ee
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.21.237-5619
+  network: ws
+  port: 26998
+  server: 8.217.21.237
+  tls: ''
+  type: vmess
+  uuid: 248b7151-e940-4a68-b734-e206b0fa1d9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.172.177-5532
+  network: ws
+  port: 17527
+  server: 47.243.172.177
+  tls: ''
+  type: vmess
+  uuid: 499ee2c5-30a7-4939-8b3c-781b07486d4c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.231.14-5545
+  network: ws
+  port: 56304
+  server: 47.243.231.14
+  tls: ''
+  type: vmess
+  uuid: a960961d-3938-4dc4-abfd-3f98a4b5ce0b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.210.122.139-5538
+  network: ws
+  port: 30464
+  server: 8.210.122.139
+  tls: ''
+  type: vmess
+  uuid: d25946c5-a32d-4873-ae55-15decaf17b7f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.127.167-5606
+  network: ws
+  port: 57858
+  server: 8.217.127.167
+  tls: ''
+  type: vmess
+  uuid: d1226e33-e569-4f9b-a25d-a53da9e7deb6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.252.30-5666
+  network: ws
+  port: 24792
+  server: 47.239.252.30
+  tls: ''
+  type: vmess
+  uuid: cbbdf09b-498a-4e91-9508-71a79d7fa517
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.218.140.27-5662
-  - 🇭🇰HK-47.83.174.131-5692
-  - 🇭🇰HK-8.218.26.234-5663
-  - 🇭🇰HK-8.217.209.82-5676
-  - 🇭🇰HK-47.238.78.223-5705
-  - 🇭🇰HK-8.218.140.27-5664
-  - 🇭🇰HK-47.243.39.173-5639
-  - 🇭🇰HK-45.136.12.37-0355
+  - 🇭🇰HK-45.136.12.37-5370
+  - 🇭🇰HK-8.218.113.19-5614
+  - 🇭🇰HK-8.218.140.27-5622
+  - 🇭🇰HK-8.217.21.237-5619
+  - 🇭🇰HK-47.243.172.177-5532
+  - 🇭🇰HK-47.243.231.14-5545
+  - 🇭🇰HK-8.210.122.139-5538
+  - 🇭🇰HK-8.217.127.167-5606
+  - 🇭🇰HK-47.239.252.30-5666
   type: select
 rules:
 - MATCH,🔰 节点选择
