@@ -1,20 +1,72 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.83.174.131-5647
+  name: 🇭🇰HK-8.217.209.82-5720
   network: ws
-  port: 19850
-  server: 47.83.174.131
+  port: 6874
+  server: 8.217.209.82
   tls: ''
   type: vmess
-  uuid: cdc5c72c-9a50-4a28-ae46-89b7d398e753
+  uuid: 1f8a9781-3088-4499-8909-283826d05457
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.39.173-5534
+  name: 🇭🇰HK-47.83.174.131-5756
+  network: ws
+  port: 29493
+  server: 47.83.174.131
+  tls: ''
+  type: vmess
+  uuid: 12c24fed-1079-41d6-ab51-4e8ab3cc1267
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.175.64-5727
+  network: ws
+  port: 9754
+  server: 8.218.175.64
+  tls: ''
+  type: vmess
+  uuid: 5b9575c3-c404-4c93-98f8-63581e88ffdf
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.152.97-5622
+  network: ws
+  port: 15815
+  server: 8.218.152.97
+  tls: ''
+  type: vmess
+  uuid: ece5c3d7-9c77-407a-9f89-993159f76ea5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.21.237-5621
+  network: ws
+  port: 26998
+  server: 8.217.21.237
+  tls: ''
+  type: vmess
+  uuid: 248b7151-e940-4a68-b734-e206b0fa1d9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.39.173-5668
   network: ws
   port: 20522
   server: 47.243.39.173
@@ -27,104 +79,52 @@ proxies:
     path: /telegram_@sswia
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.102.115-5650
+  name: 🇭🇰HK-8.217.127.167-5730
   network: ws
-  port: 56675
-  server: 47.239.102.115
+  port: 57858
+  server: 8.217.127.167
   tls: ''
   type: vmess
-  uuid: 36303fd3-e1e3-4159-81cb-92a7580db3b8
+  uuid: d1226e33-e569-4f9b-a25d-a53da9e7deb6
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.209.82-5596
+  name: 🇭🇰HK-8.218.71.140-5725
   network: ws
-  port: 3600
-  server: 8.217.209.82
+  port: 63704
+  server: 8.218.71.140
   tls: ''
   type: vmess
-  uuid: d31a1f2f-b552-44fc-893a-6cf55fa2d4e3
+  uuid: 097c2696-113a-4b7c-9ca2-f37f4d86dbc4
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.158.92-5620
+  name: 🇭🇰HK-8.217.92.110-5538
   network: ws
-  port: 49761
-  server: 8.217.158.92
+  port: 20522
+  server: 8.217.92.110
   tls: ''
   type: vmess
-  uuid: b224875e-98a6-4477-a1ee-533887b6701d
+  uuid: 31e1f90f-0218-4097-91f9-a42df9b3334a
   ws-opts:
     headers:
       Host: ''
-    path: /arki?ed=2048
+    path: /telegram_@sswia
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.102.115-5655
+  name: 🇭🇰HK-47.243.39.20-5670
   network: ws
-  port: 5361
-  server: 47.239.102.115
-  tls: ''
-  type: vmess
-  uuid: a053682e-9373-4fe7-8277-1de3f8d1eacd
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.168.211-5523
-  network: ws
-  port: 24680
-  server: 47.243.168.211
-  tls: ''
-  type: vmess
-  uuid: 33cb9737-88a5-4372-9db0-84255e243c1d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.39.20-5533
-  network: ws
-  port: 36512
+  port: 16664
   server: 47.243.39.20
   tls: ''
   type: vmess
-  uuid: cc13ac4b-d38f-4ebb-8a2a-73cf3aff5650
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.122.139-5535
-  network: ws
-  port: 30464
-  server: 8.210.122.139
-  tls: ''
-  type: vmess
-  uuid: d25946c5-a32d-4873-ae55-15decaf17b7f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.168.211-5543
-  network: ws
-  port: 50059
-  server: 47.243.168.211
-  tls: ''
-  type: vmess
-  uuid: 017a9e5a-0fe4-41fb-925a-fc240dae809c
+  uuid: 396c29a5-a9be-4cc9-ae22-2c935d9551a6
   ws-opts:
     headers:
       Host: ''
@@ -132,16 +132,16 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.83.174.131-5647
-  - 🇭🇰HK-47.243.39.173-5534
-  - 🇭🇰HK-47.239.102.115-5650
-  - 🇭🇰HK-8.217.209.82-5596
-  - 🇭🇰HK-8.217.158.92-5620
-  - 🇭🇰HK-47.239.102.115-5655
-  - 🇭🇰HK-47.243.168.211-5523
-  - 🇭🇰HK-47.243.39.20-5533
-  - 🇭🇰HK-8.210.122.139-5535
-  - 🇭🇰HK-47.243.168.211-5543
+  - 🇭🇰HK-8.217.209.82-5720
+  - 🇭🇰HK-47.83.174.131-5756
+  - 🇭🇰HK-8.218.175.64-5727
+  - 🇭🇰HK-8.218.152.97-5622
+  - 🇭🇰HK-8.217.21.237-5621
+  - 🇭🇰HK-47.243.39.173-5668
+  - 🇭🇰HK-8.217.127.167-5730
+  - 🇭🇰HK-8.218.71.140-5725
+  - 🇭🇰HK-8.217.92.110-5538
+  - 🇭🇰HK-47.243.39.20-5670
   type: select
 rules:
 - MATCH,🔰 节点选择
