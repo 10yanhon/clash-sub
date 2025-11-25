@@ -1,69 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.237.125-5488
+  name: 🇭🇰HK-8.217.176.108-5656
   network: ws
-  port: 443
-  server: n1761296893.lie5d.cyou
-  tls: tls
-  type: vmess
-  uuid: 40f088bf-ed4b-4630-860f-45ed12c75ff7
-  ws-opts:
-    headers:
-      Host: n1761296893.lie5d.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.176.108-5651
-  network: ws
-  port: 4728
+  port: 3721
   server: 8.217.176.108
   tls: ''
   type: vmess
-  uuid: 467a5630-3c54-413b-8cc6-deac067bc18c
+  uuid: 7836c516-70be-4cde-a4bd-7e225989241a
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.134.183-0316
+  name: 🇭🇰HK-8.218.17.136-0294
   network: ws
   port: 3721
-  server: 8.210.134.183
+  server: 8.218.17.136
   tls: ''
   type: vmess
-  uuid: e72f5c6b-220f-40b3-a115-2d81473458cf
+  uuid: 33755eb3-5c12-4ca7-b86e-6f1aa6e7ce27
   ws-opts:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.21.237-5655
-  network: ws
-  port: 35638
-  server: 8.217.21.237
-  tls: ''
-  type: vmess
-  uuid: 132c1dc3-9ac5-4a54-9945-7b2aae2eacaa
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.21.237-5653
-  network: ws
-  port: 26998
-  server: 8.217.21.237
-  tls: ''
-  type: vmess
-  uuid: 248b7151-e940-4a68-b734-e206b0fa1d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK-47.239.252.30-5667
@@ -77,29 +38,12 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.238.247.69-5668
-  network: ws
-  port: 56783
-  server: 47.238.247.69
-  tls: ''
-  type: vmess
-  uuid: c4b8ba90-b113-461e-8989-a3079eaa394b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.210.237.125-5488
-  - 🇭🇰HK-8.217.176.108-5651
-  - 🇭🇰HK-8.210.134.183-0316
-  - 🇭🇰HK-8.217.21.237-5655
-  - 🇭🇰HK-8.217.21.237-5653
+  - 🇭🇰HK-8.217.176.108-5656
+  - 🇭🇰HK-8.218.17.136-0294
   - 🇭🇰HK-47.239.252.30-5667
-  - 🇭🇰HK-47.238.247.69-5668
   type: select
 rules:
 - MATCH,🔰 节点选择
