@@ -1,6 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-8.210.134.183-5602
+  network: ws
+  port: 3721
+  server: 8.210.134.183
+  tls: ''
+  type: vmess
+  uuid: e72f5c6b-220f-40b3-a115-2d81473458cf
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.17.136-5630
+  network: ws
+  port: 4728
+  server: 8.218.17.136
+  tls: ''
+  type: vmess
+  uuid: a0e050ca-6d37-452f-bf5c-3e4e475ef36b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-47.238.71.166-0374
   network: ws
   port: 3721
@@ -14,50 +40,38 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.92.110-5455
+  name: 🇭🇰HK-47.243.70.151-1462
   network: ws
-  port: 20522
-  server: 8.217.92.110
-  tls: ''
+  port: 443
+  server: n1761296886.lie5d.cyou
+  tls: tls
   type: vmess
-  uuid: 31e1f90f-0218-4097-91f9-a42df9b3334a
+  uuid: 697ece59-37c9-4a61-b986-705cad56057b
   ws-opts:
     headers:
-      Host: ''
-    path: /telegram_@sswia
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.17.136-0263
-  network: ws
-  port: 3721
-  server: 8.218.17.136
-  tls: ''
-  type: vmess
-  uuid: 33755eb3-5c12-4ca7-b86e-6f1aa6e7ce27
-  ws-opts:
-    headers:
-      Host: ''
+      Host: n1761296886.lie5d.cyou
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-8.217.21.237-5632
+  name: 🇭🇰HK-58.152.148.213-5394
   network: ws
-  port: 26998
-  server: 8.217.21.237
+  port: 80
+  server: 24671c5a-sv4n40-swjbgr-1kcpe.hk3.p5pv.com
   tls: ''
   type: vmess
-  uuid: 248b7151-e940-4a68-b734-e206b0fa1d9a
+  uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: ''
-    path: /arki?ed=2048
+      Host: 24671c5a-sv4n40-swjbgr-1kcpe.hk3.p5pv.com
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
+  - 🇭🇰HK-8.210.134.183-5602
+  - 🇭🇰HK-8.218.17.136-5630
   - 🇭🇰HK-47.238.71.166-0374
-  - 🇭🇰HK-8.217.92.110-5455
-  - 🇭🇰HK-8.218.17.136-0263
-  - 🇭🇰HK-8.217.21.237-5632
+  - 🇭🇰HK-47.243.70.151-1462
+  - 🇭🇰HK-58.152.148.213-5394
   type: select
 rules:
 - MATCH,🔰 节点选择
