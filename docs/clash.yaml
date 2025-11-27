@@ -1,39 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.237.125-5447
+  name: 🇭🇰HK-8.218.17.136-0251
   network: ws
-  port: 443
-  server: n1761296893.lie5d.cyou
-  tls: tls
-  type: vmess
-  uuid: 40f088bf-ed4b-4630-860f-45ed12c75ff7
-  ws-opts:
-    headers:
-      Host: n1761296893.lie5d.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.70.151-0257
-  network: ws
-  port: 443
-  server: n1761296886.lie5d.cyou
-  tls: tls
-  type: vmess
-  uuid: 697ece59-37c9-4a61-b986-705cad56057b
-  ws-opts:
-    headers:
-      Host: n1761296886.lie5d.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.134.183-0233
-  network: ws
-  port: 3721
-  server: 8.210.134.183
+  port: 4728
+  server: 8.218.17.136
   tls: ''
   type: vmess
-  uuid: e72f5c6b-220f-40b3-a115-2d81473458cf
+  uuid: a0e050ca-6d37-452f-bf5c-3e4e475ef36b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.17.136-0306
+  network: ws
+  port: 3721
+  server: 8.218.17.136
+  tls: ''
+  type: vmess
+  uuid: 33755eb3-5c12-4ca7-b86e-6f1aa6e7ce27
   ws-opts:
     headers:
       Host: ''
@@ -53,39 +40,52 @@ proxies:
     path: /aa
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.17.136-0251
+  name: 🇭🇰HK-47.238.71.166-0255
   network: ws
-  port: 4728
-  server: 8.218.17.136
+  port: 3721
+  server: 47.238.71.166
   tls: ''
   type: vmess
-  uuid: a0e050ca-6d37-452f-bf5c-3e4e475ef36b
+  uuid: 0b3da6e0-2a41-49e4-8bee-cfa705d448fc
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.26.144-0304
+  name: 🇭🇰HK-8.210.134.183-0233
   network: ws
-  port: 443
-  server: n1744453319.lie5d.cyou
-  tls: tls
+  port: 3721
+  server: 8.210.134.183
+  tls: ''
   type: vmess
-  uuid: 6928af97-a23e-408c-956e-5cd2207f3557
+  uuid: e72f5c6b-220f-40b3-a115-2d81473458cf
   ws-opts:
     headers:
-      Host: n1744453319.lie5d.cyou
+      Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.92.110-5445
+  network: ws
+  port: 20522
+  server: 8.217.92.110
+  tls: ''
+  type: vmess
+  uuid: 31e1f90f-0218-4097-91f9-a42df9b3334a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /telegram_@sswia
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.210.237.125-5447
-  - 🇭🇰HK-47.243.70.151-0257
-  - 🇭🇰HK-8.210.134.183-0233
-  - 🇭🇰HK-154.21.201.83-1451
   - 🇭🇰HK-8.218.17.136-0251
-  - 🇭🇰HK-47.242.26.144-0304
+  - 🇭🇰HK-8.218.17.136-0306
+  - 🇭🇰HK-154.21.201.83-1451
+  - 🇭🇰HK-47.238.71.166-0255
+  - 🇭🇰HK-8.210.134.183-0233
+  - 🇭🇰HK-8.217.92.110-5445
   type: select
 rules:
 - MATCH,🔰 节点选择
