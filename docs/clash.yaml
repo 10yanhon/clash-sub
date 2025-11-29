@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.176.108-6226
-  network: ws
-  port: 3721
-  server: 8.217.176.108
-  tls: ''
-  type: vmess
-  uuid: 7836c516-70be-4cde-a4bd-7e225989241a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.134.183-6199
+  name: 🇭🇰HK-8.210.134.183-0277
   network: ws
   port: 3721
   server: 8.210.134.183
@@ -27,26 +14,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.199.111-6229
+  name: 🇭🇰HK-8.218.17.136-0270
   network: ws
-  port: 8080
-  server: 8.218.199.111
+  port: 4728
+  server: 8.218.17.136
   tls: ''
   type: vmess
-  uuid: f55db42d-ee52-4a47-880b-6f7b123ab222
+  uuid: a0e050ca-6d37-452f-bf5c-3e4e475ef36b
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.176.108-6230
+  name: 🇭🇰HK-8.218.17.136-0268
   network: ws
-  port: 4728
-  server: 8.217.176.108
+  port: 3721
+  server: 8.218.17.136
   tls: ''
   type: vmess
-  uuid: 467a5630-3c54-413b-8cc6-deac067bc18c
+  uuid: 33755eb3-5c12-4ca7-b86e-6f1aa6e7ce27
   ws-opts:
     headers:
       Host: ''
@@ -54,10 +41,9 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.217.176.108-6226
-  - 🇭🇰HK-8.210.134.183-6199
-  - 🇭🇰HK-8.218.199.111-6229
-  - 🇭🇰HK-8.217.176.108-6230
+  - 🇭🇰HK-8.210.134.183-0277
+  - 🇭🇰HK-8.218.17.136-0270
+  - 🇭🇰HK-8.218.17.136-0268
   type: select
 rules:
 - MATCH,🔰 节点选择
