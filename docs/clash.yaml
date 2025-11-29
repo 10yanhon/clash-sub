@@ -1,72 +1,20 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-203.218.79.113-5928
-  network: ws
-  port: 80
-  server: bcad1ab1-sv0xs0-t61ki5-1smhu.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: bcad1ab1-sv0xs0-t61ki5-1smhu.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-203.218.79.113-5927
-  network: ws
-  port: 80
-  server: 88788ee2-sv4n40-t61ki5-1smhu.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 88788ee2-sv4n40-t61ki5-1smhu.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-203.218.79.113-5926
-  network: ws
-  port: 80
-  server: 72e6fdd1-sv2sg0-t61ki5-1smhu.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 72e6fdd1-sv2sg0-t61ki5-1smhu.hk3.p5pv.com
-    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.17.136-0267
+  name: 🇭🇰HK-8.217.176.108-6226
   network: ws
   port: 3721
-  server: 8.218.17.136
+  server: 8.217.176.108
   tls: ''
   type: vmess
-  uuid: 33755eb3-5c12-4ca7-b86e-6f1aa6e7ce27
+  uuid: 7836c516-70be-4cde-a4bd-7e225989241a
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.17.136-0265
-  network: ws
-  port: 4728
-  server: 8.218.17.136
-  tls: ''
-  type: vmess
-  uuid: a0e050ca-6d37-452f-bf5c-3e4e475ef36b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.134.183-0287
+  name: 🇭🇰HK-8.210.134.183-6199
   network: ws
   port: 3721
   server: 8.210.134.183
@@ -77,15 +25,39 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.199.111-6229
+  network: ws
+  port: 8080
+  server: 8.218.199.111
+  tls: ''
+  type: vmess
+  uuid: f55db42d-ee52-4a47-880b-6f7b123ab222
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.176.108-6230
+  network: ws
+  port: 4728
+  server: 8.217.176.108
+  tls: ''
+  type: vmess
+  uuid: 467a5630-3c54-413b-8cc6-deac067bc18c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-203.218.79.113-5928
-  - 🇭🇰HK-203.218.79.113-5927
-  - 🇭🇰HK-203.218.79.113-5926
-  - 🇭🇰HK-8.218.17.136-0267
-  - 🇭🇰HK-8.218.17.136-0265
-  - 🇭🇰HK-8.210.134.183-0287
+  - 🇭🇰HK-8.217.176.108-6226
+  - 🇭🇰HK-8.210.134.183-6199
+  - 🇭🇰HK-8.218.199.111-6229
+  - 🇭🇰HK-8.217.176.108-6230
   type: select
 rules:
 - MATCH,🔰 节点选择
