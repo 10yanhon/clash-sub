@@ -14,78 +14,36 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.43.89-2093
+  name: 🇭🇰HK-219.79.43.89-1979
   network: ws
   port: 80
-  server: fdda39f3-sv4n40-tasors-1tdqt.hk3.p5pv.com
+  server: 457a1492-sv4n40-t6kzbp-1h5u7.hk3.p5pv.com
   tls: ''
   type: vmess
-  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  uuid: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.213.133-0564
+  name: 🇭🇰HK-219.79.43.89-0418
   network: ws
   port: 80
-  server: hkt.gotochinatown.net
+  server: 7dfe4b59-svc1s0-tc67m2-1tjc4.hk3.p5pv.com
   tls: ''
   type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.79.43.89-6026
-  network: ws
-  port: 80
-  server: 4b718efc-sv2sg0-t65a3e-tqgz.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 4b718efc-sv2sg0-t65a3e-tqgz.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.79.43.89-6110
-  network: ws
-  port: 80
-  server: c7f55f8c-sv2sg0-t15jkc-eyem.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: c7f55f8c-sv2sg0-t15jkc-eyem.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.79.43.89-6094
-  network: ws
-  port: 80
-  server: 8e42f8d1-sv0xs0-szxh9w-46gc.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 225d1cca-d744-11ef-b790-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 8e42f8d1-sv0xs0-szxh9w-46gc.hk3.p5pv.com
+      Host: 7dfe4b59-svc1s0-tc67m2-1tjc4.hk3.p5pv.com
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - 🇭🇰HK-45.136.12.37-0327
-  - 🇭🇰HK-219.79.43.89-2093
-  - 🇭🇰HK-219.79.213.133-0564
-  - 🇭🇰HK-219.79.43.89-6026
-  - 🇭🇰HK-219.79.43.89-6110
-  - 🇭🇰HK-219.79.43.89-6094
+  - 🇭🇰HK-219.79.43.89-1979
+  - 🇭🇰HK-219.79.43.89-0418
   type: select
 rules:
 - MATCH,🔰 节点选择
