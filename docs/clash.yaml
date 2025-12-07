@@ -1,46 +1,85 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-218.250.232.115-3324
+  name: 🇭🇰HK-47.243.213.247-7447
   network: ws
-  port: 80
-  server: 0ca4305f-t6r5s0-thv9l4-1jbj0.hkt.gotochinatown.net
+  port: 53860
+  server: 47.243.213.247
   tls: ''
   type: vmess
-  uuid: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  uuid: 63f2dca7-434c-444c-a9a1-130b377218c5
   ws-opts:
     headers:
-      Host: 0ca4305f-t6r5s0-thv9l4-1jbj0.hkt.gotochinatown.net
-    path: /
-- alterId: 2
+      Host: ''
+    path: /arki
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.79.49.61-3227
+  name: 🇭🇰HK-47.243.51.237-7445
   network: ws
-  port: 80
-  server: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
+  port: 23559
+  server: 47.243.51.237
   tls: ''
   type: vmess
-  uuid: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  uuid: e3f4cb0e-3b3d-41ad-b24a-9cbc2927b451
   ws-opts:
     headers:
-      Host: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
-    path: /
-- alterId: 2
+      Host: ''
+    path: /arki
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.79.49.61-3221
+  name: 🇭🇰HK-47.242.140.52-7449
   network: ws
-  port: 80
-  server: 0afadb4a-sv4n40-tc61cs-1tja8.hk3.p5pv.com
+  port: 48219
+  server: 47.242.140.52
   tls: ''
   type: vmess
-  uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
+  uuid: 006893c6-79b1-4c44-94ff-b8bbea065f1f
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.213.247-7444
+  network: ws
+  port: 5689
+  server: 47.243.213.247
+  tls: ''
+  type: vmess
+  uuid: a99d08eb-81c5-4944-ba16-4461bb2ec808
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.242.140.52-7446
+  network: ws
+  port: 34815
+  server: 47.242.140.52
+  tls: ''
+  type: vmess
+  uuid: 1a46b66c-6ba9-4e9c-aa0b-0ebac2b69e32
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.242.140.52-7443
+  network: ws
+  port: 9756
+  server: 47.242.140.52
+  tls: ''
+  type: vmess
+  uuid: c77628dd-51e7-4996-a408-aaab8baaf79e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.49.61-3429
+  name: 🇭🇰HK-219.79.49.61-3365
   network: ws
   port: 80
   server: 06e6b075-sum4g0-sx1cxx-1tfjk.hk3.p5pv.com
@@ -53,52 +92,26 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.49.61-3229
+  name: 🇭🇰HK-219.79.49.61-3305
   network: ws
   port: 80
-  server: 418446e2-sv2sg0-t2nkut-jx5r.hk3.p5pv.com
+  server: 20fb6c47-t6r5s0-tifnix-1ro8s.hk3.p5pv.com
   tls: ''
   type: vmess
-  uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: 20fb6c47-t6r5s0-tifnix-1ro8s.hk3.p5pv.com
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.49.61-3237
+  name: 🇭🇰HK-219.79.49.61-3245
   network: ws
   port: 80
-  server: 04165a49-sv2sg0-t5cryd-4w8.hk3.p5pv.com
+  server: a58b4c29-sv4n40-syfj90-1r9dt.hk3.p5pv.com
   tls: ''
   type: vmess
-  uuid: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.79.49.61-3222
-  network: ws
-  port: 80
-  server: 033d62df-sv4n40-tcsjnd-1tff5.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: dfb6b402-f422-11ef-80e5-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 033d62df-sv4n40-tcsjnd-1tff5.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.79.49.61-3330
-  network: ws
-  port: 80
-  server: 08bf2fff-t6uv40-tfjz9x-1t5n1.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+  uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -106,14 +119,15 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-218.250.232.115-3324
-  - 🇭🇰HK-219.79.49.61-3227
-  - 🇭🇰HK-219.79.49.61-3221
-  - 🇭🇰HK-219.79.49.61-3429
-  - 🇭🇰HK-219.79.49.61-3229
-  - 🇭🇰HK-219.79.49.61-3237
-  - 🇭🇰HK-219.79.49.61-3222
-  - 🇭🇰HK-219.79.49.61-3330
+  - 🇭🇰HK-47.243.213.247-7447
+  - 🇭🇰HK-47.243.51.237-7445
+  - 🇭🇰HK-47.242.140.52-7449
+  - 🇭🇰HK-47.243.213.247-7444
+  - 🇭🇰HK-47.242.140.52-7446
+  - 🇭🇰HK-47.242.140.52-7443
+  - 🇭🇰HK-219.79.49.61-3365
+  - 🇭🇰HK-219.79.49.61-3305
+  - 🇭🇰HK-219.79.49.61-3245
   type: select
 rules:
 - MATCH,🔰 节点选择
