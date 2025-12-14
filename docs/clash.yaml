@@ -1,59 +1,20 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-112.119.184.127-6784
+  name: 🇭🇰HK-116.49.109.161-1719
   network: ws
   port: 80
-  server: b8ffcda3-sv2sg0-sv37gm-81nv.hk3.p5pv.com
+  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
   ws-opts:
     headers:
-      Host: b8ffcda3-sv2sg0-sv37gm-81nv.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-112.119.184.127-6782
-  network: ws
-  port: 80
-  server: 5bf9e2f8-t15b40-t6eg6k-1pckg.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 5bf9e2f8-t15b40-t6eg6k-1pckg.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-112.119.184.127-6783
-  network: ws
-  port: 80
-  server: d6732c26-sv8cg0-sxxbmq-1szgv.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: d6732c26-sv8cg0-sxxbmq-1szgv.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-112.119.184.127-6785
-  network: ws
-  port: 80
-  server: f42f46ca-sv0xs0-sv37gm-81nv.hk3.p5pv.com
-  tls: ''
-  type: vmess
-  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  ws-opts:
-    headers:
-      Host: f42f46ca-sv0xs0-sv37gm-81nv.hk3.p5pv.com
+      Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.213.247-6990
+  name: 🇭🇰HK-47.243.213.247-5055
   network: ws
   port: 53860
   server: 47.243.213.247
@@ -66,20 +27,7 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-45.136.12.37-6768
-  network: ws
-  port: 20521
-  server: 45.136.12.37
-  tls: ''
-  type: vmess
-  uuid: 090d0bd9-f9c4-4c3b-8aae-ffa678765935
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.213.247-6995
+  name: 🇭🇰HK-47.243.213.247-5056
   network: ws
   port: 5689
   server: 47.243.213.247
@@ -90,16 +38,54 @@ proxies:
     headers:
       Host: ''
     path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.51.237-5057
+  network: ws
+  port: 52801
+  server: 47.243.51.237
+  tls: ''
+  type: vmess
+  uuid: ef93f413-9039-4ddb-aefb-2490287df55a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.51.237-5054
+  network: ws
+  port: 23559
+  server: 47.243.51.237
+  tls: ''
+  type: vmess
+  uuid: e3f4cb0e-3b3d-41ad-b24a-9cbc2927b451
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.51.237-5061
+  network: ws
+  port: 27165
+  server: 47.243.51.237
+  tls: ''
+  type: vmess
+  uuid: be5f65df-e104-4e2a-9391-d10454da7df1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-112.119.184.127-6784
-  - 🇭🇰HK-112.119.184.127-6782
-  - 🇭🇰HK-112.119.184.127-6783
-  - 🇭🇰HK-112.119.184.127-6785
-  - 🇭🇰HK-47.243.213.247-6990
-  - 🇭🇰HK-45.136.12.37-6768
-  - 🇭🇰HK-47.243.213.247-6995
+  - 🇭🇰HK-116.49.109.161-1719
+  - 🇭🇰HK-47.243.213.247-5055
+  - 🇭🇰HK-47.243.213.247-5056
+  - 🇭🇰HK-47.243.51.237-5057
+  - 🇭🇰HK-47.243.51.237-5054
+  - 🇭🇰HK-47.243.51.237-5061
   type: select
 rules:
 - MATCH,🔰 节点选择
