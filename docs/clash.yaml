@@ -1,46 +1,46 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-45.136.12.37-0405
+  name: 🇭🇰HK-219.77.80.3-1034
   network: ws
-  port: 20521
-  server: 45.136.12.37
+  port: 80
+  server: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: 090d0bd9-f9c4-4c3b-8aae-ffa678765935
+  uuid: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: ''
+      Host: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.77.80.3-1036
+  network: ws
+  port: 80
+  server: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.77.80.3-4823
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.140.52-5037
-  network: ws
-  port: 48219
-  server: 47.242.140.52
-  tls: ''
-  type: vmess
-  uuid: 006893c6-79b1-4c44-94ff-b8bbea065f1f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.242.140.52-5030
-  network: ws
-  port: 9756
-  server: 47.242.140.52
-  tls: ''
-  type: vmess
-  uuid: c77628dd-51e7-4996-a408-aaab8baaf79e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.242.140.52-5028
+  name: 🇭🇰HK-47.242.140.52-5061
   network: ws
   port: 34815
   server: 47.242.140.52
@@ -53,39 +53,39 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.76.13.180-0113
+  name: 🇭🇰HK-47.242.140.52-5059
   network: ws
-  port: 443
-  server: 219.76.13.180
-  tls: tls
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  ws-opts:
-    headers:
-      Host: clash6.ssr-free.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-182.16.1.194-0111
-  network: ws
-  port: 80
-  server: 182.16.1.194
+  port: 48219
+  server: 47.242.140.52
   tls: ''
   type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  uuid: 006893c6-79b1-4c44-94ff-b8bbea065f1f
   ws-opts:
     headers:
-      Host: 182.16.1.194
-    path: /opt/video/images
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.242.140.52-5057
+  network: ws
+  port: 9756
+  server: 47.242.140.52
+  tls: ''
+  type: vmess
+  uuid: c77628dd-51e7-4996-a408-aaab8baaf79e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-45.136.12.37-0405
-  - 🇭🇰HK-47.242.140.52-5037
-  - 🇭🇰HK-47.242.140.52-5030
-  - 🇭🇰HK-47.242.140.52-5028
-  - 🇭🇰HK-219.76.13.180-0113
-  - 🇭🇰HK-182.16.1.194-0111
+  - 🇭🇰HK-219.77.80.3-1034
+  - 🇭🇰HK-219.77.80.3-1036
+  - 🇭🇰HK-219.77.80.3-4823
+  - 🇭🇰HK-47.242.140.52-5061
+  - 🇭🇰HK-47.242.140.52-5059
+  - 🇭🇰HK-47.242.140.52-5057
   type: select
 rules:
 - MATCH,🔰 节点选择
