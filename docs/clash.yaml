@@ -1,19 +1,6 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.77.80.3-0313
-  network: ws
-  port: 80
-  server: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
   name: 🇭🇰HK-219.77.80.3-0309
   network: ws
   port: 80
@@ -25,32 +12,6 @@ proxies:
     headers:
       Host: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.51.237-5089
-  network: ws
-  port: 23559
-  server: 47.243.51.237
-  tls: ''
-  type: vmess
-  uuid: e3f4cb0e-3b3d-41ad-b24a-9cbc2927b451
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.51.237-5088
-  network: ws
-  port: 27165
-  server: 47.243.51.237
-  tls: ''
-  type: vmess
-  uuid: be5f65df-e104-4e2a-9391-d10454da7df1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
 - alterId: 2
   cipher: auto
   name: 🇭🇰HK-219.77.80.3-4836
@@ -66,68 +27,51 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.140.52-5090
+  name: 🇭🇰HK-47.239.91.25-0597
   network: ws
-  port: 9756
-  server: 47.242.140.52
+  port: 80
+  server: ee.oppo.quest
   tls: ''
   type: vmess
-  uuid: c77628dd-51e7-4996-a408-aaab8baaf79e
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
   ws-opts:
     headers:
-      Host: ''
-    path: /arki
+      Host: ee.oppo.quest
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.77.80.3-0313
+  network: ws
+  port: 80
+  server: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.51.237-5087
+  name: 🇭🇰HK-47.239.91.25-0122
   network: ws
-  port: 52801
-  server: 47.243.51.237
+  port: 80
+  server: cfhk.oppo.quest
   tls: ''
   type: vmess
-  uuid: ef93f413-9039-4ddb-aefb-2490287df55a
+  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
   ws-opts:
     headers:
-      Host: ''
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.213.247-5086
-  network: ws
-  port: 5689
-  server: 47.243.213.247
-  tls: ''
-  type: vmess
-  uuid: a99d08eb-81c5-4944-ba16-4461bb2ec808
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.213.247-5085
-  network: ws
-  port: 53860
-  server: 47.243.213.247
-  tls: ''
-  type: vmess
-  uuid: 63f2dca7-434c-444c-a9a1-130b377218c5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
+      Host: la.awsbest.com
+    path: /shares
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.77.80.3-0313
   - 🇭🇰HK-219.77.80.3-0309
-  - 🇭🇰HK-47.243.51.237-5089
-  - 🇭🇰HK-47.243.51.237-5088
   - 🇭🇰HK-219.77.80.3-4836
-  - 🇭🇰HK-47.242.140.52-5090
-  - 🇭🇰HK-47.243.51.237-5087
-  - 🇭🇰HK-47.243.213.247-5086
-  - 🇭🇰HK-47.243.213.247-5085
+  - 🇭🇰HK-47.239.91.25-0597
+  - 🇭🇰HK-219.77.80.3-0313
+  - 🇭🇰HK-47.239.91.25-0122
   type: select
 rules:
 - MATCH,🔰 节点选择
