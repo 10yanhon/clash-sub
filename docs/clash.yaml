@@ -1,46 +1,33 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-47.243.213.247-5040
+  name: 🇭🇰HK-203.218.79.116-5134
   network: ws
-  port: 5689
-  server: 47.243.213.247
+  port: 80
+  server: d9ba656d-t66sg0-t7mzec-yjq0.hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: a99d08eb-81c5-4944-ba16-4461bb2ec808
+  uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: ''
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.213.247-5036
-  network: ws
-  port: 53860
-  server: 47.243.213.247
-  tls: ''
-  type: vmess
-  uuid: 63f2dca7-434c-444c-a9a1-130b377218c5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.199.111-5095
-  network: ws
-  port: 8080
-  server: 8.218.199.111
-  tls: ''
-  type: vmess
-  uuid: f55db42d-ee52-4a47-880b-6f7b123ab222
-  ws-opts:
-    headers:
-      Host: ''
+      Host: d9ba656d-t66sg0-t7mzec-yjq0.hkt.gotochinatown.net
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.209.100-0356
+  name: 🇭🇰HK-203.218.79.116-4926
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-203.218.79.116-0331
   network: ws
   port: 80
   server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
@@ -53,39 +40,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.140.52-0360
+  name: 🇭🇰HK-8.218.3.12-0131
   network: ws
-  port: 9756
-  server: 47.242.140.52
+  port: 2082
+  server: 8.218.3.12
   tls: ''
   type: vmess
-  uuid: c77628dd-51e7-4996-a408-aaab8baaf79e
+  uuid: 36fa45db-2d4a-4295-a1fe-223836989878
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.242.140.52-0362
-  network: ws
-  port: 48219
-  server: 47.242.140.52
-  tls: ''
-  type: vmess
-  uuid: 006893c6-79b1-4c44-94ff-b8bbea065f1f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+      Host: PineApple.CLOUDFLARE.QUEST
+    path: /pineapple
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.243.213.247-5040
-  - 🇭🇰HK-47.243.213.247-5036
-  - 🇭🇰HK-8.218.199.111-5095
-  - 🇭🇰HK-219.79.209.100-0356
-  - 🇭🇰HK-47.242.140.52-0360
-  - 🇭🇰HK-47.242.140.52-0362
+  - 🇭🇰HK-203.218.79.116-5134
+  - 🇭🇰HK-203.218.79.116-4926
+  - 🇭🇰HK-203.218.79.116-0331
+  - 🇭🇰HK-8.218.3.12-0131
   type: select
 rules:
 - MATCH,🔰 节点选择
