@@ -1,33 +1,20 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.79.209.100-5089
-  network: ws
-  port: 80
-  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
-    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.199.111-5145
+  name: 🇭🇰HK-47.243.213.247-5040
   network: ws
-  port: 8080
-  server: 8.218.199.111
+  port: 5689
+  server: 47.243.213.247
   tls: ''
   type: vmess
-  uuid: f55db42d-ee52-4a47-880b-6f7b123ab222
+  uuid: a99d08eb-81c5-4944-ba16-4461bb2ec808
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /arki
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.213.247-5086
+  name: 🇭🇰HK-47.243.213.247-5036
   network: ws
   port: 53860
   server: 47.243.213.247
@@ -40,24 +27,65 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.213.247-5090
+  name: 🇭🇰HK-8.218.199.111-5095
   network: ws
-  port: 5689
-  server: 47.243.213.247
+  port: 8080
+  server: 8.218.199.111
   tls: ''
   type: vmess
-  uuid: a99d08eb-81c5-4944-ba16-4461bb2ec808
+  uuid: f55db42d-ee52-4a47-880b-6f7b123ab222
   ws-opts:
     headers:
       Host: ''
-    path: /arki
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.209.100-0356
+  network: ws
+  port: 80
+  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.242.140.52-0360
+  network: ws
+  port: 9756
+  server: 47.242.140.52
+  tls: ''
+  type: vmess
+  uuid: c77628dd-51e7-4996-a408-aaab8baaf79e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.242.140.52-0362
+  network: ws
+  port: 48219
+  server: 47.242.140.52
+  tls: ''
+  type: vmess
+  uuid: 006893c6-79b1-4c44-94ff-b8bbea065f1f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.79.209.100-5089
-  - 🇭🇰HK-8.218.199.111-5145
-  - 🇭🇰HK-47.243.213.247-5086
-  - 🇭🇰HK-47.243.213.247-5090
+  - 🇭🇰HK-47.243.213.247-5040
+  - 🇭🇰HK-47.243.213.247-5036
+  - 🇭🇰HK-8.218.199.111-5095
+  - 🇭🇰HK-219.79.209.100-0356
+  - 🇭🇰HK-47.242.140.52-0360
+  - 🇭🇰HK-47.242.140.52-0362
   type: select
 rules:
 - MATCH,🔰 节点选择
