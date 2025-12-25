@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.49.180-4886
+  name: 🇭🇰HK-219.79.49.180-4843
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -14,20 +14,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.166.22-0648
+  name: 🇭🇰HK-154.38.116.8-0911
   network: ws
   port: 443
-  server: n1761214911.74qxv.top
+  server: 154.38.116.8
   tls: tls
   type: vmess
-  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
   ws-opts:
     headers:
-      Host: n1761214911.74qxv.top
-    path: /
+      Host: hk.nbee.pp.ua
+    path: /aa
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.199.111-5152
+  name: 🇭🇰HK-8.218.199.111-0450
   network: ws
   port: 8080
   server: 8.218.199.111
@@ -40,20 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-154.38.116.8-0414
-  network: ws
-  port: 443
-  server: 154.38.116.8
-  tls: tls
-  type: vmess
-  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
-  ws-opts:
-    headers:
-      Host: hk.nbee.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.91.25-0095
+  name: 🇭🇰HK-47.239.91.25-0122
   network: ws
   port: 80
   server: cfhk.oppo.quest
@@ -64,14 +51,27 @@ proxies:
     headers:
       Host: la.awsbest.com
     path: /shares
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.145.115-0598
+  network: ws
+  port: 443
+  server: 20.239.145.115
+  tls: ''
+  type: vmess
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.79.49.180-4886
-  - 🇭🇰HK-8.210.166.22-0648
-  - 🇭🇰HK-8.218.199.111-5152
-  - 🇭🇰HK-154.38.116.8-0414
-  - 🇭🇰HK-47.239.91.25-0095
+  - 🇭🇰HK-219.79.49.180-4843
+  - 🇭🇰HK-154.38.116.8-0911
+  - 🇭🇰HK-8.218.199.111-0450
+  - 🇭🇰HK-47.239.91.25-0122
+  - 🇭🇰HK-20.239.145.115-0598
   type: select
 rules:
 - MATCH,🔰 节点选择
