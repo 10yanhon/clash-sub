@@ -1,7 +1,33 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.49.180-4886
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.199.111-5102
+  name: 🇭🇰HK-8.210.166.22-0648
+  network: ws
+  port: 443
+  server: n1761214911.74qxv.top
+  tls: tls
+  type: vmess
+  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
+  ws-opts:
+    headers:
+      Host: n1761214911.74qxv.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.199.111-5152
   network: ws
   port: 8080
   server: 8.218.199.111
@@ -12,31 +38,18 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.79.49.180-0344
+  name: 🇭🇰HK-154.38.116.8-0414
   network: ws
-  port: 80
-  server: d9ba656d-t66sg0-t7mzec-yjq0.hkt.gotochinatown.net
-  tls: ''
+  port: 443
+  server: 154.38.116.8
+  tls: tls
   type: vmess
-  uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
   ws-opts:
     headers:
-      Host: d9ba656d-t66sg0-t7mzec-yjq0.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.79.49.180-0354
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
+      Host: hk.nbee.pp.ua
     path: /
 - alterId: 0
   cipher: auto
@@ -51,41 +64,14 @@ proxies:
     headers:
       Host: la.awsbest.com
     path: /shares
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0597
-  network: ws
-  port: 443
-  server: 20.239.145.115
-  tls: ''
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.91.25-0617
-  network: ws
-  port: 80
-  server: ee.oppo.quest
-  tls: ''
-  type: vmess
-  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
-  ws-opts:
-    headers:
-      Host: ee.oppo.quest
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.218.199.111-5102
-  - 🇭🇰HK-219.79.49.180-0344
-  - 🇭🇰HK-219.79.49.180-0354
+  - 🇭🇰HK-219.79.49.180-4886
+  - 🇭🇰HK-8.210.166.22-0648
+  - 🇭🇰HK-8.218.199.111-5152
+  - 🇭🇰HK-154.38.116.8-0414
   - 🇭🇰HK-47.239.91.25-0095
-  - 🇭🇰HK-20.239.145.115-0597
-  - 🇭🇰HK-47.239.91.25-0617
   type: select
 rules:
 - MATCH,🔰 节点选择
