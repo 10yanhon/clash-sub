@@ -1,7 +1,33 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5197
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5195
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.49.180-4843
+  name: 🇭🇰HK-219.79.49.180-0337
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -14,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-154.38.116.8-0911
+  name: 🇭🇰HK-154.38.116.8-0388
   network: ws
   port: 443
   server: 154.38.116.8
@@ -24,23 +50,10 @@ proxies:
   ws-opts:
     headers:
       Host: hk.nbee.pp.ua
-    path: /aa
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.199.111-0450
-  network: ws
-  port: 8080
-  server: 8.218.199.111
-  tls: ''
-  type: vmess
-  uuid: f55db42d-ee52-4a47-880b-6f7b123ab222
-  ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.91.25-0122
+  name: 🇭🇰HK-47.239.91.25-0126
   network: ws
   port: 80
   server: cfhk.oppo.quest
@@ -51,27 +64,14 @@ proxies:
     headers:
       Host: la.awsbest.com
     path: /shares
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0598
-  network: ws
-  port: 443
-  server: 20.239.145.115
-  tls: ''
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.79.49.180-4843
-  - 🇭🇰HK-154.38.116.8-0911
-  - 🇭🇰HK-8.218.199.111-0450
-  - 🇭🇰HK-47.239.91.25-0122
-  - 🇭🇰HK-20.239.145.115-0598
+  - 🇭🇰HK-47.244.120.197-5197
+  - 🇭🇰HK-47.244.120.197-5195
+  - 🇭🇰HK-219.79.49.180-0337
+  - 🇭🇰HK-154.38.116.8-0388
+  - 🇭🇰HK-47.239.91.25-0126
   type: select
 rules:
 - MATCH,🔰 节点选择
