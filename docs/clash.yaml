@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.166.22-4955
+  name: 🇭🇰HK-8.210.166.22-4965
   network: ws
   port: 443
   server: n1761214911.74qxv.top
@@ -14,33 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.199.111-0359
-  network: ws
-  port: 8080
-  server: 8.218.199.111
-  tls: ''
-  type: vmess
-  uuid: f55db42d-ee52-4a47-880b-6f7b123ab222
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5068
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5067
+  name: 🇭🇰HK-47.244.120.197-5097
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -51,9 +25,22 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5096
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.49.180-0387
+  name: 🇭🇰HK-219.79.49.180-0341
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -64,14 +51,27 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.91.25-0132
+  network: ws
+  port: 80
+  server: cfhk.oppo.quest
+  tls: ''
+  type: vmess
+  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
+  ws-opts:
+    headers:
+      Host: la.awsbest.com
+    path: /shares
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.210.166.22-4955
-  - 🇭🇰HK-8.218.199.111-0359
-  - 🇭🇰HK-47.244.120.197-5068
-  - 🇭🇰HK-47.244.120.197-5067
-  - 🇭🇰HK-219.79.49.180-0387
+  - 🇭🇰HK-8.210.166.22-4965
+  - 🇭🇰HK-47.244.120.197-5097
+  - 🇭🇰HK-47.244.120.197-5096
+  - 🇭🇰HK-219.79.49.180-0341
+  - 🇭🇰HK-47.239.91.25-0132
   type: select
 rules:
 - MATCH,🔰 节点选择
