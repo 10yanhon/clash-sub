@@ -1,20 +1,20 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-8.210.166.22-4965
+  name: 🇭🇰HK-219.79.49.180-4824
   network: ws
-  port: 443
-  server: n1761214911.74qxv.top
-  tls: tls
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
   type: vmess
-  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
+  uuid: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
   ws-opts:
     headers:
-      Host: n1761214911.74qxv.top
+      Host: hkt.gotochinatown.net
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5097
+  name: 🇭🇰HK-47.244.120.197-5010
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -27,7 +27,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5096
+  name: 🇭🇰HK-47.244.120.197-5009
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -38,18 +38,18 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.79.49.180-0341
+  name: 🇭🇰HK-8.210.166.22-0398
   network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
+  port: 443
+  server: n1761214911.74qxv.top
+  tls: tls
   type: vmess
-  uuid: d70a9508-5477-11ef-bf61-f23c913c8d2b
+  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
   ws-opts:
     headers:
-      Host: hkt.gotochinatown.net
+      Host: n1761214911.74qxv.top
     path: /
 - alterId: 0
   cipher: auto
@@ -67,10 +67,10 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.210.166.22-4965
-  - 🇭🇰HK-47.244.120.197-5097
-  - 🇭🇰HK-47.244.120.197-5096
-  - 🇭🇰HK-219.79.49.180-0341
+  - 🇭🇰HK-219.79.49.180-4824
+  - 🇭🇰HK-47.244.120.197-5010
+  - 🇭🇰HK-47.244.120.197-5009
+  - 🇭🇰HK-8.210.166.22-0398
   - 🇭🇰HK-47.239.91.25-0132
   type: select
 rules:
