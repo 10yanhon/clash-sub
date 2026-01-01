@@ -1,33 +1,20 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5044
+  name: 🇭🇰HK-219.79.49.180-4942
   network: ws
-  port: 36703
-  server: 47.244.120.197
+  port: 80
+  server: hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
   ws-opts:
     headers:
-      Host: ''
-    path: /arki?ed=2048
+      Host: hkt.gotochinatown.net
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5043
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.166.22-0411
+  name: 🇭🇰HK-8.210.166.22-4997
   network: ws
   port: 443
   server: n1761214911.74qxv.top
@@ -38,40 +25,109 @@ proxies:
     headers:
       Host: n1761214911.74qxv.top
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-91.199.84.239-0133
+  name: 🇭🇰HK-219.79.49.180-5104
   network: ws
-  port: 454
-  server: 91.199.84.239
+  port: 80
+  server: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
+  uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: ''
+      Host: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.76.13.180-0111
+  name: 🇭🇰HK-219.79.49.180-5103
   network: ws
-  port: 443
-  server: 219.76.13.180
-  tls: tls
+  port: 80
+  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+  tls: ''
   type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
   ws-opts:
     headers:
-      Host: clash6.ssr-free.xyz
-    path: /dongtaiwang.com
+      Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.49.180-5102
+  network: ws
+  port: 80
+  server: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.49.180-5107
+  network: ws
+  port: 80
+  server: 4333a411-t7bj40-tkka1f-1k25p.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 4333a411-t7bj40-tkka1f-1k25p.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.49.180-5106
+  network: ws
+  port: 80
+  server: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+  ws-opts:
+    headers:
+      Host: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.49.180-5108
+  network: ws
+  port: 80
+  server: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.49.180-5105
+  network: ws
+  port: 80
+  server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-5044
-  - 🇭🇰HK-47.244.120.197-5043
-  - 🇭🇰HK-8.210.166.22-0411
-  - 🇭🇰HK-91.199.84.239-0133
-  - 🇭🇰HK-219.76.13.180-0111
+  - 🇭🇰HK-219.79.49.180-4942
+  - 🇭🇰HK-8.210.166.22-4997
+  - 🇭🇰HK-219.79.49.180-5104
+  - 🇭🇰HK-219.79.49.180-5103
+  - 🇭🇰HK-219.79.49.180-5102
+  - 🇭🇰HK-219.79.49.180-5107
+  - 🇭🇰HK-219.79.49.180-5106
+  - 🇭🇰HK-219.79.49.180-5108
+  - 🇭🇰HK-219.79.49.180-5105
   type: select
 rules:
 - MATCH,🔰 节点选择
