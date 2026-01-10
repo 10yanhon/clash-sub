@@ -1,20 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.166.22-0872
-  network: ws
-  port: 443
-  server: n1761214911.74qxv.top
-  tls: tls
-  type: vmess
-  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
-  ws-opts:
-    headers:
-      Host: n1761214911.74qxv.top
-    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-220.246.172.128-4644
+  name: 🇭🇰HK-219.79.48.106-0406
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -25,35 +12,35 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-220.246.172.128-0878
+  name: 🇭🇰HK-8.218.45.250-1856
   network: ws
-  port: 80
-  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
-  tls: ''
+  port: 443
+  server: n1761214905.wpg27.xyz
+  tls: tls
   type: vmess
-  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
   ws-opts:
     headers:
-      Host: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+      Host: n1761214905.wpg27.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4842
+  name: 🇭🇰HK-8.210.166.22-0347
   network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
+  port: 443
+  server: n1761214911.74qxv.top
+  tls: tls
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
   ws-opts:
     headers:
-      Host: ''
-    path: /arki?ed=2048
+      Host: n1761214911.74qxv.top
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4845
+  name: 🇭🇰HK-47.244.120.197-5019
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -64,14 +51,27 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5020
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.210.166.22-0872
-  - 🇭🇰HK-220.246.172.128-4644
-  - 🇭🇰HK-220.246.172.128-0878
-  - 🇭🇰HK-47.244.120.197-4842
-  - 🇭🇰HK-47.244.120.197-4845
+  - 🇭🇰HK-219.79.48.106-0406
+  - 🇭🇰HK-8.218.45.250-1856
+  - 🇭🇰HK-8.210.166.22-0347
+  - 🇭🇰HK-47.244.120.197-5019
+  - 🇭🇰HK-47.244.120.197-5020
   type: select
 rules:
 - MATCH,🔰 节点选择
