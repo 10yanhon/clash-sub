@@ -1,20 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.205.58-0349
+  name: 🇭🇰HK-58.152.75.156-5108
   network: ws
-  port: 443
-  server: n1761214912.wpg27.xyz
-  tls: tls
+  port: 52512
+  server: aflzzul.meiquankongjian.com
+  tls: ''
   type: vmess
-  uuid: 4f86a909-836d-4643-b650-d812144a1fa9
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
   ws-opts:
     headers:
-      Host: n1761214912.wpg27.xyz
-    path: /
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5009
+  name: 🇭🇰HK-47.244.120.197-5201
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -27,7 +27,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5013
+  name: 🇭🇰HK-47.244.120.197-5202
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -40,38 +40,52 @@ proxies:
     path: /arki?ed=2048
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-220.246.190.4-0365
+  name: 🇭🇰HK-112.119.185.3-0360
   network: ws
   port: 80
-  server: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
+  server: 44a1b64f-t77ts0-tb592v-4lg6.hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
+  uuid: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   ws-opts:
     headers:
-      Host: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
+      Host: 44a1b64f-t77ts0-tb592v-4lg6.hkt.gotochinatown.net
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-220.246.190.4-0375
+  name: 🇭🇰HK-112.119.185.3-0361
   network: ws
   port: 80
-  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+  server: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
   ws-opts:
     headers:
-      Host: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+      Host: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-112.119.185.3-0362
+  network: ws
+  port: 80
+  server: ec130d51-t6pb40-t72h4q-1spnr.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: ec130d51-t6pb40-t72h4q-1spnr.hkt.gotochinatown.net
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.243.205.58-0349
-  - 🇭🇰HK-47.244.120.197-5009
-  - 🇭🇰HK-47.244.120.197-5013
-  - 🇭🇰HK-220.246.190.4-0365
-  - 🇭🇰HK-220.246.190.4-0375
+  - 🇭🇰HK-58.152.75.156-5108
+  - 🇭🇰HK-47.244.120.197-5201
+  - 🇭🇰HK-47.244.120.197-5202
+  - 🇭🇰HK-112.119.185.3-0360
+  - 🇭🇰HK-112.119.185.3-0361
+  - 🇭🇰HK-112.119.185.3-0362
   type: select
 rules:
 - MATCH,🔰 节点选择
