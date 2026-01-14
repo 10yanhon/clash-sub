@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5189
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5190
+  name: 🇭🇰HK-47.244.120.197-5062
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -27,7 +14,33 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0568
+  name: 🇭🇰HK-47.244.120.197-5061
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-58.152.75.156-0325
+  network: ws
+  port: 52512
+  server: aflzzul.meiquankongjian.com
+  tls: ''
+  type: vmess
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.145.115-0565
   network: ws
   port: 443
   server: 20.239.145.115
@@ -40,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.91.25-0588
+  name: 🇭🇰HK-47.239.91.25-0585
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -51,41 +64,14 @@ proxies:
     headers:
       Host: ee.oppo.quest
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.91.25-0596
-  network: ws
-  port: 80
-  server: cfhk.oppo.quest
-  tls: ''
-  type: vmess
-  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
-  ws-opts:
-    headers:
-      Host: scw.cloudflare.quest
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0600
-  network: ws
-  port: 443
-  server: 165.154.244.100
-  tls: tls
-  type: vmess
-  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-5189
-  - 🇭🇰HK-47.244.120.197-5190
-  - 🇭🇰HK-20.239.145.115-0568
-  - 🇭🇰HK-47.239.91.25-0588
-  - 🇭🇰HK-47.239.91.25-0596
-  - 🇭🇰HK-165.154.244.100-0600
+  - 🇭🇰HK-47.244.120.197-5062
+  - 🇭🇰HK-47.244.120.197-5061
+  - 🇭🇰HK-58.152.75.156-0325
+  - 🇭🇰HK-20.239.145.115-0565
+  - 🇭🇰HK-47.239.91.25-0585
   type: select
 rules:
 - MATCH,🔰 节点选择
