@@ -14,6 +14,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-8.210.166.22-1797
+  network: ws
+  port: 443
+  server: n1761214911.74qxv.top
+  tls: tls
+  type: vmess
+  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
+  ws-opts:
+    headers:
+      Host: n1761214911.74qxv.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-47.244.120.197-4959
   network: ws
   port: 44867
@@ -38,40 +51,13 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.8.135-1814
-  network: ws
-  port: 443
-  server: n1761214910.74qxv.top
-  tls: tls
-  type: vmess
-  uuid: 011c4670-cdde-44fb-b9be-8a1e27af26c9
-  ws-opts:
-    headers:
-      Host: n1761214910.74qxv.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-219.76.13.180-0112
-  network: ws
-  port: 443
-  server: 219.76.13.180
-  tls: tls
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  ws-opts:
-    headers:
-      Host: clash6.ssr-free.xyz
-    path: /dongtaiwang.com
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - 🇭🇰HK-220.246.224.195-4957
+  - 🇭🇰HK-8.210.166.22-1797
   - 🇭🇰HK-47.244.120.197-4959
   - 🇭🇰HK-47.244.120.197-4960
-  - 🇭🇰HK-8.218.8.135-1814
-  - 🇭🇰HK-219.76.13.180-0112
   type: select
 rules:
 - MATCH,🔰 节点选择
