@@ -1,21 +1,35 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.76.13.180-0123
+  name: 🇭🇰HK-119.236.186.72-4846
   network: ws
-  port: 443
-  server: 219.76.13.180
-  tls: tls
+  port: 80
+  server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+  tls: ''
   type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: clash6.ssr-free.xyz
-    path: /dongtaiwang.com
+      Host: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-4927
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.76.13.180-0123
+  - 🇭🇰HK-119.236.186.72-4846
+  - 🇭🇰HK-47.244.120.197-4927
   type: select
 rules:
 - MATCH,🔰 节点选择
