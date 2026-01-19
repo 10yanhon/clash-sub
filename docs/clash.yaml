@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-119.236.186.72-4846
+  name: 🇭🇰HK-119.236.186.72-0333
   network: ws
   port: 80
   server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.166.22-4786
+  name: 🇭🇰HK-8.210.166.22-4749
   network: ws
   port: 443
   server: n1761214911.74qxv.top
@@ -27,37 +27,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4929
+  name: 🇭🇰HK-207.46.147.148-0116
   network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
+  port: 443
+  server: fullaccesstohongkongnet.azurewebsites.net
+  tls: tls
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
   ws-opts:
     headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4927
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
+      Host: fullaccesstohongkongnet.azurewebsites.net
+    path: /ws
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-119.236.186.72-4846
-  - 🇭🇰HK-8.210.166.22-4786
-  - 🇭🇰HK-47.244.120.197-4929
-  - 🇭🇰HK-47.244.120.197-4927
+  - 🇭🇰HK-119.236.186.72-0333
+  - 🇭🇰HK-8.210.166.22-4749
+  - 🇭🇰HK-207.46.147.148-0116
   type: select
 rules:
 - MATCH,🔰 节点选择
