@@ -51,18 +51,18 @@ proxies:
     headers:
       Host: n1672657910.lyqrdde.cn
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-119.236.186.72-0346
+  name: 🇭🇰HK-207.46.147.148-0332
   network: ws
-  port: 80
-  server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
-  tls: ''
+  port: 443
+  server: fullaccesstohongkongnet.azurewebsites.net
+  tls: tls
   type: vmess
-  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
   ws-opts:
     headers:
-      Host: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+      Host: fullaccesstohongkongnet.azurewebsites.net
     path: /
 - alterId: 0
   cipher: auto
@@ -90,6 +90,45 @@ proxies:
     headers:
       Host: ee.oppo.quest
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.91.25-0619
+  network: ws
+  port: 80
+  server: cfhk.oppo.quest
+  tls: ''
+  type: vmess
+  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
+  ws-opts:
+    headers:
+      Host: scw.cloudflare.quest
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-165.154.244.100-0623
+  network: ws
+  port: 443
+  server: 165.154.244.100
+  tls: tls
+  type: vmess
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-104.208.96.44-0646
+  network: ws
+  port: 80
+  server: 104.208.96.44
+  tls: ''
+  type: vmess
+  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn/download
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -97,9 +136,12 @@ proxy-groups:
   - 🇭🇰HK-20.24.72.248-0128
   - 🇭🇰HK-207.46.147.148-0130
   - 🇭🇰HK-156.253.107.236-0133
-  - 🇭🇰HK-119.236.186.72-0346
+  - 🇭🇰HK-207.46.147.148-0332
   - 🇭🇰HK-20.239.145.115-0591
   - 🇭🇰HK-47.239.91.25-0611
+  - 🇭🇰HK-47.239.91.25-0619
+  - 🇭🇰HK-165.154.244.100-0623
+  - 🇭🇰HK-104.208.96.44-0646
   type: select
 rules:
 - MATCH,🔰 节点选择
