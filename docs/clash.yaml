@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-207.46.147.148-0005
+  name: 🇭🇰HK-207.46.147.148-0004
   network: ws
   port: 443
   server: fullaccesstohongkongnet.azurewebsites.net
@@ -27,7 +27,33 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.253.107.236-0250
+  name: 🇭🇰HK-207.46.147.148-0225
+  network: ws
+  port: 443
+  server: fullaccesstohongkongnet.azurewebsites.net
+  tls: tls
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstohongkongnet.azurewebsites.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-219.76.13.180-0226
+  network: ws
+  port: 443
+  server: 219.76.13.180
+  tls: tls
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-opts:
+    headers:
+      Host: clash6.ssr-free.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-156.253.107.236-0409
   network: ws
   port: 443
   server: n1672657910.lyqrdde.cn
@@ -40,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0588
+  name: 🇭🇰HK-20.239.145.115-0563
   network: ws
   port: 443
   server: 20.239.145.115
@@ -53,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.91.25-0608
+  name: 🇭🇰HK-47.239.91.25-0583
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -66,7 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.91.25-0616
+  name: 🇭🇰HK-47.239.91.25-0591
   network: ws
   port: 80
   server: cfhk.oppo.quest
@@ -79,7 +105,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0620
+  name: 🇭🇰HK-165.154.244.100-0595
   network: ws
   port: 443
   server: 165.154.244.100
@@ -90,30 +116,18 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-104.208.96.44-0646
-  network: ws
-  port: 80
-  server: 104.208.96.44
-  tls: ''
-  type: vmess
-  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn/download
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-207.46.147.148-0005
+  - 🇭🇰HK-207.46.147.148-0004
   - 🇭🇰HK-219.76.13.180-0006
-  - 🇭🇰HK-156.253.107.236-0250
-  - 🇭🇰HK-20.239.145.115-0588
-  - 🇭🇰HK-47.239.91.25-0608
-  - 🇭🇰HK-47.239.91.25-0616
-  - 🇭🇰HK-165.154.244.100-0620
-  - 🇭🇰HK-104.208.96.44-0646
+  - 🇭🇰HK-207.46.147.148-0225
+  - 🇭🇰HK-219.76.13.180-0226
+  - 🇭🇰HK-156.253.107.236-0409
+  - 🇭🇰HK-20.239.145.115-0563
+  - 🇭🇰HK-47.239.91.25-0583
+  - 🇭🇰HK-47.239.91.25-0591
+  - 🇭🇰HK-165.154.244.100-0595
   type: select
 rules:
 - MATCH,🔰 节点选择
