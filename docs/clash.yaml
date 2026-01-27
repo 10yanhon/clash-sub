@@ -1,20 +1,46 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-207.46.147.148-0391
+  name: 🏁RELAY-104.21.51.123-0104
   network: ws
-  port: 443
-  server: fullaccesstohongkongnet.azurewebsites.net
-  tls: tls
+  port: 20631
+  server: gz.daxun.cyou
+  tls: ''
   type: vmess
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  uuid: 6d4f1f25-1af7-4b4d-8984-350da7ac8de3
   ws-opts:
     headers:
-      Host: fullaccesstohongkongnet.azurewebsites.net
-    path: /
+      Host: www.baidu.com
+    path: /UK03
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0555
+  name: 🏁RELAY-104.21.51.123-0128
+  network: ws
+  port: 20631
+  server: gz.daxun.cyou
+  tls: ''
+  type: vmess
+  uuid: 6d4f1f25-1af7-4b4d-8984-350da7ac8de3
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /AWSHK02
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.180.47-0129
+  network: ws
+  port: 20631
+  server: gz.daxun.cyou
+  tls: ''
+  type: vmess
+  uuid: 6d4f1f25-1af7-4b4d-8984-350da7ac8de3
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /AWSHK01
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.145.115-0603
   network: ws
   port: 443
   server: 20.239.145.115
@@ -27,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.91.25-0575
+  name: 🇭🇰HK-47.239.91.25-0623
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -40,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.91.25-0583
+  name: 🇭🇰HK-47.239.91.25-0631
   network: ws
   port: 80
   server: cfhk.oppo.quest
@@ -53,7 +79,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0587
+  name: 🇭🇰HK-165.154.244.100-0635
   network: ws
   port: 443
   server: 165.154.244.100
@@ -66,7 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-104.208.96.44-0612
+  name: 🇭🇰HK-104.208.96.44-0657
   network: ws
   port: 80
   server: 104.208.96.44
@@ -80,12 +106,14 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-207.46.147.148-0391
-  - 🇭🇰HK-20.239.145.115-0555
-  - 🇭🇰HK-47.239.91.25-0575
-  - 🇭🇰HK-47.239.91.25-0583
-  - 🇭🇰HK-165.154.244.100-0587
-  - 🇭🇰HK-104.208.96.44-0612
+  - 🏁RELAY-104.21.51.123-0104
+  - 🏁RELAY-104.21.51.123-0128
+  - 🏁RELAY-172.67.180.47-0129
+  - 🇭🇰HK-20.239.145.115-0603
+  - 🇭🇰HK-47.239.91.25-0623
+  - 🇭🇰HK-47.239.91.25-0631
+  - 🇭🇰HK-165.154.244.100-0635
+  - 🇭🇰HK-104.208.96.44-0657
   type: select
 rules:
 - MATCH,🔰 节点选择
