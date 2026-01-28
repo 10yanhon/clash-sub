@@ -1,17 +1,30 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🏁RELAY-162.159.152.100-0007
+  name: 🇭🇰HK-42.98.101.48-4689
   network: ws
-  port: 2082
-  server: 162.159.152.100
+  port: 80
+  server: hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: 80837af3-1ed8-4686-fa8a-6bf9214d5351
+  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
   ws-opts:
     headers:
-      Host: UK.CLOUDFLARE.QUEST
-    path: /aries
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.210.166.22-4743
+  network: ws
+  port: 443
+  server: n1761214911.74qxv.top
+  tls: tls
+  type: vmess
+  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
+  ws-opts:
+    headers:
+      Host: n1761214911.74qxv.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK-20.239.145.115-0577
@@ -80,7 +93,8 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🏁RELAY-162.159.152.100-0007
+  - 🇭🇰HK-42.98.101.48-4689
+  - 🇭🇰HK-8.210.166.22-4743
   - 🇭🇰HK-20.239.145.115-0577
   - 🇭🇰HK-47.239.91.25-0597
   - 🇭🇰HK-47.239.91.25-0605
