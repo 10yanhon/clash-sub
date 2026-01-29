@@ -1,20 +1,7 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-42.98.101.48-4689
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.166.22-4743
+  name: 🇭🇰HK-8.210.166.22-4774
   network: ws
   port: 443
   server: n1761214911.74qxv.top
@@ -24,6 +11,45 @@ proxies:
   ws-opts:
     headers:
       Host: n1761214911.74qxv.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.242.31.79-4834
+  network: ws
+  port: 443
+  server: n1761214904.wpg27.xyz
+  tls: tls
+  type: vmess
+  uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
+  ws-opts:
+    headers:
+      Host: n1761214904.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.244.164-4789
+  network: ws
+  port: 443
+  server: n1761214908.wpg27.xyz
+  tls: tls
+  type: vmess
+  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+  ws-opts:
+    headers:
+      Host: n1761214908.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-162.159.152.100-0238
+  network: ws
+  port: 2082
+  server: 162.159.152.100
+  tls: ''
+  type: vmess
+  uuid: 80837af3-1ed8-4686-fa8a-6bf9214d5351
+  ws-opts:
+    headers:
+      Host: UK.CLOUDFLARE.QUEST
     path: /
 - alterId: 0
   cipher: auto
@@ -77,29 +103,17 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-104.208.96.44-0635
-  network: ws
-  port: 80
-  server: 104.208.96.44
-  tls: ''
-  type: vmess
-  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn/download
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-42.98.101.48-4689
-  - 🇭🇰HK-8.210.166.22-4743
+  - 🇭🇰HK-8.210.166.22-4774
+  - 🇭🇰HK-47.242.31.79-4834
+  - 🇭🇰HK-47.243.244.164-4789
+  - 🏁RELAY-162.159.152.100-0238
   - 🇭🇰HK-20.239.145.115-0577
   - 🇭🇰HK-47.239.91.25-0597
   - 🇭🇰HK-47.239.91.25-0605
   - 🇭🇰HK-165.154.244.100-0609
-  - 🇭🇰HK-104.208.96.44-0635
   type: select
 rules:
 - MATCH,🔰 节点选择
