@@ -1,7 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.166.22-4774
+  name: 🇭🇰HK-47.243.244.164-4809
+  network: ws
+  port: 443
+  server: n1761214908.wpg27.xyz
+  tls: tls
+  type: vmess
+  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+  ws-opts:
+    headers:
+      Host: n1761214908.wpg27.xyz
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.100.169-0326
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.210.166.22-0423
   network: ws
   port: 443
   server: n1761214911.74qxv.top
@@ -14,46 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.31.79-4834
-  network: ws
-  port: 443
-  server: n1761214904.wpg27.xyz
-  tls: tls
-  type: vmess
-  uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
-  ws-opts:
-    headers:
-      Host: n1761214904.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.244.164-4789
-  network: ws
-  port: 443
-  server: n1761214908.wpg27.xyz
-  tls: tls
-  type: vmess
-  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
-  ws-opts:
-    headers:
-      Host: n1761214908.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-162.159.152.100-0238
-  network: ws
-  port: 2082
-  server: 162.159.152.100
-  tls: ''
-  type: vmess
-  uuid: 80837af3-1ed8-4686-fa8a-6bf9214d5351
-  ws-opts:
-    headers:
-      Host: UK.CLOUDFLARE.QUEST
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0577
+  name: 🇭🇰HK-20.239.145.115-0578
   network: ws
   port: 443
   server: 20.239.145.115
@@ -66,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.91.25-0597
+  name: 🇭🇰HK-47.239.91.25-0598
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -77,43 +64,14 @@ proxies:
     headers:
       Host: ee.oppo.quest
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.91.25-0605
-  network: ws
-  port: 80
-  server: cfhk.oppo.quest
-  tls: ''
-  type: vmess
-  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
-  ws-opts:
-    headers:
-      Host: scw.cloudflare.quest
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0609
-  network: ws
-  port: 443
-  server: 165.154.244.100
-  tls: tls
-  type: vmess
-  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.210.166.22-4774
-  - 🇭🇰HK-47.242.31.79-4834
-  - 🇭🇰HK-47.243.244.164-4789
-  - 🏁RELAY-162.159.152.100-0238
-  - 🇭🇰HK-20.239.145.115-0577
-  - 🇭🇰HK-47.239.91.25-0597
-  - 🇭🇰HK-47.239.91.25-0605
-  - 🇭🇰HK-165.154.244.100-0609
+  - 🇭🇰HK-47.243.244.164-4809
+  - 🇭🇰HK-219.79.100.169-0326
+  - 🇭🇰HK-8.210.166.22-0423
+  - 🇭🇰HK-20.239.145.115-0578
+  - 🇭🇰HK-47.239.91.25-0598
   type: select
 rules:
 - MATCH,🔰 节点选择
