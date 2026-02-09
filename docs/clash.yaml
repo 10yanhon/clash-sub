@@ -1,32 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4924
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4925
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
   name: 🇭🇰HK-47.243.135.74-4774
   network: ws
   port: 55185
@@ -40,19 +14,6 @@ proxies:
     path: /Notif_Chat
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.63.35-0353
-  network: ws
-  port: 443
-  server: n1761214919.mv7wh.tech
-  tls: tls
-  type: vmess
-  uuid: c592f040-faff-47dc-a464-9bccf2dd4e7b
-  ws-opts:
-    headers:
-      Host: n1761214919.mv7wh.tech
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇭🇰HK-207.46.147.148-0125
   network: ws
   port: 443
@@ -64,6 +25,32 @@ proxies:
     headers:
       Host: fullaccesstohongkongnet.azurewebsites.net
     path: /ws
+- alterId: 64
+  cipher: auto
+  name: 🇭🇰HK-43.154.208.92-0089
+  network: ws
+  port: 53613
+  server: 43.154.208.92
+  tls: tls
+  type: vmess
+  uuid: 4b89f5bf-5ef2-4047-bc64-6cd9bc7d6829
+  ws-opts:
+    headers:
+      Host: hk10.linkeden.co
+    path: /hk10/getData
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.63.35-0353
+  network: ws
+  port: 443
+  server: n1761214919.mv7wh.tech
+  tls: tls
+  type: vmess
+  uuid: c592f040-faff-47dc-a464-9bccf2dd4e7b
+  ws-opts:
+    headers:
+      Host: n1761214919.mv7wh.tech
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK-47.244.120.197-0376
@@ -103,17 +90,30 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.91.25-0597
+  network: ws
+  port: 80
+  server: ee.oppo.quest
+  tls: ''
+  type: vmess
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  ws-opts:
+    headers:
+      Host: ee.oppo.quest
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-4924
-  - 🇭🇰HK-47.244.120.197-4925
   - 🇭🇰HK-47.243.135.74-4774
-  - 🇭🇰HK-47.243.63.35-0353
   - 🇭🇰HK-207.46.147.148-0125
+  - 🇭🇰HK-43.154.208.92-0089
+  - 🇭🇰HK-47.243.63.35-0353
   - 🇭🇰HK-47.244.120.197-0376
   - 🇭🇰HK-47.244.120.197-0378
   - 🇭🇰HK-20.239.145.115-0577
+  - 🇭🇰HK-47.239.91.25-0597
   type: select
 rules:
 - MATCH,🔰 节点选择
