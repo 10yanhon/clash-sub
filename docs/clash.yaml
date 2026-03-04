@@ -1,29 +1,94 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.79.48.80-0248
+  name: 🇭🇰HK-8.223.63.189-0885
   network: ws
-  port: 80
-  server: 25e62d0e-t9xz40-tc2sod-1tizo.hkt.gotochinatown.net
-  tls: ''
+  port: 443
+  server: 8.223.63.189
+  tls: tls
   type: vmess
-  uuid: bf36227c-0191-11f0-aee1-f23c91cfbbc9
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
   ws-opts:
     headers:
-      Host: 25e62d0e-t9xz40-tc2sod-1tizo.hkt.gotochinatown.net
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.223.63.150-1696
+  network: ws
+  port: 443
+  server: 8.223.63.150
+  tls: tls
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-83.229.121.113-0828
+  network: ws
+  port: 443
+  server: 83.229.121.113
+  tls: tls
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-149.104.30.17-0831
+  network: ws
+  port: 443
+  server: 149.104.30.17
+  tls: tls
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.48.80-4778
+  network: ws
+  port: 80
+  server: 4333a411-t7bj40-tkka1f-1k25p.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 4333a411-t7bj40-tkka1f-1k25p.hkt.gotochinatown.net
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.48.80-4773
+  name: 🇭🇰HK-219.79.48.80-4780
   network: ws
   port: 80
-  server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
+  server: 8605af28-tb0v40-tch27r-1j0a4.hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+  uuid: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
   ws-opts:
     headers:
-      Host: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
+      Host: 8605af28-tb0v40-tch27r-1j0a4.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.79.48.80-4781
+  network: ws
+  port: 80
+  server: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
     path: /
 - alterId: 2
   cipher: auto
@@ -40,29 +105,16 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.79.48.80-4778
+  name: 🇭🇰HK-219.79.48.80-0248
   network: ws
   port: 80
-  server: 4333a411-t7bj40-tkka1f-1k25p.hkt.gotochinatown.net
+  server: 25e62d0e-t9xz40-tc2sod-1tizo.hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+  uuid: bf36227c-0191-11f0-aee1-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: 4333a411-t7bj40-tkka1f-1k25p.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.79.48.80-4775
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
+      Host: 25e62d0e-t9xz40-tc2sod-1tizo.hkt.gotochinatown.net
     path: /
 - alterId: 2
   cipher: auto
@@ -77,43 +129,19 @@ proxies:
     headers:
       Host: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
     path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.79.48.80-4781
-  network: ws
-  port: 80
-  server: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.76.254.70-0251
-  network: ws
-  port: 443
-  server: n1753101277.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
-  ws-opts:
-    headers:
-      Host: n1753101277.4u9ma.icu
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.79.48.80-0248
-  - 🇭🇰HK-219.79.48.80-4773
-  - 🇭🇰HK-219.79.48.80-0217
+  - 🇭🇰HK-8.223.63.189-0885
+  - 🇭🇰HK-8.223.63.150-1696
+  - 🇭🇰HK-83.229.121.113-0828
+  - 🇭🇰HK-149.104.30.17-0831
   - 🇭🇰HK-219.79.48.80-4778
-  - 🇭🇰HK-219.79.48.80-4775
-  - 🇭🇰HK-219.79.48.80-4784
+  - 🇭🇰HK-219.79.48.80-4780
   - 🇭🇰HK-219.79.48.80-4781
-  - 🇭🇰HK-47.76.254.70-0251
+  - 🇭🇰HK-219.79.48.80-0217
+  - 🇭🇰HK-219.79.48.80-0248
+  - 🇭🇰HK-219.79.48.80-4784
   type: select
 rules:
 - MATCH,🔰 节点选择
