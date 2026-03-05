@@ -1,59 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.223.63.189-0896
+  name: 🇭🇰HK-47.238.158.209-0290
   network: ws
   port: 443
-  server: 8.223.63.189
+  server: n1753101272.lie5d.cyou
   tls: tls
   type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
+      Host: n1753101272.lie5d.cyou
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-149.104.30.17-0842
-  network: ws
-  port: 443
-  server: 149.104.30.17
-  tls: tls
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
-  ws-opts:
-    headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-149.104.31.55-0881
-  network: ws
-  port: 443
-  server: 149.104.31.55
-  tls: tls
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
-  ws-opts:
-    headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.57.182.141-0888
-  network: ws
-  port: 443
-  server: 47.57.182.141
-  tls: tls
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
-  ws-opts:
-    headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-83.229.121.113-0839
+  name: 🇭🇰HK-83.229.121.113-0838
   network: ws
   port: 443
   server: 83.229.121.113
@@ -66,7 +27,20 @@ proxies:
     path: /vvip
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.238.151.43-0268
+  name: 🇭🇰HK-8.223.63.150-0798
+  network: ws
+  port: 443
+  server: 8.223.63.150
+  tls: tls
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.238.151.43-0305
   network: ws
   port: 443
   server: n1752248951.lie5d.cyou
@@ -79,27 +53,53 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.138.141-4879
+  name: 🇭🇰HK-43.161.254.121-0880
   network: ws
   port: 443
-  server: n1761296880.lie5d.cyou
+  server: 43.161.254.121
   tls: tls
   type: vmess
-  uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
   ws-opts:
     headers:
-      Host: n1761296880.lie5d.cyou
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.242.31.79-0286
+  network: ws
+  port: 443
+  server: n1761214904.wpg27.xyz
+  tls: tls
+  type: vmess
+  uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
+  ws-opts:
+    headers:
+      Host: n1761214904.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.63.35-0312
+  network: ws
+  port: 443
+  server: n1761214919.mv7wh.tech
+  tls: tls
+  type: vmess
+  uuid: c592f040-faff-47dc-a464-9bccf2dd4e7b
+  ws-opts:
+    headers:
+      Host: n1761214919.mv7wh.tech
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.223.63.189-0896
-  - 🇭🇰HK-149.104.30.17-0842
-  - 🇭🇰HK-149.104.31.55-0881
-  - 🇭🇰HK-47.57.182.141-0888
-  - 🇭🇰HK-83.229.121.113-0839
-  - 🇭🇰HK-47.238.151.43-0268
-  - 🇭🇰HK-47.242.138.141-4879
+  - 🇭🇰HK-47.238.158.209-0290
+  - 🇭🇰HK-83.229.121.113-0838
+  - 🇭🇰HK-8.223.63.150-0798
+  - 🇭🇰HK-47.238.151.43-0305
+  - 🇭🇰HK-43.161.254.121-0880
+  - 🇭🇰HK-47.242.31.79-0286
+  - 🇭🇰HK-47.243.63.35-0312
   type: select
 rules:
 - MATCH,🔰 节点选择
