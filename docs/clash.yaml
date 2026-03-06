@@ -1,7 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.79.212-7046
+  name: 🇭🇰HK-47.238.158.209-4618
+  network: ws
+  port: 443
+  server: n1753101272.lie5d.cyou
+  tls: tls
+  type: vmess
+  uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778
+  ws-opts:
+    headers:
+      Host: n1753101272.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.210.79.212-6730
   network: ws
   port: 55185
   server: 8.210.79.212
@@ -14,20 +27,7 @@ proxies:
     path: /Notif_Chat
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.31.79-0321
-  network: ws
-  port: 443
-  server: n1761214904.wpg27.xyz
-  tls: tls
-  type: vmess
-  uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
-  ws-opts:
-    headers:
-      Host: n1761214904.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.238.151.43-0306
+  name: 🇭🇰HK-47.238.151.43-0184
   network: ws
   port: 443
   server: n1752248951.lie5d.cyou
@@ -40,20 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.205.58-4703
-  network: ws
-  port: 443
-  server: n1761214912.wpg27.xyz
-  tls: tls
-  type: vmess
-  uuid: 4f86a909-836d-4643-b650-d812144a1fa9
-  ws-opts:
-    headers:
-      Host: n1761214912.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.238.82.7-0322
+  name: 🇭🇰HK-47.238.82.7-0196
   network: ws
   port: 443
   server: n1753356378.4u9ma.icu
@@ -66,40 +53,25 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.244.164-4704
+  name: 🇭🇰HK-8.218.45.250-4390
   network: ws
   port: 443
-  server: n1761214908.wpg27.xyz
+  server: n1761214905.wpg27.xyz
   tls: tls
   type: vmess
-  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+  uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
   ws-opts:
     headers:
-      Host: n1761214908.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.76.254.70-0317
-  network: ws
-  port: 443
-  server: n1753101277.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
-  ws-opts:
-    headers:
-      Host: n1753101277.4u9ma.icu
+      Host: n1761214905.wpg27.xyz
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.210.79.212-7046
-  - 🇭🇰HK-47.242.31.79-0321
-  - 🇭🇰HK-47.238.151.43-0306
-  - 🇭🇰HK-47.243.205.58-4703
-  - 🇭🇰HK-47.238.82.7-0322
-  - 🇭🇰HK-47.243.244.164-4704
-  - 🇭🇰HK-47.76.254.70-0317
+  - 🇭🇰HK-47.238.158.209-4618
+  - 🇭🇰HK-8.210.79.212-6730
+  - 🇭🇰HK-47.238.151.43-0184
+  - 🇭🇰HK-47.238.82.7-0196
+  - 🇭🇰HK-8.218.45.250-4390
   type: select
 rules:
 - MATCH,🔰 节点选择
