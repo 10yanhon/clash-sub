@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.76.254.70-4843
+  name: 🇭🇰HK-47.76.254.70-4850
   network: ws
   port: 443
   server: n1753101277.4u9ma.icu
@@ -14,20 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.205.58-0280
-  network: ws
-  port: 443
-  server: n1761214912.wpg27.xyz
-  tls: tls
-  type: vmess
-  uuid: 4f86a909-836d-4643-b650-d812144a1fa9
-  ws-opts:
-    headers:
-      Host: n1761214912.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.135.74-4795
+  name: 🇭🇰HK-47.243.135.74-4802
   network: ws
   port: 55185
   server: 47.243.135.74
@@ -40,7 +27,46 @@ proxies:
     path: /Notif_Chat
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.8.135-4566
+  name: 🇭🇰HK-8.218.45.250-0280
+  network: ws
+  port: 443
+  server: n1761214905.wpg27.xyz
+  tls: tls
+  type: vmess
+  uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
+  ws-opts:
+    headers:
+      Host: n1761214905.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.242.31.79-0290
+  network: ws
+  port: 443
+  server: n1761214904.wpg27.xyz
+  tls: tls
+  type: vmess
+  uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
+  ws-opts:
+    headers:
+      Host: n1761214904.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.238.158.209-0292
+  network: ws
+  port: 443
+  server: n1753101272.lie5d.cyou
+  tls: tls
+  type: vmess
+  uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778
+  ws-opts:
+    headers:
+      Host: n1753101272.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.8.135-4573
   network: ws
   port: 443
   server: n1761214910.74qxv.top
@@ -53,39 +79,27 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.244.164-4584
+  name: 🇭🇰HK-47.244.120.197-4799
   network: ws
-  port: 443
-  server: n1761214908.wpg27.xyz
-  tls: tls
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
   type: vmess
-  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     headers:
-      Host: n1761214908.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.242.31.79-4793
-  network: ws
-  port: 443
-  server: n1761214904.wpg27.xyz
-  tls: tls
-  type: vmess
-  uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
-  ws-opts:
-    headers:
-      Host: n1761214904.wpg27.xyz
-    path: /
+      Host: ''
+    path: /arki?ed=2048
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.76.254.70-4843
-  - 🇭🇰HK-47.243.205.58-0280
-  - 🇭🇰HK-47.243.135.74-4795
-  - 🇭🇰HK-8.218.8.135-4566
-  - 🇭🇰HK-47.243.244.164-4584
-  - 🇭🇰HK-47.242.31.79-4793
+  - 🇭🇰HK-47.76.254.70-4850
+  - 🇭🇰HK-47.243.135.74-4802
+  - 🇭🇰HK-8.218.45.250-0280
+  - 🇭🇰HK-47.242.31.79-0290
+  - 🇭🇰HK-47.238.158.209-0292
+  - 🇭🇰HK-8.218.8.135-4573
+  - 🇭🇰HK-47.244.120.197-4799
   type: select
 rules:
 - MATCH,🔰 节点选择
