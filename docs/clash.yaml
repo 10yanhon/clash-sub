@@ -1,20 +1,59 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-112.118.57.119-4576
+  name: 🇭🇰HK-83.229.121.113-1665
   network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: ''
+  port: 443
+  server: 83.229.121.113
+  tls: tls
   type: vmess
-  uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
   ws-opts:
     headers:
-      Host: hkt.gotochinatown.net
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.76.218.163-1666
+  network: ws
+  port: 443
+  server: 47.76.218.163
+  tls: tls
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-103.224.80.7-1667
+  network: ws
+  port: 2087
+  server: 103.224.80.7
+  tls: tls
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.244.164-4637
+  network: ws
+  port: 443
+  server: n1761214908.wpg27.xyz
+  tls: tls
+  type: vmess
+  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+  ws-opts:
+    headers:
+      Host: n1761214908.wpg27.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.138.141-4750
+  name: 🇭🇰HK-47.242.138.141-0318
   network: ws
   port: 443
   server: n1761296880.lie5d.cyou
@@ -27,93 +66,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.238.158.209-0302
+  name: 🇭🇰HK-8.218.45.250-4620
   network: ws
   port: 443
-  server: n1753101272.lie5d.cyou
+  server: n1761214905.wpg27.xyz
   tls: tls
   type: vmess
-  uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778
+  uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
   ws-opts:
     headers:
-      Host: n1753101272.lie5d.cyou
+      Host: n1761214905.wpg27.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.76.254.70-0305
-  network: ws
-  port: 443
-  server: n1753101277.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
-  ws-opts:
-    headers:
-      Host: n1753101277.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.205.58-4615
-  network: ws
-  port: 443
-  server: n1761214912.wpg27.xyz
-  tls: tls
-  type: vmess
-  uuid: 4f86a909-836d-4643-b650-d812144a1fa9
-  ws-opts:
-    headers:
-      Host: n1761214912.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.63.35-0309
-  network: ws
-  port: 443
-  server: n1761214919.mv7wh.tech
-  tls: tls
-  type: vmess
-  uuid: c592f040-faff-47dc-a464-9bccf2dd4e7b
-  ws-opts:
-    headers:
-      Host: n1761214919.mv7wh.tech
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.242.31.79-4752
-  network: ws
-  port: 443
-  server: n1761214904.wpg27.xyz
-  tls: tls
-  type: vmess
-  uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
-  ws-opts:
-    headers:
-      Host: n1761214904.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4749
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-112.118.57.119-4576
-  - 🇭🇰HK-47.242.138.141-4750
-  - 🇭🇰HK-47.238.158.209-0302
-  - 🇭🇰HK-47.76.254.70-0305
-  - 🇭🇰HK-47.243.205.58-4615
-  - 🇭🇰HK-47.243.63.35-0309
-  - 🇭🇰HK-47.242.31.79-4752
-  - 🇭🇰HK-47.244.120.197-4749
+  - 🇭🇰HK-83.229.121.113-1665
+  - 🇭🇰HK-47.76.218.163-1666
+  - 🇭🇰HK-103.224.80.7-1667
+  - 🇭🇰HK-47.243.244.164-4637
+  - 🇭🇰HK-47.242.138.141-0318
+  - 🇭🇰HK-8.218.45.250-4620
   type: select
 rules:
 - MATCH,🔰 节点选择
