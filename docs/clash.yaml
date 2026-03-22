@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.244.164-0302
-  network: ws
-  port: 443
-  server: n1761214908.wpg27.xyz
-  tls: tls
-  type: vmess
-  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
-  ws-opts:
-    headers:
-      Host: n1761214908.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.242.31.79-0319
+  name: 🇭🇰HK-47.242.31.79-0322
   network: ws
   port: 443
   server: n1761214904.wpg27.xyz
@@ -27,20 +14,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.76.254.70-4907
+  name: 🇭🇰HK-47.243.244.164-0319
   network: ws
   port: 443
-  server: n1753101277.4u9ma.icu
+  server: n1761214908.wpg27.xyz
   tls: tls
   type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
+  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
   ws-opts:
     headers:
-      Host: n1753101277.4u9ma.icu
+      Host: n1761214908.wpg27.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.138.141-0325
+  name: 🇭🇰HK-47.242.138.141-0327
   network: ws
   port: 443
   server: n1761296880.lie5d.cyou
@@ -53,25 +40,66 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.45.191-0305
+  name: 🇭🇰HK-8.218.45.250-0341
   network: ws
   port: 443
-  server: n1752248946.4u9ma.icu
+  server: n1761214905.wpg27.xyz
   tls: tls
   type: vmess
-  uuid: ef167986-d154-4409-88b1-757efb6ae823
+  uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
   ws-opts:
     headers:
-      Host: n1752248946.4u9ma.icu
+      Host: n1761214905.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.76.254.70-0323
+  network: ws
+  port: 443
+  server: n1753101277.4u9ma.icu
+  tls: tls
+  type: vmess
+  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
+  ws-opts:
+    headers:
+      Host: n1753101277.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.238.82.7-4901
+  network: ws
+  port: 443
+  server: n1753356378.4u9ma.icu
+  tls: tls
+  type: vmess
+  uuid: 37b20639-0d6e-46f2-9db5-472201b10cdd
+  ws-opts:
+    headers:
+      Host: n1753356378.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.8.135-4609
+  network: ws
+  port: 443
+  server: n1761214910.74qxv.top
+  tls: tls
+  type: vmess
+  uuid: 011c4670-cdde-44fb-b9be-8a1e27af26c9
+  ws-opts:
+    headers:
+      Host: n1761214910.74qxv.top
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.243.244.164-0302
-  - 🇭🇰HK-47.242.31.79-0319
-  - 🇭🇰HK-47.76.254.70-4907
-  - 🇭🇰HK-47.242.138.141-0325
-  - 🇭🇰HK-8.218.45.191-0305
+  - 🇭🇰HK-47.242.31.79-0322
+  - 🇭🇰HK-47.243.244.164-0319
+  - 🇭🇰HK-47.242.138.141-0327
+  - 🇭🇰HK-8.218.45.250-0341
+  - 🇭🇰HK-47.76.254.70-0323
+  - 🇭🇰HK-47.238.82.7-4901
+  - 🇭🇰HK-8.218.8.135-4609
   type: select
 rules:
 - MATCH,🔰 节点选择
