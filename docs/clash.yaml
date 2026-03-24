@@ -1,59 +1,46 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK-47.76.254.70-0312
+  name: 🇭🇰HK-220.246.190.234-4859
   network: ws
-  port: 443
-  server: n1753101277.4u9ma.icu
-  tls: tls
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
   type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
+  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
   ws-opts:
     headers:
-      Host: n1753101277.4u9ma.icu
+      Host: hkt.gotochinatown.net
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.138.141-0309
+  name: 🇭🇰HK-8.218.45.250-4722
   network: ws
   port: 443
-  server: n1761296880.lie5d.cyou
+  server: n1761214905.wpg27.xyz
   tls: tls
   type: vmess
-  uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
+  uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
   ws-opts:
     headers:
-      Host: n1761296880.lie5d.cyou
+      Host: n1761214905.wpg27.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.238.158.209-0306
+  name: 🇭🇰HK-8.210.166.22-4723
   network: ws
   port: 443
-  server: n1753101272.lie5d.cyou
+  server: n1761214911.74qxv.top
   tls: tls
   type: vmess
-  uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778
+  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
   ws-opts:
     headers:
-      Host: n1753101272.lie5d.cyou
+      Host: n1761214911.74qxv.top
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.31.79-0323
-  network: ws
-  port: 443
-  server: n1761214904.wpg27.xyz
-  tls: tls
-  type: vmess
-  uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
-  ws-opts:
-    headers:
-      Host: n1761214904.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.45.191-0314
+  name: 🇭🇰HK-8.218.45.191-0297
   network: ws
   port: 443
   server: n1752248946.4u9ma.icu
@@ -66,26 +53,39 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.135.74-4880
+  name: 🇭🇰HK-47.244.120.197-4862
   network: ws
-  port: 55185
-  server: 47.243.135.74
+  port: 44867
+  server: 47.244.120.197
   tls: ''
   type: vmess
-  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     headers:
       Host: ''
-    path: /Notif_Chat
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-4858
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.76.254.70-0312
-  - 🇭🇰HK-47.242.138.141-0309
-  - 🇭🇰HK-47.238.158.209-0306
-  - 🇭🇰HK-47.242.31.79-0323
-  - 🇭🇰HK-8.218.45.191-0314
-  - 🇭🇰HK-47.243.135.74-4880
+  - 🇭🇰HK-220.246.190.234-4859
+  - 🇭🇰HK-8.218.45.250-4722
+  - 🇭🇰HK-8.210.166.22-4723
+  - 🇭🇰HK-8.218.45.191-0297
+  - 🇭🇰HK-47.244.120.197-4862
+  - 🇭🇰HK-47.244.120.197-4858
   type: select
 rules:
 - MATCH,🔰 节点选择
