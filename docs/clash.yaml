@@ -1,16 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.76.254.70-0298
+  name: 🇭🇰HK-47.242.138.141-0294
   network: ws
   port: 443
-  server: n1753101277.4u9ma.icu
+  server: n1761296880.lie5d.cyou
   tls: tls
   type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
+  uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
   ws-opts:
     headers:
-      Host: n1753101277.4u9ma.icu
+      Host: n1761296880.lie5d.cyou
     path: /
 - alterId: 0
   cipher: auto
@@ -77,29 +77,15 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.45.191-0293
-  network: ws
-  port: 443
-  server: n1752248946.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: ef167986-d154-4409-88b1-757efb6ae823
-  ws-opts:
-    headers:
-      Host: n1752248946.4u9ma.icu
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.76.254.70-0298
+  - 🇭🇰HK-47.242.138.141-0294
   - 🇭🇰HK-47.238.82.7-0303
   - 🇭🇰HK-47.244.120.197-4822
   - 🇭🇰HK-47.243.135.74-4821
   - 🇭🇰HK-47.244.120.197-4823
   - 🇭🇰HK-47.243.135.74-0279
-  - 🇭🇰HK-8.218.45.191-0293
   type: select
 rules:
 - MATCH,🔰 节点选择
