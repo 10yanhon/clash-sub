@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.242.138.141-4894
-  network: ws
-  port: 443
-  server: n1761296880.lie5d.cyou
-  tls: tls
-  type: vmess
-  uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
-  ws-opts:
-    headers:
-      Host: n1761296880.lie5d.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.135.74-4891
+  name: 🇭🇰HK-47.243.135.74-4784
   network: ws
   port: 55185
   server: 47.243.135.74
@@ -27,7 +14,20 @@ proxies:
     path: /Notif_Chat
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.76.254.70-4990
+  name: 🇭🇰HK-47.242.138.141-0335
+  network: ws
+  port: 443
+  server: n1761296880.lie5d.cyou
+  tls: tls
+  type: vmess
+  uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
+  ws-opts:
+    headers:
+      Host: n1761296880.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.76.254.70-4873
   network: ws
   port: 443
   server: n1753101277.4u9ma.icu
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4893
+  name: 🇭🇰HK-47.244.120.197-4783
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -53,7 +53,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4892
+  name: 🇭🇰HK-47.244.120.197-4782
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -67,11 +67,11 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.242.138.141-4894
-  - 🇭🇰HK-47.243.135.74-4891
-  - 🇭🇰HK-47.76.254.70-4990
-  - 🇭🇰HK-47.244.120.197-4893
-  - 🇭🇰HK-47.244.120.197-4892
+  - 🇭🇰HK-47.243.135.74-4784
+  - 🇭🇰HK-47.242.138.141-0335
+  - 🇭🇰HK-47.76.254.70-4873
+  - 🇭🇰HK-47.244.120.197-4783
+  - 🇭🇰HK-47.244.120.197-4782
   type: select
 rules:
 - MATCH,🔰 节点选择
