@@ -1,111 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-116.49.109.227-4863
-  network: ws
-  port: 80
-  server: c4ced910-t70f40-tdahby-1tnab.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: c4ced910-t70f40-tdahby-1tnab.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-116.49.109.227-4847
-  network: ws
-  port: 80
-  server: d7d6992d-t5bb40-tdvaex-1ixuf.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: dcbaee4d-2204-11ed-b659-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: d7d6992d-t5bb40-tdvaex-1ixuf.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-116.49.109.227-4845
-  network: ws
-  port: 80
-  server: 4333a411-t7bj40-tkka1f-1k25p.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 4333a411-t7bj40-tkka1f-1k25p.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-116.49.109.227-4846
-  network: ws
-  port: 80
-  server: 040f3ec5-t70f40-ta64ri-1qzi1.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 040f3ec5-t70f40-ta64ri-1qzi1.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-116.49.109.227-4856
-  network: ws
-  port: 80
-  server: bccdd778-tb6f40-ttxkqc-e06r.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-  ws-opts:
-    headers:
-      Host: bccdd778-tb6f40-ttxkqc-e06r.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-116.49.109.227-4858
-  network: ws
-  port: 80
-  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-116.49.109.227-4862
-  network: ws
-  port: 80
-  server: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  ws-opts:
-    headers:
-      Host: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-116.49.109.227-4857
-  network: ws
-  port: 80
-  server: 0e8cb90a-t70f40-tbdyji-ach1.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 0e8cb90a-t70f40-tbdyji-ach1.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-116.49.109.227-4860
+  name: 🇭🇰HK-119.237.6.36-4859
   network: ws
   port: 80
   server: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
@@ -118,30 +14,134 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-116.49.109.227-4843
+  name: 🇭🇰HK-119.237.6.36-4860
   network: ws
   port: 80
-  server: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
+  server: c309eb1e-tbn340-td3l0d-1lkt0.hkt.gotochinatown.net
   tls: ''
   type: vmess
-  uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+  uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
   ws-opts:
     headers:
-      Host: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
+      Host: c309eb1e-tbn340-td3l0d-1lkt0.hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.76.254.70-0281
+  network: ws
+  port: 443
+  server: n1753101277.4u9ma.icu
+  tls: tls
+  type: vmess
+  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
+  ws-opts:
+    headers:
+      Host: n1753101277.4u9ma.icu
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.237.6.36-4858
+  network: ws
+  port: 80
+  server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.237.6.36-4837
+  network: ws
+  port: 80
+  server: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.237.6.36-4847
+  network: ws
+  port: 80
+  server: 4f7c7632-t63340-t7hjku-1rgxu.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 4f7c7632-t63340-t7hjku-1rgxu.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.237.6.36-4857
+  network: ws
+  port: 80
+  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.237.6.36-4840
+  network: ws
+  port: 80
+  server: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.237.6.36-4853
+  network: ws
+  port: 80
+  server: d9ba656d-t66sg0-t7mzec-yjq0.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: d9ba656d-t66sg0-t7mzec-yjq0.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.237.6.36-4862
+  network: ws
+  port: 80
+  server: c4ced910-t70f40-tdahby-1tnab.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: c4ced910-t70f40-tdahby-1tnab.hkt.gotochinatown.net
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-116.49.109.227-4863
-  - 🇭🇰HK-116.49.109.227-4847
-  - 🇭🇰HK-116.49.109.227-4845
-  - 🇭🇰HK-116.49.109.227-4846
-  - 🇭🇰HK-116.49.109.227-4856
-  - 🇭🇰HK-116.49.109.227-4858
-  - 🇭🇰HK-116.49.109.227-4862
-  - 🇭🇰HK-116.49.109.227-4857
-  - 🇭🇰HK-116.49.109.227-4860
-  - 🇭🇰HK-116.49.109.227-4843
+  - 🇭🇰HK-119.237.6.36-4859
+  - 🇭🇰HK-119.237.6.36-4860
+  - 🇭🇰HK-47.76.254.70-0281
+  - 🇭🇰HK-119.237.6.36-4858
+  - 🇭🇰HK-119.237.6.36-4837
+  - 🇭🇰HK-119.237.6.36-4847
+  - 🇭🇰HK-119.237.6.36-4857
+  - 🇭🇰HK-119.237.6.36-4840
+  - 🇭🇰HK-119.237.6.36-4853
+  - 🇭🇰HK-119.237.6.36-4862
   type: select
 rules:
 - MATCH,🔰 节点选择
