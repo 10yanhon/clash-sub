@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.135.74-4822
+  name: 🇭🇰HK-47.243.135.74-4854
   network: ws
   port: 55185
   server: 47.243.135.74
@@ -12,61 +12,9 @@ proxies:
     headers:
       Host: ''
     path: /Notif_Chat
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.77.120.212-0278
-  network: ws
-  port: 80
-  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.77.120.212-0281
-  network: ws
-  port: 80
-  server: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.77.120.212-0287
-  network: ws
-  port: 80
-  server: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-219.77.120.212-0274
-  network: ws
-  port: 80
-  server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
-  tls: ''
-  type: vmess
-  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
-    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.76.254.70-4874
+  name: 🇭🇰HK-47.76.254.70-0349
   network: ws
   port: 443
   server: n1753101277.4u9ma.icu
@@ -79,20 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4821
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4823
+  name: 🇭🇰HK-47.244.120.197-4856
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -103,17 +38,82 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-4855
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.77.120.212-0341
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.77.120.212-0342
+  network: ws
+  port: 80
+  server: 545c50c6-t70f40-thiwul-1gcq2.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 545c50c6-t70f40-thiwul-1gcq2.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-219.77.120.212-0343
+  network: ws
+  port: 80
+  server: 23aa5ec8-t8ysg0-tcmken-19les.hkt.gotochinatown.net
+  tls: ''
+  type: vmess
+  uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 23aa5ec8-t8ysg0-tcmken-19les.hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.135.74-0368
+  network: ws
+  port: 55185
+  server: 47.243.135.74
+  tls: ''
+  type: vmess
+  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.243.135.74-4822
-  - 🇭🇰HK-219.77.120.212-0278
-  - 🇭🇰HK-219.77.120.212-0281
-  - 🇭🇰HK-219.77.120.212-0287
-  - 🇭🇰HK-219.77.120.212-0274
-  - 🇭🇰HK-47.76.254.70-4874
-  - 🇭🇰HK-47.244.120.197-4821
-  - 🇭🇰HK-47.244.120.197-4823
+  - 🇭🇰HK-47.243.135.74-4854
+  - 🇭🇰HK-47.76.254.70-0349
+  - 🇭🇰HK-47.244.120.197-4856
+  - 🇭🇰HK-47.244.120.197-4855
+  - 🇭🇰HK-219.77.120.212-0341
+  - 🇭🇰HK-219.77.120.212-0342
+  - 🇭🇰HK-219.77.120.212-0343
+  - 🇭🇰HK-47.243.135.74-0368
   type: select
 rules:
 - MATCH,🔰 节点选择
