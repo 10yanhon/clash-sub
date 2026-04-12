@@ -51,19 +51,16 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK-42.3.131.41-0300
-  network: ws
-  port: 80
-  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+  name: 🇭🇰HK-8.210.15.231-1449
+  network: http
+  port: 41083
+  server: 8.210.15.231
   tls: ''
   type: vmess
-  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
-    path: /
+  uuid: 1d1ad417-29ed-41e8-aaed-323f797efe6b
+  ws-opts: {}
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -71,7 +68,7 @@ proxy-groups:
   - 🇭🇰HK-47.76.254.70-4901
   - 🇭🇰HK-47.244.120.197-4819
   - 🇭🇰HK-47.244.120.197-4817
-  - 🇭🇰HK-42.3.131.41-0300
+  - 🇭🇰HK-8.210.15.231-1449
   type: select
 rules:
 - MATCH,🔰 节点选择
