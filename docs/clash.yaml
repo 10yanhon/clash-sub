@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.76.254.70-4580
+  name: 🇭🇰HK-47.76.254.70-0284
   network: ws
   port: 443
   server: n1753101277.4u9ma.icu
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.135.74-4969
+  name: 🇭🇰HK-47.243.135.74-4961
   network: ws
   port: 55185
   server: 47.243.135.74
@@ -27,7 +27,7 @@ proxies:
     path: /Notif_Chat
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.135.74-0298
+  name: 🇭🇰HK-47.243.135.74-0294
   network: ws
   port: 55185
   server: 47.243.135.74
@@ -90,30 +90,16 @@ proxies:
     headers:
       Host: ee.oppo.quest
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.126.198-0531
-  network: ws
-  port: 80
-  server: cfhk.oppo.quest
-  tls: ''
-  type: vmess
-  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
-  ws-opts:
-    headers:
-      Host: scw.cloudflare.quest
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.76.254.70-4580
-  - 🇭🇰HK-47.243.135.74-4969
-  - 🇭🇰HK-47.243.135.74-0298
+  - 🇭🇰HK-47.76.254.70-0284
+  - 🇭🇰HK-47.243.135.74-4961
+  - 🇭🇰HK-47.243.135.74-0294
   - 🇭🇰HK-47.244.120.197-0303
   - 🇭🇰HK-47.244.120.197-0304
   - 🇭🇰HK-20.239.145.115-0503
   - 🇭🇰HK-47.239.126.198-0523
-  - 🇭🇰HK-47.239.126.198-0531
   type: select
 rules:
 - MATCH,🔰 节点选择
