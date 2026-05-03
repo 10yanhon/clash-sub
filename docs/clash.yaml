@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.135.74-5108
+  name: 🇭🇰HK-47.243.135.74-5053
   network: ws
   port: 55185
   server: 47.243.135.74
@@ -14,7 +14,7 @@ proxies:
     path: /Notif_Chat
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.238.82.7-5157
+  name: 🇭🇰HK-47.238.82.7-5102
   network: ws
   port: 443
   server: n1753356378.4u9ma.icu
@@ -27,7 +27,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5109
+  name: 🇭🇰HK-47.244.120.197-5052
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5054
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -40,7 +53,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5107
+  name: 🇭🇰HK-47.244.120.197-0355
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -50,10 +63,10 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /arki?ed=2048
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.135.74-0333
+  name: 🇭🇰HK-47.243.135.74-0356
   network: ws
   port: 55185
   server: 47.243.135.74
@@ -66,26 +79,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.76.254.70-0337
+  name: 🇭🇰HK-47.244.120.197-0357
   network: ws
-  port: 443
-  server: n1753101277.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
-  ws-opts:
-    headers:
-      Host: n1753101277.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0341
-  network: ws
-  port: 36703
+  port: 44867
   server: 47.244.120.197
   tls: ''
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.145.115-0535
+  network: ws
+  port: 443
+  server: 20.239.145.115
+  tls: ''
+  type: vmess
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
   ws-opts:
     headers:
       Host: ''
@@ -93,13 +106,14 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.243.135.74-5108
-  - 🇭🇰HK-47.238.82.7-5157
-  - 🇭🇰HK-47.244.120.197-5109
-  - 🇭🇰HK-47.244.120.197-5107
-  - 🇭🇰HK-47.243.135.74-0333
-  - 🇭🇰HK-47.76.254.70-0337
-  - 🇭🇰HK-47.244.120.197-0341
+  - 🇭🇰HK-47.243.135.74-5053
+  - 🇭🇰HK-47.238.82.7-5102
+  - 🇭🇰HK-47.244.120.197-5052
+  - 🇭🇰HK-47.244.120.197-5054
+  - 🇭🇰HK-47.244.120.197-0355
+  - 🇭🇰HK-47.243.135.74-0356
+  - 🇭🇰HK-47.244.120.197-0357
+  - 🇭🇰HK-20.239.145.115-0535
   type: select
 rules:
 - MATCH,🔰 节点选择
