@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.135.74-5069
+  name: 🇭🇰HK-47.243.135.74-5079
   network: ws
   port: 55185
   server: 47.243.135.74
@@ -14,7 +14,7 @@ proxies:
     path: /Notif_Chat
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.76.254.70-4675
+  name: 🇭🇰HK-47.76.254.70-0341
   network: ws
   port: 443
   server: n1753101277.4u9ma.icu
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.238.82.7-0307
+  name: 🇭🇰HK-47.238.82.7-0349
   network: ws
   port: 443
   server: n1753356378.4u9ma.icu
@@ -40,20 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5067
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5068
+  name: 🇭🇰HK-47.244.120.197-5081
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -66,7 +53,20 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.135.74-0293
+  name: 🇭🇰HK-47.244.120.197-5080
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.135.74-0339
   network: ws
   port: 55185
   server: 47.243.135.74
@@ -77,43 +77,15 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0318
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0320
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.243.135.74-5069
-  - 🇭🇰HK-47.76.254.70-4675
-  - 🇭🇰HK-47.238.82.7-0307
-  - 🇭🇰HK-47.244.120.197-5067
-  - 🇭🇰HK-47.244.120.197-5068
-  - 🇭🇰HK-47.243.135.74-0293
-  - 🇭🇰HK-47.244.120.197-0318
-  - 🇭🇰HK-47.244.120.197-0320
+  - 🇭🇰HK-47.243.135.74-5079
+  - 🇭🇰HK-47.76.254.70-0341
+  - 🇭🇰HK-47.238.82.7-0349
+  - 🇭🇰HK-47.244.120.197-5081
+  - 🇭🇰HK-47.244.120.197-5080
+  - 🇭🇰HK-47.243.135.74-0339
   type: select
 rules:
 - MATCH,🔰 节点选择
