@@ -1,33 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.238.82.7-5190
-  network: ws
-  port: 443
-  server: n1753356378.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: 37b20639-0d6e-46f2-9db5-472201b10cdd
-  ws-opts:
-    headers:
-      Host: n1753356378.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.76.254.70-0326
-  network: ws
-  port: 443
-  server: n1753101277.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
-  ws-opts:
-    headers:
-      Host: n1753101277.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.135.74-5153
+  name: 🇭🇰HK-47.243.135.74-5144
   network: ws
   port: 55185
   server: 47.243.135.74
@@ -40,7 +14,20 @@ proxies:
     path: /Notif_Chat
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5151
+  name: 🇭🇰HK-47.238.82.7-5181
+  network: ws
+  port: 443
+  server: n1753356378.4u9ma.icu
+  tls: tls
+  type: vmess
+  uuid: 37b20639-0d6e-46f2-9db5-472201b10cdd
+  ws-opts:
+    headers:
+      Host: n1753356378.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5142
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -53,7 +40,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5152
+  name: 🇭🇰HK-47.244.120.197-5143
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -64,14 +51,41 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-20.24.77.204-0039
+  network: ws
+  port: 60031
+  server: 20.24.77.204
+  tls: ''
+  type: vmess
+  uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
+  ws-opts:
+    headers:
+      Host: 20.24.77.204
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-20.24.77.204-0038
+  network: ws
+  port: 60034
+  server: 20.24.77.204
+  tls: ''
+  type: vmess
+  uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
+  ws-opts:
+    headers:
+      Host: 20.24.77.204
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.238.82.7-5190
-  - 🇭🇰HK-47.76.254.70-0326
-  - 🇭🇰HK-47.243.135.74-5153
-  - 🇭🇰HK-47.244.120.197-5151
-  - 🇭🇰HK-47.244.120.197-5152
+  - 🇭🇰HK-47.243.135.74-5144
+  - 🇭🇰HK-47.238.82.7-5181
+  - 🇭🇰HK-47.244.120.197-5142
+  - 🇭🇰HK-47.244.120.197-5143
+  - 🇭🇰HK-20.24.77.204-0039
+  - 🇭🇰HK-20.24.77.204-0038
   type: select
 rules:
 - MATCH,🔰 节点选择
