@@ -1,33 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5125
+  name: 🇭🇰HK-47.76.127.217-0071
   network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
+  port: 443
+  server: xia.xiaxiang.top
+  tls: tls
   type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  uuid: 75386430-93e2-41d3-8fd0-1be083c517cc
   ws-opts:
     headers:
-      Host: ''
-    path: /arki
+      Host: xia.xiaxiang.top
+    path: /cyoqvws
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5195
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.135.74-0231
+  name: 🇭🇰HK-47.243.135.74-0233
   network: ws
   port: 55185
   server: 47.243.135.74
@@ -40,7 +27,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0232
+  name: 🇭🇰HK-47.76.254.70-0253
+  network: ws
+  port: 443
+  server: n1753101277.4u9ma.icu
+  tls: tls
+  type: vmess
+  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
+  ws-opts:
+    headers:
+      Host: n1753101277.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.238.82.7-0262
+  network: ws
+  port: 443
+  server: n1753356378.4u9ma.icu
+  tls: tls
+  type: vmess
+  uuid: 37b20639-0d6e-46f2-9db5-472201b10cdd
+  ws-opts:
+    headers:
+      Host: n1753356378.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0263
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -53,25 +66,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.238.82.7-0233
+  name: 🇭🇰HK-47.244.120.197-0264
   network: ws
-  port: 443
-  server: n1753356378.4u9ma.icu
-  tls: tls
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
   type: vmess
-  uuid: 37b20639-0d6e-46f2-9db5-472201b10cdd
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
-      Host: n1753356378.4u9ma.icu
+      Host: ''
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-5125
-  - 🇭🇰HK-47.244.120.197-5195
-  - 🇭🇰HK-47.243.135.74-0231
-  - 🇭🇰HK-47.244.120.197-0232
-  - 🇭🇰HK-47.238.82.7-0233
+  - 🇭🇰HK-47.76.127.217-0071
+  - 🇭🇰HK-47.243.135.74-0233
+  - 🇭🇰HK-47.76.254.70-0253
+  - 🇭🇰HK-47.238.82.7-0262
+  - 🇭🇰HK-47.244.120.197-0263
+  - 🇭🇰HK-47.244.120.197-0264
   type: select
 rules:
 - MATCH,🔰 节点选择
