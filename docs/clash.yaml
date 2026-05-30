@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.76.254.70-0162
+  name: 🇭🇰HK-47.76.254.70-0148
   network: ws
   port: 443
   server: n1753101277.4u9ma.icu
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0376
+  name: 🇭🇰HK-20.239.145.115-0409
   network: ws
   port: 443
   server: 20.239.145.115
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.126.198-0396
+  name: 🇭🇰HK-47.239.126.198-0429
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.126.198-0404
+  name: 🇭🇰HK-47.239.126.198-0437
   network: ws
   port: 80
   server: cfhk.oppo.quest
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0408
+  name: 🇭🇰HK-165.154.244.100-0441
   network: ws
   port: 443
   server: 165.154.244.100
@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-104.208.96.44-0430
+  name: 🇭🇰HK-104.208.96.44-0466
   network: ws
   port: 80
   server: 104.208.96.44
@@ -80,12 +80,12 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.76.254.70-0162
-  - 🇭🇰HK-20.239.145.115-0376
-  - 🇭🇰HK-47.239.126.198-0396
-  - 🇭🇰HK-47.239.126.198-0404
-  - 🇭🇰HK-165.154.244.100-0408
-  - 🇭🇰HK-104.208.96.44-0430
+  - 🇭🇰HK-47.76.254.70-0148
+  - 🇭🇰HK-20.239.145.115-0409
+  - 🇭🇰HK-47.239.126.198-0429
+  - 🇭🇰HK-47.239.126.198-0437
+  - 🇭🇰HK-165.154.244.100-0441
+  - 🇭🇰HK-104.208.96.44-0466
   type: select
 rules:
 - MATCH,🔰 节点选择
