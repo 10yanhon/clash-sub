@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4597
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0906
+  name: 🇭🇰HK-47.244.120.197-0813
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -27,7 +14,46 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0249
+  name: 🇭🇰HK-47.244.120.197-0487
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-4504
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0212
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0245
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -40,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0250
+  name: 🇭🇰HK-47.244.120.197-0254
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -54,10 +80,12 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-4597
-  - 🇭🇰HK-47.244.120.197-0906
-  - 🇭🇰HK-47.244.120.197-0249
-  - 🇭🇰HK-47.244.120.197-0250
+  - 🇭🇰HK-47.244.120.197-0813
+  - 🇭🇰HK-47.244.120.197-0487
+  - 🇭🇰HK-47.244.120.197-4504
+  - 🇭🇰HK-47.244.120.197-0212
+  - 🇭🇰HK-47.244.120.197-0245
+  - 🇭🇰HK-47.244.120.197-0254
   type: select
 rules:
 - MATCH,🔰 节点选择
