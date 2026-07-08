@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-6266
+  name: 🇭🇰HK-47.244.120.197-6283
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -14,7 +14,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0179
+  name: 🇭🇰HK-47.244.120.197-6282
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -24,10 +24,10 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0181
+  name: 🇭🇰HK-47.244.120.197-0193
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -40,7 +40,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0445
+  name: 🇭🇰HK-47.244.120.197-0194
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.176.94-0226
+  network: ws
+  port: 443
+  server: 20.239.176.94
+  tls: ''
+  type: vmess
+  uuid: 4adf9138-5aca-4a26-b217-335e72bb680d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.145.115-0447
   network: ws
   port: 443
   server: 20.239.145.115
@@ -53,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.126.198-0465
+  name: 🇭🇰HK-47.239.126.198-0467
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -64,28 +90,16 @@ proxies:
     headers:
       Host: ee.oppo.quest
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.126.198-0473
-  network: ws
-  port: 80
-  server: cfhk.oppo.quest
-  tls: ''
-  type: vmess
-  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
-  ws-opts:
-    headers:
-      Host: scw.cloudflare.quest
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-6266
-  - 🇭🇰HK-47.244.120.197-0179
-  - 🇭🇰HK-47.244.120.197-0181
-  - 🇭🇰HK-20.239.145.115-0445
-  - 🇭🇰HK-47.239.126.198-0465
-  - 🇭🇰HK-47.239.126.198-0473
+  - 🇭🇰HK-47.244.120.197-6283
+  - 🇭🇰HK-47.244.120.197-6282
+  - 🇭🇰HK-47.244.120.197-0193
+  - 🇭🇰HK-47.244.120.197-0194
+  - 🇭🇰HK-20.239.176.94-0226
+  - 🇭🇰HK-20.239.145.115-0447
+  - 🇭🇰HK-47.239.126.198-0467
   type: select
 rules:
 - MATCH,🔰 节点选择
