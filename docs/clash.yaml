@@ -1,33 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.12-0477
-  network: ws
-  port: 443
-  server: n1747624274.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  ws-opts:
-    headers:
-      Host: n1747624274.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.179.251-0067
-  network: ws
-  port: 50045
-  server: 20.239.179.251
-  tls: ''
-  type: vmess
-  uuid: 9b61ff46-4c61-4b31-801a-f870d7a1de53
-  ws-opts:
-    headers:
-      Host: 20.239.179.251
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-43.100.32.4-0230
+  name: 🇭🇰HK-43.100.32.4-0263
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -40,7 +14,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0262
+  name: 🇭🇰HK-43.100.32.12-0215
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  tls: tls
+  type: vmess
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.179.251-0260
+  network: ws
+  port: 50045
+  server: 20.239.179.251
+  tls: ''
+  type: vmess
+  uuid: 9b61ff46-4c61-4b31-801a-f870d7a1de53
+  ws-opts:
+    headers:
+      Host: 20.239.179.251
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0282
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0264
+  name: 🇭🇰HK-47.244.120.197-0283
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0481
+  name: 🇭🇰HK-20.239.145.115-0478
   network: ws
   port: 443
   server: 20.239.145.115
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.189.182-0501
+  name: 🇭🇰HK-47.239.189.182-0498
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -93,13 +93,13 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-43.100.32.12-0477
-  - 🇭🇰HK-20.239.179.251-0067
-  - 🇭🇰HK-43.100.32.4-0230
-  - 🇭🇰HK-47.244.120.197-0262
-  - 🇭🇰HK-47.244.120.197-0264
-  - 🇭🇰HK-20.239.145.115-0481
-  - 🇭🇰HK-47.239.189.182-0501
+  - 🇭🇰HK-43.100.32.4-0263
+  - 🇭🇰HK-43.100.32.12-0215
+  - 🇭🇰HK-20.239.179.251-0260
+  - 🇭🇰HK-47.244.120.197-0282
+  - 🇭🇰HK-47.244.120.197-0283
+  - 🇭🇰HK-20.239.145.115-0478
+  - 🇭🇰HK-47.239.189.182-0498
   type: select
 rules:
 - MATCH,🔰 节点选择
