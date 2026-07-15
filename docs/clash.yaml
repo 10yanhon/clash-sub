@@ -77,19 +77,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.189.182-0498
-  network: ws
-  port: 80
-  server: ee.oppo.quest
-  tls: ''
-  type: vmess
-  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
-  ws-opts:
-    headers:
-      Host: ee.oppo.quest
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -99,7 +86,6 @@ proxy-groups:
   - 🇭🇰HK-47.244.120.197-0282
   - 🇭🇰HK-47.244.120.197-0283
   - 🇭🇰HK-20.239.145.115-0478
-  - 🇭🇰HK-47.239.189.182-0498
   type: select
 rules:
 - MATCH,🔰 节点选择
