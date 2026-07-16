@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.4-0214
+  name: 🇭🇰HK-43.100.32.4-0235
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.12-0251
+  name: 🇭🇰HK-43.100.32.12-0236
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -27,20 +27,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.179.251-0287
-  network: ws
-  port: 50045
-  server: 20.239.179.251
+  name: 🇭🇰HK-45.158.23.138-0438
+  network: http
+  port: 27272
+  server: 45.158.23.138
   tls: ''
   type: vmess
-  uuid: 9b61ff46-4c61-4b31-801a-f870d7a1de53
-  ws-opts:
-    headers:
-      Host: 20.239.179.251
-    path: /
+  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0438
+  name: 🇭🇰HK-20.239.145.115-0441
   network: ws
   port: 443
   server: 20.239.145.115
@@ -53,7 +50,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.189.182-0458
+  name: 🇭🇰HK-47.239.189.182-0461
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -66,7 +63,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.189.182-0466
+  name: 🇭🇰HK-47.239.189.182-0469
   network: ws
   port: 80
   server: cfhk.oppo.quest
@@ -77,15 +74,29 @@ proxies:
     headers:
       Host: scw.cloudflare.quest
     path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-165.154.244.100-0473
+  network: ws
+  port: 443
+  server: 165.154.244.100
+  tls: tls
+  type: vmess
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-43.100.32.4-0214
-  - 🇭🇰HK-43.100.32.12-0251
-  - 🇭🇰HK-20.239.179.251-0287
-  - 🇭🇰HK-20.239.145.115-0438
-  - 🇭🇰HK-47.239.189.182-0458
-  - 🇭🇰HK-47.239.189.182-0466
+  - 🇭🇰HK-43.100.32.4-0235
+  - 🇭🇰HK-43.100.32.12-0236
+  - 🇭🇰HK-45.158.23.138-0438
+  - 🇭🇰HK-20.239.145.115-0441
+  - 🇭🇰HK-47.239.189.182-0461
+  - 🇭🇰HK-47.239.189.182-0469
+  - 🇭🇰HK-165.154.244.100-0473
   type: select
 rules:
 - MATCH,🔰 节点选择
