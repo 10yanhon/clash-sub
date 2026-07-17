@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.12-0230
+  name: 🇭🇰HK-43.100.32.12-0480
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -14,7 +14,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5995
+  name: 🇭🇰HK-43.100.32.4-0381
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  tls: tls
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5856
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -27,7 +40,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5996
+  name: 🇭🇰HK-47.244.120.197-5857
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -40,7 +53,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0393
+  name: 🇭🇰HK-20.239.145.115-0384
   network: ws
   port: 443
   server: 20.239.145.115
@@ -53,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.189.182-0413
+  name: 🇭🇰HK-47.239.189.182-0404
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -66,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.189.182-0421
+  name: 🇭🇰HK-47.239.189.182-0412
   network: ws
   port: 80
   server: cfhk.oppo.quest
@@ -79,7 +92,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0425
+  name: 🇭🇰HK-165.154.244.100-0416
   network: ws
   port: 443
   server: 165.154.244.100
@@ -93,13 +106,14 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-43.100.32.12-0230
-  - 🇭🇰HK-47.244.120.197-5995
-  - 🇭🇰HK-47.244.120.197-5996
-  - 🇭🇰HK-20.239.145.115-0393
-  - 🇭🇰HK-47.239.189.182-0413
-  - 🇭🇰HK-47.239.189.182-0421
-  - 🇭🇰HK-165.154.244.100-0425
+  - 🇭🇰HK-43.100.32.12-0480
+  - 🇭🇰HK-43.100.32.4-0381
+  - 🇭🇰HK-47.244.120.197-5856
+  - 🇭🇰HK-47.244.120.197-5857
+  - 🇭🇰HK-20.239.145.115-0384
+  - 🇭🇰HK-47.239.189.182-0404
+  - 🇭🇰HK-47.239.189.182-0412
+  - 🇭🇰HK-165.154.244.100-0416
   type: select
 rules:
 - MATCH,🔰 节点选择
