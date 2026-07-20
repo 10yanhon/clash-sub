@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.12-0399
-  network: ws
-  port: 443
-  server: n1747624274.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  ws-opts:
-    headers:
-      Host: n1747624274.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-43.100.32.4-0396
+  name: 🇭🇰HK-43.100.32.4-0234
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -27,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-6092
+  name: 🇭🇰HK-47.244.120.197-0453
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -40,7 +27,33 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-6093
+  name: 🇭🇰HK-43.100.32.12-0227
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  tls: tls
+  type: vmess
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0235
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0236
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -50,42 +63,15 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0405
-  network: ws
-  port: 443
-  server: 20.239.145.115
-  tls: ''
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.189.182-0425
-  network: ws
-  port: 80
-  server: ee.oppo.quest
-  tls: ''
-  type: vmess
-  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
-  ws-opts:
-    headers:
-      Host: ee.oppo.quest
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-43.100.32.12-0399
-  - 🇭🇰HK-43.100.32.4-0396
-  - 🇭🇰HK-47.244.120.197-6092
-  - 🇭🇰HK-47.244.120.197-6093
-  - 🇭🇰HK-20.239.145.115-0405
-  - 🇭🇰HK-47.239.189.182-0425
+  - 🇭🇰HK-43.100.32.4-0234
+  - 🇭🇰HK-47.244.120.197-0453
+  - 🇭🇰HK-43.100.32.12-0227
+  - 🇭🇰HK-47.244.120.197-0235
+  - 🇭🇰HK-47.244.120.197-0236
   type: select
 rules:
 - MATCH,🔰 节点选择
