@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.4-0263
+  name: 🇭🇰HK-43.100.32.4-0285
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5977
+  name: 🇭🇰HK-47.244.120.197-6029
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -27,33 +27,20 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0436
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-188.116.22.171-3892
+  name: 🇭🇰HK-43.100.32.12-0447
   network: ws
   port: 443
-  server: 188.116.22.171
+  server: n1747624274.4u9ma.icu
   tls: tls
   type: vmess
-  uuid: 4b0289b0-a363-4cb5-8ca0-f0e7f92d75f3
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
   ws-opts:
     headers:
-      Host: ''
-    path: /vmess
+      Host: n1747624274.4u9ma.icu
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0266
+  name: 🇭🇰HK-47.244.120.197-0287
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -64,14 +51,41 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0288
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-188.116.22.171-0290
+  network: ws
+  port: 443
+  server: 188.116.22.171
+  tls: tls
+  type: vmess
+  uuid: 4b0289b0-a363-4cb5-8ca0-f0e7f92d75f3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-43.100.32.4-0263
-  - 🇭🇰HK-47.244.120.197-5977
-  - 🇭🇰HK-47.244.120.197-0436
-  - 🇭🇰HK-188.116.22.171-3892
-  - 🇭🇰HK-47.244.120.197-0266
+  - 🇭🇰HK-43.100.32.4-0285
+  - 🇭🇰HK-47.244.120.197-6029
+  - 🇭🇰HK-43.100.32.12-0447
+  - 🇭🇰HK-47.244.120.197-0287
+  - 🇭🇰HK-47.244.120.197-0288
+  - 🇭🇰HK-188.116.22.171-0290
   type: select
 rules:
 - MATCH,🔰 节点选择
