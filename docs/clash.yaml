@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.12-0216
+  name: 🇭🇰HK-43.100.32.12-0233
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.4-0389
+  name: 🇭🇰HK-43.100.32.4-0238
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -27,46 +27,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0220
-  network: ws
-  port: 44867
-  server: 47.244.120.197
+  name: 🇭🇰HK-8.210.234.189-1344
+  network: http
+  port: 46644
+  server: 8.210.234.189
   tls: ''
   type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /
+  uuid: c25a1c9a-1c71-4c58-afba-66eed738b22b
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0221
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0222
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0394
+  name: 🇭🇰HK-20.239.145.115-0395
   network: ws
   port: 443
   server: 20.239.145.115
@@ -77,15 +48,41 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.189.182-0415
+  network: ws
+  port: 80
+  server: ee.oppo.quest
+  tls: ''
+  type: vmess
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  ws-opts:
+    headers:
+      Host: ee.oppo.quest
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.189.182-0423
+  network: ws
+  port: 80
+  server: cfhk.oppo.quest
+  tls: ''
+  type: vmess
+  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
+  ws-opts:
+    headers:
+      Host: scw.cloudflare.quest
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-43.100.32.12-0216
-  - 🇭🇰HK-43.100.32.4-0389
-  - 🇭🇰HK-47.244.120.197-0220
-  - 🇭🇰HK-47.244.120.197-0221
-  - 🇭🇰HK-47.244.120.197-0222
-  - 🇭🇰HK-20.239.145.115-0394
+  - 🇭🇰HK-43.100.32.12-0233
+  - 🇭🇰HK-43.100.32.4-0238
+  - 🇭🇰HK-8.210.234.189-1344
+  - 🇭🇰HK-20.239.145.115-0395
+  - 🇭🇰HK-47.239.189.182-0415
+  - 🇭🇰HK-47.239.189.182-0423
   type: select
 rules:
 - MATCH,🔰 节点选择
