@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-6114
+  name: 🇭🇰HK-47.244.120.197-6171
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -14,20 +14,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.4-0440
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  ws-opts:
-    headers:
-      Host: n1747624260.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-6113
+  name: 🇭🇰HK-47.244.120.197-6170
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -38,26 +25,11 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-85.113.71.85-0232
-  network: ws
-  port: 2086
-  server: 85.113.71.85
-  tls: ''
-  type: vmess
-  uuid: ba58ca0c-0411-444e-80f7-e361ce49012d
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-6114
-  - 🇭🇰HK-43.100.32.4-0440
-  - 🇭🇰HK-47.244.120.197-6113
-  - 🇭🇰HK-85.113.71.85-0232
+  - 🇭🇰HK-47.244.120.197-6171
+  - 🇭🇰HK-47.244.120.197-6170
   type: select
 rules:
 - MATCH,🔰 节点选择
