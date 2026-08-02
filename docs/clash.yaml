@@ -38,12 +38,82 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.2.71.124-0191
+  network: ws
+  port: 80
+  server: 20.2.71.124
+  tls: ''
+  type: vmess
+  uuid: bc4167fa-7394-3869-b9c0-67ae18b40f2f
+  ws-opts:
+    headers:
+      Host: 20.2.71.124
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.205.112.252-0192
+  network: ws
+  port: 12059
+  server: 20.205.112.252
+  tls: ''
+  type: vmess
+  uuid: 4b6cd9cd-76a5-4a7c-aa8e-e252cf605157
+  ws-opts:
+    headers:
+      Host: 20.205.112.252
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-43.100.32.4-0238
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  tls: tls
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.145.115-0425
+  network: ws
+  port: 443
+  server: 20.239.145.115
+  tls: ''
+  type: vmess
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.189.182-0445
+  network: ws
+  port: 80
+  server: ee.oppo.quest
+  tls: ''
+  type: vmess
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  ws-opts:
+    headers:
+      Host: ee.oppo.quest
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - 🇭🇰HK-47.244.120.197-6100
   - 🇭🇰HK-47.244.120.197-0178
   - 🇭🇰HK-47.244.120.197-0180
+  - 🇭🇰HK-20.2.71.124-0191
+  - 🇭🇰HK-20.205.112.252-0192
+  - 🇭🇰HK-43.100.32.4-0238
+  - 🇭🇰HK-20.239.145.115-0425
+  - 🇭🇰HK-47.239.189.182-0445
   type: select
 rules:
 - MATCH,🔰 节点选择
