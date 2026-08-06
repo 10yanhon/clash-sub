@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.12-0198
+  name: 🇭🇰HK-43.100.32.12-0221
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -14,46 +14,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-6205
+  name: 🇭🇰HK-20.205.111.107-0067
   network: ws
-  port: 36703
-  server: 47.244.120.197
+  port: 59619
+  server: 20.205.111.107
   tls: ''
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: a8804a03-be3f-43b9-ef7f-8acbdf39cbe3
   ws-opts:
     headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-6204
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0203
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
+      Host: YouTube-aweikeji
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0204
+  name: 🇭🇰HK-47.244.120.197-0222
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -66,13 +40,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0289
+  name: 🇭🇰HK-47.244.120.197-0223
   network: ws
-  port: 443
-  server: 20.239.145.115
+  port: 36703
+  server: 47.244.120.197
   tls: ''
   type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
       Host: ''
@@ -80,12 +54,10 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-43.100.32.12-0198
-  - 🇭🇰HK-47.244.120.197-6205
-  - 🇭🇰HK-47.244.120.197-6204
-  - 🇭🇰HK-47.244.120.197-0203
-  - 🇭🇰HK-47.244.120.197-0204
-  - 🇭🇰HK-20.239.145.115-0289
+  - 🇭🇰HK-43.100.32.12-0221
+  - 🇭🇰HK-20.205.111.107-0067
+  - 🇭🇰HK-47.244.120.197-0222
+  - 🇭🇰HK-47.244.120.197-0223
   type: select
 rules:
 - MATCH,🔰 节点选择
