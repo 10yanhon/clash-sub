@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4534
+  name: 🇭🇰HK-47.244.120.197-0243
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -11,11 +11,11 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /arki?ed=2048
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-4534
+  - 🇭🇰HK-47.244.120.197-0243
   type: select
 rules:
 - MATCH,🔰 节点选择
