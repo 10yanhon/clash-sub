@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.39.251-0904
+  name: 🇭🇰HK-47.243.39.251-1317
   network: ws
   port: 32913
   server: 47.243.39.251
@@ -15,7 +15,7 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.243.39.251-0904
+  - 🇭🇰HK-47.243.39.251-1317
   type: select
 rules:
 - MATCH,🔰 节点选择
