@@ -1,7 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5417
+  name: 🇭🇰HK-47.244.120.197-5860
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5861
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -14,7 +27,20 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0432
+  name: 🇭🇰HK-43.100.32.4-1595
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  tls: tls
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.145.115-0433
   network: ws
   port: 443
   server: 20.239.145.115
@@ -25,11 +51,41 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.189.182-0453
+  network: ws
+  port: 80
+  server: ee.oppo.quest
+  tls: ''
+  type: vmess
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  ws-opts:
+    headers:
+      Host: ee.oppo.quest
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.189.182-0461
+  network: ws
+  port: 80
+  server: cfhk.oppo.quest
+  tls: ''
+  type: vmess
+  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
+  ws-opts:
+    headers:
+      Host: scw.cloudflare.quest
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-5417
-  - 🇭🇰HK-20.239.145.115-0432
+  - 🇭🇰HK-47.244.120.197-5860
+  - 🇭🇰HK-47.244.120.197-5861
+  - 🇭🇰HK-43.100.32.4-1595
+  - 🇭🇰HK-20.239.145.115-0433
+  - 🇭🇰HK-47.239.189.182-0453
+  - 🇭🇰HK-47.239.189.182-0461
   type: select
 rules:
 - MATCH,🔰 节点选择
