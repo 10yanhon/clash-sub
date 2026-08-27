@@ -1,6 +1,45 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-156.245.232.239-0245
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  tls: ''
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5097
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5098
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-43.198.31.209-0072
   network: ws
   port: 24042
@@ -40,20 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.4-0187
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  ws-opts:
-    headers:
-      Host: n1747624260.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0191
+  name: 🇭🇰HK-47.244.120.197-0193
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -66,7 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0192
+  name: 🇭🇰HK-47.244.120.197-0195
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -77,43 +103,17 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.83.19.148-0193
-  network: ws
-  port: 443
-  server: 47.83.19.148
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0194
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  tls: ''
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
+  - 🇭🇰HK-156.245.232.239-0245
+  - 🇭🇰HK-47.244.120.197-5097
+  - 🇭🇰HK-47.244.120.197-5098
   - 🇭🇰HK-43.198.31.209-0072
   - 🇭🇰HK-18.167.20.169-0071
   - 🇭🇰HK-18.167.20.169-0070
-  - 🇭🇰HK-43.100.32.4-0187
-  - 🇭🇰HK-47.244.120.197-0191
-  - 🇭🇰HK-47.244.120.197-0192
-  - 🇭🇰HK-47.83.19.148-0193
-  - 🇭🇰HK-156.245.232.239-0194
+  - 🇭🇰HK-47.244.120.197-0193
+  - 🇭🇰HK-47.244.120.197-0195
   type: select
 rules:
 - MATCH,🔰 节点选择
