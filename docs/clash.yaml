@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0163
+  name: 🇭🇰HK-156.245.232.239-0260
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -14,7 +14,46 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-147.139.7.71-0041
+  name: 🇭🇰HK-147.139.7.71-0073
+  network: ws
+  port: 888
+  server: 147.139.7.71
+  tls: ''
+  type: vmess
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-175.29.23.105-0058
+  network: ws
+  port: 10014
+  server: sg6-midpoint.kejibear.net
+  tls: ''
+  type: vmess
+  uuid: 7bcd50fc-414b-3e8a-a1a2-d81bd7fc4586
+  ws-opts:
+    headers:
+      Host: sg6-midpoint.kejibear.net
+    path: /video
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.240.51.89-0024
+  network: ws
+  port: 55214
+  server: 47.240.51.89
+  tls: ''
+  type: vmess
+  uuid: d5d8b40a-a301-496f-9bc3-2a2ca16ede1e
+  ws-opts:
+    headers:
+      Host: a.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-147.139.7.71-0204
   network: ws
   port: 888
   server: 147.139.7.71
@@ -27,46 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-147.139.7.71-0027
-  network: ws
-  port: 888
-  server: 147.139.7.71
-  tls: ''
-  type: vmess
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-43.100.32.4-0161
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  tls: tls
-  type: vmess
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  ws-opts:
-    headers:
-      Host: n1747624260.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0166
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0167
+  name: 🇭🇰HK-47.244.120.197-0218
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -77,43 +77,15 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.239.208.160-0185
-  network: ws
-  port: 443
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-43.198.31.209-0254
-  network: ws
-  port: 24042
-  server: 43.198.31.209
-  tls: ''
-  type: vmess
-  uuid: d0af86dd-1987-4921-f220-a1c17cec32ce
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-156.245.232.239-0163
-  - 🇭🇰HK-147.139.7.71-0041
-  - 🇭🇰HK-147.139.7.71-0027
-  - 🇭🇰HK-43.100.32.4-0161
-  - 🇭🇰HK-47.244.120.197-0166
-  - 🇭🇰HK-47.244.120.197-0167
-  - 🇭🇰HK-47.239.208.160-0185
-  - 🇭🇰HK-43.198.31.209-0254
+  - 🇭🇰HK-156.245.232.239-0260
+  - 🇭🇰HK-147.139.7.71-0073
+  - 🇭🇰HK-175.29.23.105-0058
+  - 🇭🇰HK-47.240.51.89-0024
+  - 🇭🇰HK-147.139.7.71-0204
+  - 🇭🇰HK-47.244.120.197-0218
   type: select
 rules:
 - MATCH,🔰 节点选择
