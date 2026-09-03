@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0153
+  name: 🇭🇰HK-156.245.232.239-0208
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-18.167.94.243-0032
+  name: 🇭🇰HK-18.167.94.243-0070
   network: ws
   port: 36831
   server: 18.167.94.243
@@ -27,20 +27,46 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0149
+  name: 🇭🇰HK-18.167.94.243-0068
   network: ws
-  port: 44867
-  server: 47.244.120.197
+  port: 36831
+  server: 18.167.94.243
   tls: ''
   type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  uuid: 5b979e45-2697-49ce-8903-70a1c5787702
+  ws-opts:
+    headers:
+      Host: 18.167.94.243
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-18.167.20.169-0054
+  network: ws
+  port: 8080
+  server: 18.167.20.169
+  tls: ''
+  type: vmess
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-175.29.23.105-0189
+  name: 🇭🇰HK-147.139.7.71-0041
+  network: ws
+  port: 888
+  server: 147.139.7.71
+  tls: ''
+  type: vmess
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-175.29.23.105-0227
   network: ws
   port: 10014
   server: sg6-midpoint.kejibear.net
@@ -53,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.240.51.89-0217
+  name: 🇭🇰HK-47.240.51.89-0255
   network: ws
   port: 55214
   server: 47.240.51.89
@@ -64,28 +90,16 @@ proxies:
     headers:
       Host: a.189.cn
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0236
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-156.245.232.239-0153
-  - 🇭🇰HK-18.167.94.243-0032
-  - 🇭🇰HK-47.244.120.197-0149
-  - 🇭🇰HK-175.29.23.105-0189
-  - 🇭🇰HK-47.240.51.89-0217
-  - 🇭🇰HK-47.244.120.197-0236
+  - 🇭🇰HK-156.245.232.239-0208
+  - 🇭🇰HK-18.167.94.243-0070
+  - 🇭🇰HK-18.167.94.243-0068
+  - 🇭🇰HK-18.167.20.169-0054
+  - 🇭🇰HK-147.139.7.71-0041
+  - 🇭🇰HK-175.29.23.105-0227
+  - 🇭🇰HK-47.240.51.89-0255
   type: select
 rules:
 - MATCH,🔰 节点选择
