@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-143.14.189.125-1096
+  network: ws
+  port: 21316
+  server: 143.14.189.125
+  tls: ''
+  type: vmess
+  uuid: 116f6ecd-275e-4b50-921d-780e78a526cb
+  ws-opts:
+    headers:
+      Host: pull.free.video.10010.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-156.245.232.239-0157
   network: ws
   port: 35043
@@ -14,7 +27,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-18.167.20.169-0058
+  name: 🇭🇰HK-175.29.23.105-0055
+  network: ws
+  port: 10012
+  server: sg5-midpoint.kejibear.net
+  tls: ''
+  type: vmess
+  uuid: 7bcd50fc-414b-3e8a-a1a2-d81bd7fc4586
+  ws-opts:
+    headers:
+      Host: sg5-midpoint.kejibear.net
+    path: /video
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-18.167.20.169-0053
   network: ws
   port: 8080
   server: 18.167.20.169
@@ -27,20 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-147.139.7.71-0042
-  network: ws
-  port: 888
-  server: 147.139.7.71
-  tls: ''
-  type: vmess
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-18.167.20.169-0040
+  name: 🇭🇰HK-18.167.20.169-0038
   network: ws
   port: 8080
   server: 18.167.20.169
@@ -53,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0156
+  name: 🇭🇰HK-47.244.120.197-0191
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -66,33 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-147.139.7.71-0028
-  network: ws
-  port: 888
-  server: 147.139.7.71
-  tls: ''
-  type: vmess
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-147.139.7.71-0027
-  network: ws
-  port: 888
-  server: 147.139.7.71
-  tls: ''
-  type: vmess
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  ws-opts:
-    headers:
-      Host: 147.139.7.71
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0211
+  name: 🇭🇰HK-47.244.120.197-0227
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -106,14 +93,13 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
+  - 🇭🇰HK-143.14.189.125-1096
   - 🇭🇰HK-156.245.232.239-0157
-  - 🇭🇰HK-18.167.20.169-0058
-  - 🇭🇰HK-147.139.7.71-0042
-  - 🇭🇰HK-18.167.20.169-0040
-  - 🇭🇰HK-47.244.120.197-0156
-  - 🇭🇰HK-147.139.7.71-0028
-  - 🇭🇰HK-147.139.7.71-0027
-  - 🇭🇰HK-47.244.120.197-0211
+  - 🇭🇰HK-175.29.23.105-0055
+  - 🇭🇰HK-18.167.20.169-0053
+  - 🇭🇰HK-18.167.20.169-0038
+  - 🇭🇰HK-47.244.120.197-0191
+  - 🇭🇰HK-47.244.120.197-0227
   type: select
 rules:
 - MATCH,🔰 节点选择
