@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-143.14.189.125-1096
-  network: ws
-  port: 21316
-  server: 143.14.189.125
-  tls: ''
-  type: vmess
-  uuid: 116f6ecd-275e-4b50-921d-780e78a526cb
-  ws-opts:
-    headers:
-      Host: pull.free.video.10010.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0157
+  name: 🇭🇰HK-156.245.232.239-0216
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -27,20 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-175.29.23.105-0055
-  network: ws
-  port: 10012
-  server: sg5-midpoint.kejibear.net
-  tls: ''
-  type: vmess
-  uuid: 7bcd50fc-414b-3e8a-a1a2-d81bd7fc4586
-  ws-opts:
-    headers:
-      Host: sg5-midpoint.kejibear.net
-    path: /video
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-18.167.20.169-0053
+  name: 🇭🇰HK-18.167.20.169-0023
   network: ws
   port: 8080
   server: 18.167.20.169
@@ -53,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-18.167.20.169-0038
+  name: 🇭🇰HK-18.167.20.169-0021
   network: ws
   port: 8080
   server: 18.167.20.169
@@ -66,7 +40,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0191
+  name: 🇭🇰HK-143.14.189.125-0208
+  network: ws
+  port: 21316
+  server: 143.14.189.125
+  tls: ''
+  type: vmess
+  uuid: 116f6ecd-275e-4b50-921d-780e78a526cb
+  ws-opts:
+    headers:
+      Host: pull.free.video.10010.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-175.29.23.105-0230
+  network: ws
+  port: 10012
+  server: sg5-midpoint.kejibear.net
+  tls: ''
+  type: vmess
+  uuid: 7bcd50fc-414b-3e8a-a1a2-d81bd7fc4586
+  ws-opts:
+    headers:
+      Host: sg5-midpoint.kejibear.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0262
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0227
+  name: 🇭🇰HK-47.244.120.197-0291
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -93,13 +93,13 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-143.14.189.125-1096
-  - 🇭🇰HK-156.245.232.239-0157
-  - 🇭🇰HK-175.29.23.105-0055
-  - 🇭🇰HK-18.167.20.169-0053
-  - 🇭🇰HK-18.167.20.169-0038
-  - 🇭🇰HK-47.244.120.197-0191
-  - 🇭🇰HK-47.244.120.197-0227
+  - 🇭🇰HK-156.245.232.239-0216
+  - 🇭🇰HK-18.167.20.169-0023
+  - 🇭🇰HK-18.167.20.169-0021
+  - 🇭🇰HK-143.14.189.125-0208
+  - 🇭🇰HK-175.29.23.105-0230
+  - 🇭🇰HK-47.244.120.197-0262
+  - 🇭🇰HK-47.244.120.197-0291
   type: select
 rules:
 - MATCH,🔰 节点选择
