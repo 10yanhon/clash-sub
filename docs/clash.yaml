@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0216
+  name: 🇭🇰HK-156.245.232.239-0219
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -11,6 +11,19 @@ proxies:
   ws-opts:
     headers:
       Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-143.14.189.125-0194
+  network: ws
+  port: 21316
+  server: 143.14.189.125
+  tls: ''
+  type: vmess
+  uuid: 116f6ecd-275e-4b50-921d-780e78a526cb
+  ws-opts:
+    headers:
+      Host: pull.free.video.10010.com
     path: /
 - alterId: 0
   cipher: auto
@@ -40,20 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-143.14.189.125-0208
-  network: ws
-  port: 21316
-  server: 143.14.189.125
-  tls: ''
-  type: vmess
-  uuid: 116f6ecd-275e-4b50-921d-780e78a526cb
-  ws-opts:
-    headers:
-      Host: pull.free.video.10010.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-175.29.23.105-0230
+  name: 🇭🇰HK-175.29.23.105-0232
   network: ws
   port: 10012
   server: sg5-midpoint.kejibear.net
@@ -93,11 +93,11 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-156.245.232.239-0216
+  - 🇭🇰HK-156.245.232.239-0219
+  - 🇭🇰HK-143.14.189.125-0194
   - 🇭🇰HK-18.167.20.169-0023
   - 🇭🇰HK-18.167.20.169-0021
-  - 🇭🇰HK-143.14.189.125-0208
-  - 🇭🇰HK-175.29.23.105-0230
+  - 🇭🇰HK-175.29.23.105-0232
   - 🇭🇰HK-47.244.120.197-0262
   - 🇭🇰HK-47.244.120.197-0291
   type: select
