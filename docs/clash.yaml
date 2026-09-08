@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0219
+  name: 🇭🇰HK-156.245.232.239-0172
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -14,7 +14,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-143.14.189.125-0194
+  name: 🇭🇰HK-18.167.20.169-0066
+  network: ws
+  port: 8080
+  server: 18.167.20.169
+  tls: ''
+  type: vmess
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-143.14.189.125-0223
   network: ws
   port: 21316
   server: 143.14.189.125
@@ -27,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-18.167.20.169-0023
+  name: 🇭🇰HK-18.167.20.169-0247
   network: ws
   port: 8080
   server: 18.167.20.169
@@ -40,20 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-18.167.20.169-0021
-  network: ws
-  port: 8080
-  server: 18.167.20.169
-  tls: ''
-  type: vmess
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-175.29.23.105-0232
+  name: 🇭🇰HK-175.29.23.105-0258
   network: ws
   port: 10012
   server: sg5-midpoint.kejibear.net
@@ -66,40 +66,54 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0262
+  name: 🇭🇰HK-20.239.145.115-0612
   network: ws
-  port: 44867
-  server: 47.244.120.197
+  port: 443
+  server: 20.239.145.115
   tls: ''
   type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0291
+  name: 🇭🇰HK-47.239.189.182-0632
   network: ws
-  port: 36703
-  server: 47.244.120.197
+  port: 80
+  server: ee.oppo.quest
   tls: ''
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
   ws-opts:
     headers:
-      Host: ''
+      Host: ee.oppo.quest
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.189.182-0640
+  network: ws
+  port: 80
+  server: cfhk.oppo.quest
+  tls: ''
+  type: vmess
+  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
+  ws-opts:
+    headers:
+      Host: scw.cloudflare.quest
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-156.245.232.239-0219
-  - 🇭🇰HK-143.14.189.125-0194
-  - 🇭🇰HK-18.167.20.169-0023
-  - 🇭🇰HK-18.167.20.169-0021
-  - 🇭🇰HK-175.29.23.105-0232
-  - 🇭🇰HK-47.244.120.197-0262
-  - 🇭🇰HK-47.244.120.197-0291
+  - 🇭🇰HK-156.245.232.239-0172
+  - 🇭🇰HK-18.167.20.169-0066
+  - 🇭🇰HK-143.14.189.125-0223
+  - 🇭🇰HK-18.167.20.169-0247
+  - 🇭🇰HK-175.29.23.105-0258
+  - 🇭🇰HK-20.239.145.115-0612
+  - 🇭🇰HK-47.239.189.182-0632
+  - 🇭🇰HK-47.239.189.182-0640
   type: select
 rules:
 - MATCH,🔰 节点选择
