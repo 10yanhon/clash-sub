@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0172
+  name: 🇭🇰HK-156.245.232.239-0198
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4957
+  name: 🇭🇰HK-47.244.120.197-0199
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -24,10 +24,10 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /arki?ed=2048
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4803
+  name: 🇭🇰HK-47.244.120.197-0201
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -37,10 +37,10 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /arki
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-18.167.20.169-0066
+  name: 🇭🇰HK-18.167.20.169-0212
   network: ws
   port: 8080
   server: 18.167.20.169
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-143.14.189.125-0223
+  name: 🇭🇰HK-143.14.189.125-0299
   network: ws
   port: 21316
   server: 143.14.189.125
@@ -66,33 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-18.167.20.169-0247
-  network: ws
-  port: 8080
-  server: 18.167.20.169
-  tls: ''
-  type: vmess
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
-  ws-opts:
-    headers:
-      Host: 18.167.20.169
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-175.29.23.105-0258
-  network: ws
-  port: 10012
-  server: sg5-midpoint.kejibear.net
-  tls: ''
-  type: vmess
-  uuid: 7bcd50fc-414b-3e8a-a1a2-d81bd7fc4586
-  ws-opts:
-    headers:
-      Host: sg5-midpoint.kejibear.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0612
+  name: 🇭🇰HK-20.239.145.115-0645
   network: ws
   port: 443
   server: 20.239.145.115
@@ -103,17 +77,43 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-165.154.244.100-0677
+  network: ws
+  port: 443
+  server: 165.154.244.100
+  tls: tls
+  type: vmess
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-103.24.95.119-0733
+  network: ws
+  port: 8080
+  server: yh1.dtku41.xyz
+  tls: ''
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-156.245.232.239-0172
-  - 🇭🇰HK-47.244.120.197-4957
-  - 🇭🇰HK-47.244.120.197-4803
-  - 🇭🇰HK-18.167.20.169-0066
-  - 🇭🇰HK-143.14.189.125-0223
-  - 🇭🇰HK-18.167.20.169-0247
-  - 🇭🇰HK-175.29.23.105-0258
-  - 🇭🇰HK-20.239.145.115-0612
+  - 🇭🇰HK-156.245.232.239-0198
+  - 🇭🇰HK-47.244.120.197-0199
+  - 🇭🇰HK-47.244.120.197-0201
+  - 🇭🇰HK-18.167.20.169-0212
+  - 🇭🇰HK-143.14.189.125-0299
+  - 🇭🇰HK-20.239.145.115-0645
+  - 🇭🇰HK-165.154.244.100-0677
+  - 🇭🇰HK-103.24.95.119-0733
   type: select
 rules:
 - MATCH,🔰 节点选择
