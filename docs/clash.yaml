@@ -1,32 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5189
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5188
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
   name: 🇭🇰HK-156.245.232.239-0241
   network: ws
   port: 35043
@@ -66,6 +40,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-154.3.36.184-0005
+  network: ws
+  port: 644
+  server: hk-5.netflixssr.com
+  tls: tls
+  type: vmess
+  uuid: 3107fc75-f61d-30aa-85b0-2b9861cfd485
+  ws-opts:
+    headers:
+      Host: hk-5.netflixssr.com
+    path: /api/v1/stream
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-20.239.145.115-0645
   network: ws
   port: 443
@@ -103,17 +90,30 @@ proxies:
     headers:
       Host: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-103.24.95.119-0735
+  network: ws
+  port: 8080
+  server: yh2.dtku41.xyz
+  tls: ''
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-5189
-  - 🇭🇰HK-47.244.120.197-5188
   - 🇭🇰HK-156.245.232.239-0241
   - 🇭🇰HK-47.244.120.197-0155
   - 🇭🇰HK-47.244.120.197-0156
+  - 🇭🇰HK-154.3.36.184-0005
   - 🇭🇰HK-20.239.145.115-0645
   - 🇭🇰HK-165.154.244.100-0677
   - 🇭🇰HK-103.24.95.119-0734
+  - 🇭🇰HK-103.24.95.119-0735
   type: select
 rules:
 - MATCH,🔰 节点选择
