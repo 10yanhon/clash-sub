@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5024
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0169
+  name: 🇭🇰HK-156.245.232.239-0154
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -27,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0214
+  name: 🇭🇰HK-47.244.120.197-0151
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -40,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0659
+  name: 🇭🇰HK-20.239.145.115-0662
   network: ws
   port: 443
   server: 20.239.145.115
@@ -53,7 +40,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0691
+  name: 🇭🇰HK-165.154.244.100-0694
   network: ws
   port: 443
   server: 165.154.244.100
@@ -66,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-103.24.95.119-0732
+  name: 🇭🇰HK-103.24.95.119-0755
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -79,7 +66,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-103.24.95.119-0733
+  name: 🇭🇰HK-103.24.95.119-0756
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -92,7 +79,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-45.144.174.12-0959
+  name: 🇭🇰HK-45.144.174.12-0973
   network: ws
   port: 20015
   server: 45.144.174.12
@@ -103,17 +90,27 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.210.131.2-1172
+  network: http
+  port: 31357
+  server: 8.210.131.2
+  tls: ''
+  type: vmess
+  uuid: 618c0914-e31e-4b82-8289-2e7a47e48dfd
+  ws-opts: {}
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-5024
-  - 🇭🇰HK-156.245.232.239-0169
-  - 🇭🇰HK-47.244.120.197-0214
-  - 🇭🇰HK-20.239.145.115-0659
-  - 🇭🇰HK-165.154.244.100-0691
-  - 🇭🇰HK-103.24.95.119-0732
-  - 🇭🇰HK-103.24.95.119-0733
-  - 🇭🇰HK-45.144.174.12-0959
+  - 🇭🇰HK-156.245.232.239-0154
+  - 🇭🇰HK-47.244.120.197-0151
+  - 🇭🇰HK-20.239.145.115-0662
+  - 🇭🇰HK-165.154.244.100-0694
+  - 🇭🇰HK-103.24.95.119-0755
+  - 🇭🇰HK-103.24.95.119-0756
+  - 🇭🇰HK-45.144.174.12-0973
+  - 🇭🇰HK-8.210.131.2-1172
   type: select
 rules:
 - MATCH,🔰 节点选择
