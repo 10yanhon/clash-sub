@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0142
+  name: 🇭🇰HK-156.245.232.239-0145
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5255
+  name: 🇭🇰HK-47.244.120.197-0146
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -24,23 +24,10 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /arki
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5438
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0169
+  name: 🇭🇰HK-47.244.120.197-0147
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -53,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0619
+  name: 🇭🇰HK-20.239.145.115-0599
   network: ws
   port: 443
   server: 20.239.145.115
@@ -66,7 +53,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0651
+  name: 🇭🇰HK-165.154.244.100-0631
   network: ws
   port: 443
   server: 165.154.244.100
@@ -79,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-103.24.95.119-0720
+  name: 🇭🇰HK-103.24.95.119-0704
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -92,7 +79,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-103.24.95.119-0721
+  name: 🇭🇰HK-103.24.95.119-0705
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -103,17 +90,30 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-45.144.174.12-0924
+  network: ws
+  port: 20015
+  server: 45.144.174.12
+  tls: ''
+  type: vmess
+  uuid: d70f67ae-135c-4a78-a245-4cc81c93983d
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-156.245.232.239-0142
-  - 🇭🇰HK-47.244.120.197-5255
-  - 🇭🇰HK-47.244.120.197-5438
-  - 🇭🇰HK-47.244.120.197-0169
-  - 🇭🇰HK-20.239.145.115-0619
-  - 🇭🇰HK-165.154.244.100-0651
-  - 🇭🇰HK-103.24.95.119-0720
-  - 🇭🇰HK-103.24.95.119-0721
+  - 🇭🇰HK-156.245.232.239-0145
+  - 🇭🇰HK-47.244.120.197-0146
+  - 🇭🇰HK-47.244.120.197-0147
+  - 🇭🇰HK-20.239.145.115-0599
+  - 🇭🇰HK-165.154.244.100-0631
+  - 🇭🇰HK-103.24.95.119-0704
+  - 🇭🇰HK-103.24.95.119-0705
+  - 🇭🇰HK-45.144.174.12-0924
   type: select
 rules:
 - MATCH,🔰 节点选择
