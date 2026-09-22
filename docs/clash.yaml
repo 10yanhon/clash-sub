@@ -1,7 +1,20 @@
 proxies:
+- alterId: 32
+  cipher: auto
+  name: 🇭🇰HK-43.134.199.221-0056
+  network: ws
+  port: 443
+  server: 43.134.199.221
+  tls: ''
+  type: vmess
+  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
+  ws-opts:
+    headers:
+      Host: www.gov.hk
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0145
+  name: 🇭🇰HK-156.245.232.239-0178
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -14,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0146
+  name: 🇭🇰HK-47.244.120.197-0179
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -27,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0147
+  name: 🇭🇰HK-47.244.120.197-0180
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -40,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0599
+  name: 🇭🇰HK-20.239.145.115-0637
   network: ws
   port: 443
   server: 20.239.145.115
@@ -53,7 +66,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0631
+  name: 🇭🇰HK-165.154.244.100-0669
   network: ws
   port: 443
   server: 165.154.244.100
@@ -66,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-103.24.95.119-0704
+  name: 🇭🇰HK-103.24.95.119-0742
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -79,7 +92,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-103.24.95.119-0705
+  name: 🇭🇰HK-103.24.95.119-0743
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -90,30 +103,17 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-45.144.174.12-0924
-  network: ws
-  port: 20015
-  server: 45.144.174.12
-  tls: ''
-  type: vmess
-  uuid: d70f67ae-135c-4a78-a245-4cc81c93983d
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-156.245.232.239-0145
-  - 🇭🇰HK-47.244.120.197-0146
-  - 🇭🇰HK-47.244.120.197-0147
-  - 🇭🇰HK-20.239.145.115-0599
-  - 🇭🇰HK-165.154.244.100-0631
-  - 🇭🇰HK-103.24.95.119-0704
-  - 🇭🇰HK-103.24.95.119-0705
-  - 🇭🇰HK-45.144.174.12-0924
+  - 🇭🇰HK-43.134.199.221-0056
+  - 🇭🇰HK-156.245.232.239-0178
+  - 🇭🇰HK-47.244.120.197-0179
+  - 🇭🇰HK-47.244.120.197-0180
+  - 🇭🇰HK-20.239.145.115-0637
+  - 🇭🇰HK-165.154.244.100-0669
+  - 🇭🇰HK-103.24.95.119-0742
+  - 🇭🇰HK-103.24.95.119-0743
   type: select
 rules:
 - MATCH,🔰 节点选择
