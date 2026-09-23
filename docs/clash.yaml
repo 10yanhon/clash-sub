@@ -1,33 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4856
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-4854
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0151
+  name: 🇭🇰HK-156.245.232.239-0195
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -40,7 +14,7 @@ proxies:
     path: /
 - alterId: 32
   cipher: auto
-  name: 🇭🇰HK-43.134.199.221-0056
+  name: 🇭🇰HK-43.134.199.221-0057
   network: ws
   port: 443
   server: 43.134.199.221
@@ -49,11 +23,11 @@ proxies:
   uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
   ws-opts:
     headers:
-      Host: www.gov.hk
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0179
+  name: 🇭🇰HK-47.244.120.197-0196
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -66,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0180
+  name: 🇭🇰HK-47.244.120.197-0197
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -79,7 +53,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0613
+  name: 🇭🇰HK-168.70.114.30-0394
+  network: ws
+  port: 443
+  server: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn
+  tls: tls
+  type: vmess
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-58.152.22.163-0395
+  network: ws
+  port: 60852
+  server: hkgb707.ifastcdncache.com
+  tls: ''
+  type: vmess
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
+  ws-opts:
+    headers:
+      Host: hkgb707.ifastcdncache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-20.239.145.115-0642
   network: ws
   port: 443
   server: 20.239.145.115
@@ -90,30 +90,16 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0645
-  network: ws
-  port: 443
-  server: 165.154.244.100
-  tls: tls
-  type: vmess
-  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-4856
-  - 🇭🇰HK-47.244.120.197-4854
-  - 🇭🇰HK-156.245.232.239-0151
-  - 🇭🇰HK-43.134.199.221-0056
-  - 🇭🇰HK-47.244.120.197-0179
-  - 🇭🇰HK-47.244.120.197-0180
-  - 🇭🇰HK-20.239.145.115-0613
-  - 🇭🇰HK-165.154.244.100-0645
+  - 🇭🇰HK-156.245.232.239-0195
+  - 🇭🇰HK-43.134.199.221-0057
+  - 🇭🇰HK-47.244.120.197-0196
+  - 🇭🇰HK-47.244.120.197-0197
+  - 🇭🇰HK-168.70.114.30-0394
+  - 🇭🇰HK-58.152.22.163-0395
+  - 🇭🇰HK-20.239.145.115-0642
   type: select
 rules:
 - MATCH,🔰 节点选择
