@@ -1,7 +1,72 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5216
+  name: 🇭🇰HK-47.243.65.243-0645
+  network: ws
+  port: 443
+  server: 47.243.65.243
+  tls: tls
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.210.24.181-0786
+  network: ws
+  port: 443
+  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  tls: tls
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.65.243-0789
+  network: ws
+  port: 443
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  tls: tls
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.195.61-0644
+  network: ws
+  port: 443
+  server: 8.218.195.61
+  tls: tls
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0787
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5615
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -14,120 +79,27 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0318
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  tls: ''
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.65.243-0263
+  name: 🇭🇰HK-47.76.44.32-0788
   network: ws
   port: 443
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: lcv8v9l7oyamxxfz.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0313
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0314
-  network: ws
-  port: 23026
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.76.44.32-0315
-  network: ws
-  port: 443
-  server: 47.76.44.32
+  server: 93ucrn4i0pffuabk.v.3dns.vip
   tls: tls
   type: vmess
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
       Host: 93ucrn4i0pffuabk.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.83.207.148-0316
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.195.61-0319
-  network: ws
-  port: 443
-  server: 8.218.195.61
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.83.207.148-0321
-  network: ws
-  port: 443
-  server: 47.83.207.148
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /
+    path: /ws-vmess
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-5216
-  - 🇭🇰HK-156.245.232.239-0318
-  - 🇭🇰HK-47.243.65.243-0263
-  - 🇭🇰HK-47.244.120.197-0313
-  - 🇭🇰HK-47.244.120.197-0314
-  - 🇭🇰HK-47.76.44.32-0315
-  - 🇭🇰HK-47.83.207.148-0316
-  - 🇭🇰HK-8.218.195.61-0319
-  - 🇭🇰HK-47.83.207.148-0321
+  - 🇭🇰HK-47.243.65.243-0645
+  - 🇭🇰HK-8.210.24.181-0786
+  - 🇭🇰HK-47.243.65.243-0789
+  - 🇭🇰HK-8.218.195.61-0644
+  - 🇭🇰HK-47.244.120.197-0787
+  - 🇭🇰HK-47.244.120.197-5615
+  - 🇭🇰HK-47.76.44.32-0788
   type: select
 rules:
 - MATCH,🔰 节点选择
