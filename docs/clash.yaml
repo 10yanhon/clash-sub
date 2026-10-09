@@ -1,46 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.254.88-2124
-  network: ws
-  port: 443
-  server: 8.217.254.88
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 2b9hwy8ocx7q74nm.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0525
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.153.153-0674
-  network: ws
-  port: 443
-  server: 47.243.153.153
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0524
+  name: 🇭🇰HK-47.244.120.197-0779
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -53,7 +14,7 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.83.207.148-2122
+  name: 🇭🇰HK-47.83.207.148-0644
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -66,54 +27,79 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0523
+  name: 🇭🇰HK-156.245.232.239-0216
   network: ws
-  port: 23026
-  server: 47.244.120.197
+  port: 35043
+  server: 156.245.232.239
   tls: ''
   type: vmess
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     headers:
       Host: ''
-    path: /arki
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.210.24.181-0528
+  name: 🇭🇰HK-8.218.195.61-0155
   network: ws
   port: 443
-  server: 6JDvArazgU3qQR6Q.v.3dns.vip
+  server: ex1ogt73nzpqkac2.v.3dns.vip
   tls: tls
   type: vmess
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.13.103-0675
+  name: 🇭🇰HK-47.243.153.153-0151
   network: ws
   port: 443
-  server: 8.217.13.103
+  server: 47.243.153.153
   tls: tls
   type: vmess
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
-    path: /ws-vmess
+      Host: i2psm3knof5qjjix.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.65.243-0148
+  network: ws
+  port: 443
+  server: 47.243.65.243
+  tls: tls
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.83.207.148-0125
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  tls: tls
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-8.217.254.88-2124
-  - 🇭🇰HK-47.244.120.197-0525
-  - 🇭🇰HK-47.243.153.153-0674
-  - 🇭🇰HK-47.244.120.197-0524
-  - 🇭🇰HK-47.83.207.148-2122
-  - 🇭🇰HK-47.244.120.197-0523
-  - 🇭🇰HK-8.210.24.181-0528
-  - 🇭🇰HK-8.217.13.103-0675
+  - 🇭🇰HK-47.244.120.197-0779
+  - 🇭🇰HK-47.83.207.148-0644
+  - 🇭🇰HK-156.245.232.239-0216
+  - 🇭🇰HK-8.218.195.61-0155
+  - 🇭🇰HK-47.243.153.153-0151
+  - 🇭🇰HK-47.243.65.243-0148
+  - 🇭🇰HK-47.83.207.148-0125
   type: select
 rules:
 - MATCH,🔰 节点选择
