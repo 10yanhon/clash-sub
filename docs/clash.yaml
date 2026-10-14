@@ -1,6 +1,58 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0575
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-156.245.232.239-0255
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  tls: ''
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-2166
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.194.125-0576
+  network: ws
+  port: 443
+  server: 47.243.194.125
+  tls: tls
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: nycqg19zkwacpm1b.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-8.218.195.61-2163
   network: ws
   port: 443
@@ -11,32 +63,6 @@ proxies:
   ws-opts:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.195.61-2162
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.13.103-0577
-  network: ws
-  port: 443
-  server: 8.217.13.103
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -77,15 +103,31 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.194.125-0252
+  network: ws
+  port: 443
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  tls: tls
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
+  - 🇭🇰HK-47.244.120.197-0575
+  - 🇭🇰HK-156.245.232.239-0255
+  - 🇭🇰HK-47.244.120.197-2166
+  - 🇭🇰HK-47.243.194.125-0576
   - 🇭🇰HK-8.218.195.61-2163
-  - 🇭🇰HK-8.218.195.61-2162
-  - 🇭🇰HK-8.217.13.103-0577
   - 🇭🇰HK-8.217.13.103-0246
   - 🇭🇰HK-47.244.120.197-0249
   - 🇭🇰HK-47.244.120.197-0251
+  - 🇭🇰HK-47.243.194.125-0252
   type: select
 rules:
 - MATCH,🔰 节点选择
