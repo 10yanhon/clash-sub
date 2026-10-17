@@ -51,19 +51,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-103.24.95.119-0825
-  network: ws
-  port: 8080
-  server: yh1.dtku41.xyz
-  tls: ''
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -71,7 +58,6 @@ proxy-groups:
   - 🇨🇳CN-8.211.161.129-0486
   - 🇭🇰HK-20.239.145.115-0682
   - 🇭🇰HK-165.154.244.100-0714
-  - 🇭🇰HK-103.24.95.119-0825
   type: select
 rules:
 - MATCH,🔰 节点选择
