@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-156.245.232.239-0217
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  tls: ''
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-18.167.121.42-0062
   network: ws
   port: 35781
@@ -21,19 +34,6 @@ proxies:
   tls: ''
   type: vmess
   uuid: a144de38-a881-4d45-852b-59eb5c38f7a8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0217
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  tls: ''
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     headers:
       Host: ''
@@ -93,9 +93,9 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
+  - 🇭🇰HK-156.245.232.239-0217
   - 🇭🇰HK-18.167.121.42-0062
   - 🇭🇰HK-165.154.244.82-0033
-  - 🇭🇰HK-156.245.232.239-0217
   - 🇨🇳CN-8.211.161.129-0492
   - 🇭🇰HK-20.239.145.115-0678
   - 🇭🇰HK-165.154.244.100-0710
