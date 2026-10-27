@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0198
+  name: 🇭🇰HK-156.245.232.239-0280
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇳CN-8.211.161.129-0510
+  name: 🇨🇳CN-8.211.161.129-0507
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -27,7 +27,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0658
+  name: 🇭🇰HK-20.239.145.115-0573
   network: ws
   port: 443
   server: 20.239.145.115
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-165.154.244.100-0690
+  name: 🇭🇰HK-165.154.244.100-0605
   network: ws
   port: 443
   server: 165.154.244.100
@@ -51,22 +51,9 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK-58.152.22.253-0757
-  network: ws
-  port: 60852
-  server: hkgb707.ifastcdncache.com
-  tls: ''
-  type: vmess
-  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
-  ws-opts:
-    headers:
-      Host: hkgb707.ifastcdncache.com
-    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-103.24.95.119-0789
+  name: 🇭🇰HK-103.24.95.119-0646
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -77,15 +64,28 @@ proxies:
     headers:
       Host: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-103.24.95.119-0647
+  network: ws
+  port: 8080
+  server: yh2.dtku41.xyz
+  tls: ''
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-156.245.232.239-0198
-  - 🇨🇳CN-8.211.161.129-0510
-  - 🇭🇰HK-20.239.145.115-0658
-  - 🇭🇰HK-165.154.244.100-0690
-  - 🇭🇰HK-58.152.22.253-0757
-  - 🇭🇰HK-103.24.95.119-0789
+  - 🇭🇰HK-156.245.232.239-0280
+  - 🇨🇳CN-8.211.161.129-0507
+  - 🇭🇰HK-20.239.145.115-0573
+  - 🇭🇰HK-165.154.244.100-0605
+  - 🇭🇰HK-103.24.95.119-0646
+  - 🇭🇰HK-103.24.95.119-0647
   type: select
 rules:
 - MATCH,🔰 节点选择
