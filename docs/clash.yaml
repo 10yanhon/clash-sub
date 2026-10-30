@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-156.245.232.239-0289
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  tls: ''
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-159.100.206.88-0084
   network: ws
   port: 443
@@ -14,32 +27,6 @@ proxies:
     path: /2yevws
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0270
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  tls: ''
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-159.100.206.88-0274
-  network: ws
-  port: 443
-  server: 159.100.206.88
-  tls: tls
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  ws-opts:
-    headers:
-      Host: uk2.v2rayserv.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇭🇰HK-167.179.32.53-0033
   network: ws
   port: 443
@@ -51,38 +38,12 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳CN-8.211.161.129-0558
-  network: ws
-  port: 443
-  server: kQov7UKaDknXb8a3.v.3dns.vip
-  tls: tls
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: kQov7UKaDknXb8a3.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-206.237.11.17-0579
-  network: http
-  port: 44441
-  server: 206.237.11.17
-  tls: ''
-  type: vmess
-  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
-  ws-opts: {}
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
+  - 🇭🇰HK-156.245.232.239-0289
   - 🇭🇰HK-159.100.206.88-0084
-  - 🇭🇰HK-156.245.232.239-0270
-  - 🇭🇰HK-159.100.206.88-0274
   - 🇭🇰HK-167.179.32.53-0033
-  - 🇨🇳CN-8.211.161.129-0558
-  - 🇭🇰HK-206.237.11.17-0579
   type: select
 rules:
 - MATCH,🔰 节点选择
