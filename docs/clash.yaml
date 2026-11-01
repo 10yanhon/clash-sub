@@ -1,20 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.76.13.175-0067
+  name: 🇭🇰HK-185.14.47.240-4002
   network: ws
-  port: 443
-  server: 219.76.13.175
-  tls: tls
+  port: 2086
+  server: 185.14.47.240
+  tls: ''
   type: vmess
-  uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
+  uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
   ws-opts:
     headers:
-      Host: sg1.31vpn.com
-    path: /fastssh/1731390093/6357cedd7a199/
+      Host: ''
+    path: /aries
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-167.179.32.53-0065
+  name: 🇭🇰HK-167.179.32.53-0073
   network: ws
   port: 443
   server: 167.179.32.53
@@ -27,7 +27,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-159.100.206.88-0058
+  name: 🇭🇰HK-159.100.206.88-0071
   network: ws
   port: 443
   server: 159.100.206.88
@@ -40,10 +40,10 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.76.13.181-0055
+  name: 🇭🇰HK-219.76.13.175-0068
   network: ws
   port: 443
-  server: 219.76.13.181
+  server: 219.76.13.175
   tls: tls
   type: vmess
   uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
@@ -53,7 +53,7 @@ proxies:
     path: /fastssh/1731390093/6357cedd7a199/
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0242
+  name: 🇭🇰HK-156.245.232.239-0229
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -66,7 +66,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.76.13.175-0266
+  name: 🇭🇰HK-219.76.13.181-0060
+  network: ws
+  port: 443
+  server: 219.76.13.181
+  tls: tls
+  type: vmess
+  uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
+  ws-opts:
+    headers:
+      Host: sg1.31vpn.com
+    path: /fastssh/1731390093/6357cedd7a199/
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-219.76.13.175-0258
   network: ws
   port: 443
   server: 219.76.13.175
@@ -79,7 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-167.179.32.53-0270
+  name: 🇭🇰HK-167.179.32.53-0260
   network: ws
   port: 443
   server: 167.179.32.53
@@ -93,13 +106,14 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-219.76.13.175-0067
-  - 🇭🇰HK-167.179.32.53-0065
-  - 🇭🇰HK-159.100.206.88-0058
-  - 🇭🇰HK-219.76.13.181-0055
-  - 🇭🇰HK-156.245.232.239-0242
-  - 🇭🇰HK-219.76.13.175-0266
-  - 🇭🇰HK-167.179.32.53-0270
+  - 🇭🇰HK-185.14.47.240-4002
+  - 🇭🇰HK-167.179.32.53-0073
+  - 🇭🇰HK-159.100.206.88-0071
+  - 🇭🇰HK-219.76.13.175-0068
+  - 🇭🇰HK-156.245.232.239-0229
+  - 🇭🇰HK-219.76.13.181-0060
+  - 🇭🇰HK-219.76.13.175-0258
+  - 🇭🇰HK-167.179.32.53-0260
   type: select
 rules:
 - MATCH,🔰 节点选择
