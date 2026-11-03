@@ -1,7 +1,98 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-5968
+  name: 🇭🇰HK-47.243.167.44-0595
+  network: ws
+  port: 443
+  server: rhhierkwrf6fhs2h.v.3dns.vip
+  tls: tls
+  type: vmess
+  uuid: 78b3f149-f037-465d-b2fb-11adb6f73ff8
+  ws-opts:
+    headers:
+      Host: rhhierkwrf6fhs2h.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.218.195.61-0633
+  network: ws
+  port: 443
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  tls: tls
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.186.60-0632
+  network: ws
+  port: 443
+  server: euu1yAlfmcqvLJEx.v.3dns.vip
+  tls: tls
+  type: vmess
+  uuid: d237ab38-1974-4b36-94a3-0665ce8587b9
+  ws-opts:
+    headers:
+      Host: euu1yAlfmcqvLJEx.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.167.44-0597
+  network: ws
+  port: 443
+  server: 47.243.167.44
+  tls: tls
+  type: vmess
+  uuid: 78b3f149-f037-465d-b2fb-11adb6f73ff8
+  ws-opts:
+    headers:
+      Host: rhHiErkwRf6fHs2H.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0599
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-6069
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0629
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-156.245.232.239-0299
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -14,78 +105,43 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-159.100.206.88-0132
+  name: 🇭🇰HK-47.244.120.197-6068
   network: ws
-  port: 443
-  server: 159.100.206.88
-  tls: tls
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  ws-opts:
-    headers:
-      Host: uk2.v2rayserv.com
-    path: /sshocean
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-119.237.43.217-0110
-  network: ws
-  port: 443
-  server: 119.237.43.217
-  tls: tls
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    headers:
-      Host: crude-franklin-favors-outsourcing.trycloudflare.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-119.237.43.96-0104
-  network: ws
-  port: 443
-  server: 119.237.43.96
-  tls: tls
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    headers:
-      Host: crude-franklin-favors-outsourcing.trycloudflare.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-219.76.13.175-0100
-  network: ws
-  port: 443
-  server: 219.76.13.175
-  tls: tls
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    headers:
-      Host: crude-franklin-favors-outsourcing.trycloudflare.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0659
-  network: ws
-  port: 443
-  server: 20.239.145.115
+  port: 44867
+  server: 47.244.120.197
   tls: ''
   type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0598
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-156.245.232.239-5968
-  - 🇭🇰HK-159.100.206.88-0132
-  - 🇭🇰HK-119.237.43.217-0110
-  - 🇭🇰HK-119.237.43.96-0104
-  - 🇭🇰HK-219.76.13.175-0100
-  - 🇭🇰HK-20.239.145.115-0659
+  - 🇭🇰HK-47.243.167.44-0595
+  - 🇭🇰HK-8.218.195.61-0633
+  - 🇭🇰HK-8.217.186.60-0632
+  - 🇭🇰HK-47.243.167.44-0597
+  - 🇭🇰HK-47.244.120.197-0599
+  - 🇭🇰HK-47.244.120.197-6069
+  - 🇭🇰HK-47.244.120.197-0629
+  - 🇭🇰HK-156.245.232.239-0299
+  - 🇭🇰HK-47.244.120.197-6068
+  - 🇭🇰HK-47.244.120.197-0598
   type: select
 rules:
 - MATCH,🔰 节点选择
