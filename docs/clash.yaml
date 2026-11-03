@@ -1,77 +1,91 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-185.14.47.240-0245
+  name: 🇭🇰HK-156.245.232.239-5968
   network: ws
-  port: 2086
-  server: 185.14.47.240
+  port: 35043
+  server: 156.245.232.239
   tls: ''
   type: vmess
-  uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-167.179.32.53-0282
-  network: ws
-  port: 443
-  server: 167.179.32.53
-  tls: tls
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    headers:
-      Host: lg30.cfcdn3.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-159.100.206.88-0283
+  name: 🇭🇰HK-159.100.206.88-0132
   network: ws
   port: 443
   server: 159.100.206.88
   tls: tls
   type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
   ws-opts:
     headers:
-      Host: lg30.cfcdn3.xyz
+      Host: uk2.v2rayserv.com
+    path: /sshocean
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-119.237.43.217-0110
+  network: ws
+  port: 443
+  server: 119.237.43.217
+  tls: tls
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: crude-franklin-favors-outsourcing.trycloudflare.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-219.76.13.175-0285
+  name: 🇭🇰HK-119.237.43.96-0104
+  network: ws
+  port: 443
+  server: 119.237.43.96
+  tls: tls
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: crude-franklin-favors-outsourcing.trycloudflare.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-219.76.13.175-0100
   network: ws
   port: 443
   server: 219.76.13.175
   tls: tls
   type: vmess
-  uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
   ws-opts:
     headers:
-      Host: sg1.31vpn.com
+      Host: crude-franklin-favors-outsourcing.trycloudflare.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇳CN-8.211.161.129-0541
+  name: 🇭🇰HK-20.239.145.115-0659
   network: ws
   port: 443
-  server: kQov7UKaDknXb8a3.v.3dns.vip
-  tls: tls
+  server: 20.239.145.115
+  tls: ''
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
   ws-opts:
     headers:
-      Host: kQov7UKaDknXb8a3.v.3dns.vip
-    path: /ws-vmess
+      Host: ''
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-185.14.47.240-0245
-  - 🇭🇰HK-167.179.32.53-0282
-  - 🇭🇰HK-159.100.206.88-0283
-  - 🇭🇰HK-219.76.13.175-0285
-  - 🇨🇳CN-8.211.161.129-0541
+  - 🇭🇰HK-156.245.232.239-5968
+  - 🇭🇰HK-159.100.206.88-0132
+  - 🇭🇰HK-119.237.43.217-0110
+  - 🇭🇰HK-119.237.43.96-0104
+  - 🇭🇰HK-219.76.13.175-0100
+  - 🇭🇰HK-20.239.145.115-0659
   type: select
 rules:
 - MATCH,🔰 节点选择
