@@ -14,6 +14,32 @@ proxies:
     path: /hk-vmess-ws-c9f3a2
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0572
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0535
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-47.244.120.197-5856
   network: ws
   port: 44867
@@ -25,123 +51,41 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5857
+  name: 🇭🇰HK-156.234.207.213-0072
   network: ws
-  port: 36703
-  server: 47.244.120.197
+  port: 50205
+  server: data-hk-v1.heisey.cn
   tls: ''
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   ws-opts:
     headers:
-      Host: ''
-    path: /arki?ed=2048
+      Host: tv.cctv.com
+    path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.217.13.103-0529
+  name: 🇭🇰HK-167.179.32.53-0070
   network: ws
   port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  server: 167.179.32.53
   tls: tls
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   ws-opts:
     headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.153.153-0571
-  network: ws
-  port: 443
-  server: 47.243.153.153
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.76.57.83-0533
-  network: ws
-  port: 443
-  server: 47.76.57.83
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.243.65.243-0536
-  network: ws
-  port: 443
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: lcv8v9l7oyamxxfz.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.217.13.103-2952
-  network: ws
-  port: 443
-  server: 8.217.13.103
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0236
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  tls: ''
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.218.195.61-0532
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  tls: tls
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-    path: /ws-vmess
+      Host: lg30.cfcdn3.xyz
+    path: /ray
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - 🇭🇰HK-162.141.137.142-1128
+  - 🇭🇰HK-47.244.120.197-0572
+  - 🇭🇰HK-47.244.120.197-0535
   - 🇭🇰HK-47.244.120.197-5856
-  - 🇭🇰HK-47.244.120.197-5857
-  - 🇭🇰HK-8.217.13.103-0529
-  - 🇭🇰HK-47.243.153.153-0571
-  - 🇭🇰HK-47.76.57.83-0533
-  - 🇭🇰HK-47.243.65.243-0536
-  - 🇭🇰HK-8.217.13.103-2952
-  - 🇭🇰HK-156.245.232.239-0236
-  - 🇭🇰HK-8.218.195.61-0532
+  - 🇭🇰HK-156.234.207.213-0072
+  - 🇭🇰HK-167.179.32.53-0070
   type: select
 rules:
 - MATCH,🔰 节点选择
