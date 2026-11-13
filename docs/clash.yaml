@@ -1,7 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-5776
+  name: 🇭🇰HK-156.245.232.239-5893
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  tls: ''
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0614
   network: ws
   port: 23026
   server: 47.244.120.197
@@ -10,11 +23,24 @@ proxies:
   uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.244.120.197
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-167.179.32.53-0065
+  name: 🇭🇰HK-188.116.22.171-4792
+  network: ws
+  port: 80
+  server: 188.116.22.171
+  tls: ''
+  type: vmess
+  uuid: 3c6c608d-68c0-4782-86ac-98ea1ada3a25
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-167.179.32.53-0078
   network: ws
   port: 443
   server: 167.179.32.53
@@ -27,7 +53,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-159.100.206.88-0064
+  name: 🇭🇰HK-159.100.206.88-0074
   network: ws
   port: 443
   server: 159.100.206.88
@@ -38,40 +64,14 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-159.100.206.88-0049
-  network: ws
-  port: 443
-  server: 159.100.206.88
-  tls: tls
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  ws-opts:
-    headers:
-      Host: uk2.v2rayserv.com
-    path: /sshocean
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0270
-  network: ws
-  port: 23026
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-47.244.120.197-5776
-  - 🇭🇰HK-167.179.32.53-0065
-  - 🇭🇰HK-159.100.206.88-0064
-  - 🇭🇰HK-159.100.206.88-0049
-  - 🇭🇰HK-47.244.120.197-0270
+  - 🇭🇰HK-156.245.232.239-5893
+  - 🇭🇰HK-47.244.120.197-0614
+  - 🇭🇰HK-188.116.22.171-4792
+  - 🇭🇰HK-167.179.32.53-0078
+  - 🇭🇰HK-159.100.206.88-0074
   type: select
 rules:
 - MATCH,🔰 节点选择
