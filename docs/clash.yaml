@@ -1,6 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5894
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-5892
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-156.245.232.239-5893
   network: ws
   port: 35043
@@ -12,19 +38,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0614
-  network: ws
-  port: 23026
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /arki
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK-188.116.22.171-4792
@@ -51,27 +64,14 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-159.100.206.88-0074
-  network: ws
-  port: 443
-  server: 159.100.206.88
-  tls: tls
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    headers:
-      Host: lg30.cfcdn3.xyz
-    path: /ray
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
+  - 🇭🇰HK-47.244.120.197-5894
+  - 🇭🇰HK-47.244.120.197-5892
   - 🇭🇰HK-156.245.232.239-5893
-  - 🇭🇰HK-47.244.120.197-0614
   - 🇭🇰HK-188.116.22.171-4792
   - 🇭🇰HK-167.179.32.53-0078
-  - 🇭🇰HK-159.100.206.88-0074
   type: select
 rules:
 - MATCH,🔰 节点选择
