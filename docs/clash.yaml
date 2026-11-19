@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0236
+  name: 🇭🇰HK-156.245.232.239-0227
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -14,20 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.243.92.11-0055
-  network: ws
-  port: 443
-  server: 47.243.92.11
-  tls: tls
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    headers:
-      Host: lg30.cfcdn3.xyz
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-8.210.86.247-0054
+  name: 🇭🇰HK-8.210.86.247-0051
   network: ws
   port: 443
   server: 8.210.86.247
@@ -40,7 +27,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-167.179.32.53-0053
+  name: 🇭🇰HK-167.179.32.53-0050
   network: ws
   port: 443
   server: 167.179.32.53
@@ -53,20 +40,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-159.100.206.88-0052
-  network: ws
-  port: 443
-  server: 159.100.206.88
-  tls: tls
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    headers:
-      Host: lg30.cfcdn3.xyz
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-119.247.119.212-0042
+  name: 🇭🇰HK-119.247.119.212-0032
   network: ws
   port: 443
   server: 119.247.119.212
@@ -79,27 +53,53 @@ proxies:
     path: /reffs7y26g0ua
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0229
+  name: 🇭🇰HK-47.243.92.11-0248
   network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
+  port: 443
+  server: 47.243.92.11
+  tls: tls
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   ws-opts:
     headers:
-      Host: ''
+      Host: lg30.cfcdn3.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.210.86.247-0249
+  network: ws
+  port: 443
+  server: 8.210.86.247
+  tls: tls
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-opts:
+    headers:
+      Host: lg30.cfcdn3.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-167.179.32.53-0250
+  network: ws
+  port: 443
+  server: 167.179.32.53
+  tls: tls
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-opts:
+    headers:
+      Host: lg30.cfcdn3.xyz
     path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 🇭🇰HK-156.245.232.239-0236
-  - 🇭🇰HK-47.243.92.11-0055
-  - 🇭🇰HK-8.210.86.247-0054
-  - 🇭🇰HK-167.179.32.53-0053
-  - 🇭🇰HK-159.100.206.88-0052
-  - 🇭🇰HK-119.247.119.212-0042
-  - 🇭🇰HK-47.244.120.197-0229
+  - 🇭🇰HK-156.245.232.239-0227
+  - 🇭🇰HK-8.210.86.247-0051
+  - 🇭🇰HK-167.179.32.53-0050
+  - 🇭🇰HK-119.247.119.212-0032
+  - 🇭🇰HK-47.243.92.11-0248
+  - 🇭🇰HK-8.210.86.247-0249
+  - 🇭🇰HK-167.179.32.53-0250
   type: select
 rules:
 - MATCH,🔰 节点选择
