@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0517
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK-156.245.232.239-0239
   network: ws
   port: 35043
@@ -12,6 +25,19 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-2870
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  tls: ''
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK-8.210.86.247-0051
@@ -51,41 +77,15 @@ proxies:
     headers:
       Host: surongwei.eu.org
     path: /reffs7y26g0ua
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0517
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-20.239.145.115-0546
-  network: ws
-  port: 443
-  server: 20.239.145.115
-  tls: ''
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
+  - 🇭🇰HK-47.244.120.197-0517
   - 🇭🇰HK-156.245.232.239-0239
+  - 🇭🇰HK-47.244.120.197-2870
   - 🇭🇰HK-8.210.86.247-0051
   - 🇭🇰HK-167.179.32.53-0050
   - 🇭🇰HK-119.247.119.212-0032
-  - 🇭🇰HK-47.244.120.197-0517
-  - 🇭🇰HK-20.239.145.115-0546
   type: select
 rules:
 - MATCH,🔰 节点选择
